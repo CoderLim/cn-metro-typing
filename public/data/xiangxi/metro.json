@@ -1,0 +1,72 @@
+{
+  "city": "xiangxi",
+  "cityNameZh": "湘西土家族苗族自治州",
+  "cityNameEn": "Xiangxi",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:10.654Z",
+  "lines": [
+    {
+      "id": "4331-凤凰",
+      "operatorId": "4331",
+      "operatorName": "湘西土家族苗族自治州地铁",
+      "lineId": "凤凰",
+      "lineName": "凤凰磁浮观光快线",
+      "color": "#818530",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000179382001",
+          "stationId": "900000179382001",
+          "nameZh": "凤凰古城",
+          "nameEn": "Fenghuang Gucheng",
+          "target": "fenghuang gucheng",
+          "pinyin": "fenghuanggucheng",
+          "lat": 28.015877,
+          "lon": 109.603861,
+          "sequence": 1
+        },
+        {
+          "id": "900000179382004",
+          "stationId": "900000179382004",
+          "nameZh": "凤凰迎宾",
+          "nameEn": "Fenghuang Yingbin",
+          "target": "fenghuang yingbin",
+          "pinyin": "fenghuangyingbin",
+          "lat": 27.96709,
+          "lon": 109.592772,
+          "sequence": 2
+        },
+        {
+          "id": "900000179382005",
+          "stationId": "900000179382005",
+          "nameZh": "凤凰揽胜",
+          "nameEn": "Fenghuang Lansheng",
+          "target": "fenghuang lansheng",
+          "pinyin": "fenghuanglansheng",
+          "lat": 27.958606,
+          "lon": 109.597791,
+          "sequence": 3
+        },
+        {
+          "id": "900000179382006",
+          "stationId": "900000179382006",
+          "nameZh": "凤凰等待",
+          "nameEn": "Fenghuang Dengdai",
+          "target": "fenghuang dengdai",
+          "pinyin": "fenghuangdengdai",
+          "lat": 27.95444,
+          "lon": 109.615046,
+          "sequence": 4
+        }
+      ],
+      "segments": [
+        [
+          "900000179382001",
+          "900000179382004",
+          "900000179382005",
+          "900000179382006"
+        ]
+      ]
+    }
+  ]
+}

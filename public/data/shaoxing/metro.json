@@ -1,0 +1,570 @@
+{
+  "city": "shaoxing",
+  "cityNameZh": "绍兴",
+  "cityNameEn": "Shaoxing",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:09.009Z",
+  "lines": [
+    {
+      "id": "3306-1",
+      "operatorId": "3306",
+      "operatorName": "绍兴地铁",
+      "lineId": "1",
+      "lineName": "1号线",
+      "color": "#E3002A",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000082948030",
+          "stationId": "900000082948030",
+          "nameZh": "姑娘桥",
+          "nameEn": "Guniang Qiao",
+          "target": "guniang qiao",
+          "pinyin": "guniangqiao",
+          "lat": 30.176001,
+          "lon": 120.330313,
+          "sequence": 1
+        },
+        {
+          "id": "900000082948031",
+          "stationId": "900000082948031",
+          "nameZh": "衙前",
+          "nameEn": "Yaqian",
+          "target": "yaqian",
+          "pinyin": "yaqian",
+          "lat": 30.163186,
+          "lon": 120.359979,
+          "sequence": 2
+        },
+        {
+          "id": "900000082948032",
+          "stationId": "900000082948032",
+          "nameZh": "杨汛桥",
+          "nameEn": "Yangxun Qiao",
+          "target": "yangxun qiao",
+          "pinyin": "yangxunqiao",
+          "lat": 30.144413,
+          "lon": 120.365385,
+          "sequence": 3
+        },
+        {
+          "id": "900000082948033",
+          "stationId": "900000082948033",
+          "nameZh": "前梅",
+          "nameEn": "Qianmei",
+          "target": "qianmei",
+          "pinyin": "qianmei",
+          "lat": 30.123976,
+          "lon": 120.394114,
+          "sequence": 4
+        },
+        {
+          "id": "900000082948034",
+          "stationId": "900000082948034",
+          "nameZh": "钱清",
+          "nameEn": "Qianqing",
+          "target": "qianqing",
+          "pinyin": "qianqing",
+          "lat": 30.122089,
+          "lon": 120.411309,
+          "sequence": 5
+        },
+        {
+          "id": "900000082948035",
+          "stationId": "900000082948035",
+          "nameZh": "西沙路",
+          "nameEn": "Xisha Lu",
+          "target": "xisha lu",
+          "pinyin": "xishalu",
+          "lat": 30.117483,
+          "lon": 120.426351,
+          "sequence": 6
+        },
+        {
+          "id": "900000082948036",
+          "stationId": "900000082948036",
+          "nameZh": "临杭大道",
+          "nameEn": "Linhang Dadao",
+          "target": "linhang dadao",
+          "pinyin": "linhangdadao",
+          "lat": 30.110313,
+          "lon": 120.440819,
+          "sequence": 7
+        },
+        {
+          "id": "900000082948037",
+          "stationId": "900000082948037",
+          "nameZh": "鉴水路",
+          "nameEn": "Jianshui Lu",
+          "target": "jianshui lu",
+          "pinyin": "jianshuilu",
+          "lat": 30.098638,
+          "lon": 120.457067,
+          "sequence": 8
+        },
+        {
+          "id": "900000082948038",
+          "stationId": "900000082948038",
+          "nameZh": "越州大道",
+          "nameEn": "Yuezhou Dadao",
+          "target": "yuezhou dadao",
+          "pinyin": "yuezhoudadao",
+          "lat": 30.087067,
+          "lon": 120.480306,
+          "sequence": 9
+        },
+        {
+          "id": "900000082948039",
+          "stationId": "900000082948039",
+          "nameZh": "中国轻纺城",
+          "nameEn": "Zhongguo Qingfangcheng",
+          "target": "zhongguo qingfangcheng",
+          "pinyin": "zhongguoqingfangcheng",
+          "lat": 30.081927,
+          "lon": 120.489294,
+          "sequence": 10
+        },
+        {
+          "id": "900000082948040",
+          "stationId": "900000082948040",
+          "nameZh": "明珠广场",
+          "nameEn": "Mingzhu Guangchang",
+          "target": "mingzhu guangchang",
+          "pinyin": "mingzhuguangchang",
+          "lat": 30.079358,
+          "lon": 120.495955,
+          "sequence": 11
+        },
+        {
+          "id": "900000082948041",
+          "stationId": "900000082948041",
+          "nameZh": "瓜渚湖",
+          "nameEn": "Guazhuhu",
+          "target": "guazhuhu",
+          "pinyin": "guazhuhu",
+          "lat": 30.074299,
+          "lon": 120.509045,
+          "sequence": 12
+        },
+        {
+          "id": "900000082948042",
+          "stationId": "900000082948042",
+          "nameZh": "镜水路",
+          "nameEn": "Jingshui Lu",
+          "target": "jingshui lu",
+          "pinyin": "jingshuilu",
+          "lat": 30.06857,
+          "lon": 120.521654,
+          "sequence": 13
+        },
+        {
+          "id": "900000082948043",
+          "stationId": "900000082948043",
+          "nameZh": "黄酒小镇",
+          "nameEn": "Huangjiu Xiaozhen",
+          "target": "huangjiu xiaozhen",
+          "pinyin": "huangjiuxiaozhen",
+          "lat": 30.058074,
+          "lon": 120.539694,
+          "sequence": 14
+        },
+        {
+          "id": "900000082948044",
+          "stationId": "900000082948044",
+          "nameZh": "张墅",
+          "nameEn": "Zhangshu",
+          "target": "zhangshu",
+          "pinyin": "zhangshu",
+          "lat": 30.053156,
+          "lon": 120.554367,
+          "sequence": 15
+        },
+        {
+          "id": "900000082948045",
+          "stationId": "900000082948045",
+          "nameZh": "奥体中心",
+          "nameEn": "Aoti Zhongxin",
+          "target": "aoti zhongxin",
+          "pinyin": "aotizhongxin",
+          "lat": 30.056241,
+          "lon": 120.569815,
+          "sequence": 16
+        },
+        {
+          "id": "900000082948046",
+          "stationId": "900000082948046",
+          "nameZh": "梅山广场",
+          "nameEn": "Meishan Guangchang",
+          "target": "meishan guangchang",
+          "pinyin": "meishanguangchang",
+          "lat": 30.048401,
+          "lon": 120.57692,
+          "sequence": 17
+        },
+        {
+          "id": "900000082948047",
+          "stationId": "900000082948047",
+          "nameZh": "凤林",
+          "nameEn": "Fenglin",
+          "target": "fenglin",
+          "pinyin": "fenglin",
+          "lat": 30.036891,
+          "lon": 120.581756,
+          "sequence": 18
+        },
+        {
+          "id": "900000082948048",
+          "stationId": "900000082948048",
+          "nameZh": "大滩",
+          "nameEn": "Datan",
+          "target": "datan",
+          "pinyin": "datan",
+          "lat": 30.023667,
+          "lon": 120.582664,
+          "sequence": 19
+        },
+        {
+          "id": "900000082948049",
+          "stationId": "900000082948049",
+          "nameZh": "火车站",
+          "nameEn": "Huochezhan",
+          "target": "huochezhan",
+          "pinyin": "huochezhan",
+          "lat": 30.013147,
+          "lon": 120.581237,
+          "sequence": 20
+        },
+        {
+          "id": "900000082948050",
+          "stationId": "900000082948050",
+          "nameZh": "城市广场",
+          "nameEn": "Chengshi Guangchang",
+          "target": "chengshi guangchang",
+          "pinyin": "chengshiguangchang",
+          "lat": 30.003736,
+          "lon": 120.581278,
+          "sequence": 21
+        },
+        {
+          "id": "900000082948051",
+          "stationId": "900000082948051",
+          "nameZh": "鲁迅故里",
+          "nameEn": "Luxun Guli",
+          "target": "luxun guli",
+          "pinyin": "luxunguli",
+          "lat": 29.991483,
+          "lon": 120.580552,
+          "sequence": 22
+        },
+        {
+          "id": "900000082948052",
+          "stationId": "900000082948052",
+          "nameZh": "城南大道",
+          "nameEn": "Chengnan Dadao",
+          "target": "chengnan dadao",
+          "pinyin": "chengnandadao",
+          "lat": 29.97586,
+          "lon": 120.580411,
+          "sequence": 23
+        },
+        {
+          "id": "900000082948053",
+          "stationId": "900000082948053",
+          "nameZh": "凤凰山",
+          "nameEn": "Fenghuangshan",
+          "target": "fenghuangshan",
+          "pinyin": "fenghuangshan",
+          "lat": 29.962525,
+          "lon": 120.577787,
+          "sequence": 24
+        },
+        {
+          "id": "900000082948054",
+          "stationId": "900000082948054",
+          "nameZh": "劳家葑",
+          "nameEn": "Laojiafeng",
+          "target": "laojiafeng",
+          "pinyin": "laojiafeng",
+          "lat": 29.951761,
+          "lon": 120.577025,
+          "sequence": 25
+        },
+        {
+          "id": "900000082948055",
+          "stationId": "900000082948055",
+          "nameZh": "南池",
+          "nameEn": "Nanchi",
+          "target": "nanchi",
+          "pinyin": "nanchi",
+          "lat": 29.939082,
+          "lon": 120.575794,
+          "sequence": 26
+        },
+        {
+          "id": "900000082948056",
+          "stationId": "900000082948056",
+          "nameZh": "栖湖",
+          "nameEn": "Qihu",
+          "target": "qihu",
+          "pinyin": "qihu",
+          "lat": 29.928852,
+          "lon": 120.57539,
+          "sequence": 27
+        },
+        {
+          "id": "900000082948057",
+          "stationId": "900000082948057",
+          "nameZh": "芳泉",
+          "nameEn": "Fangquan",
+          "target": "fangquan",
+          "pinyin": "fangquan",
+          "lat": 29.918247,
+          "lon": 120.570951,
+          "sequence": 28
+        }
+      ],
+      "segments": [
+        [
+          "900000082948030",
+          "900000082948031",
+          "900000082948032",
+          "900000082948033",
+          "900000082948034",
+          "900000082948035",
+          "900000082948036",
+          "900000082948037",
+          "900000082948038",
+          "900000082948039",
+          "900000082948040",
+          "900000082948041",
+          "900000082948042",
+          "900000082948043",
+          "900000082948044",
+          "900000082948045",
+          "900000082948046",
+          "900000082948047",
+          "900000082948048",
+          "900000082948049",
+          "900000082948050",
+          "900000082948051",
+          "900000082948052",
+          "900000082948053",
+          "900000082948054",
+          "900000082948055",
+          "900000082948056",
+          "900000082948057"
+        ]
+      ]
+    },
+    {
+      "id": "3306-1号",
+      "operatorId": "3306",
+      "operatorName": "绍兴地铁",
+      "lineId": "1号",
+      "lineName": "1号线支线",
+      "color": "#E3002A",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000082948043",
+          "stationId": "900000082948043",
+          "nameZh": "黄酒小镇",
+          "nameEn": "Huangjiu Xiaozhen",
+          "target": "huangjiu xiaozhen",
+          "pinyin": "huangjiuxiaozhen",
+          "lat": 30.058074,
+          "lon": 120.539694,
+          "sequence": 1
+        },
+        {
+          "id": "900000083202002",
+          "stationId": "900000083202002",
+          "nameZh": "绍兴一中",
+          "nameEn": "Shaoxing Yizhong",
+          "target": "shaoxing yizhong",
+          "pinyin": "shaoxingyizhong",
+          "lat": 30.067246,
+          "lon": 120.538009,
+          "sequence": 2
+        },
+        {
+          "id": "900000083202003",
+          "stationId": "900000083202003",
+          "nameZh": "湖西",
+          "nameEn": "Huxi",
+          "target": "huxi",
+          "pinyin": "huxi",
+          "lat": 30.078526,
+          "lon": 120.538033,
+          "sequence": 3
+        },
+        {
+          "id": "900000083202004",
+          "stationId": "900000083202004",
+          "nameZh": "大庆寺",
+          "nameEn": "Daqingsi",
+          "target": "daqingsi",
+          "pinyin": "daqingsi",
+          "lat": 30.088084,
+          "lon": 120.538188,
+          "sequence": 4
+        },
+        {
+          "id": "900000083202005",
+          "stationId": "900000083202005",
+          "nameZh": "绍兴北站",
+          "nameEn": "Shaoxing Beizhan",
+          "target": "shaoxing beizhan",
+          "pinyin": "shaoxingbeizhan",
+          "lat": 30.098818,
+          "lon": 120.537628,
+          "sequence": 5
+        },
+        {
+          "id": "900000083202006",
+          "stationId": "900000083202006",
+          "nameZh": "会展中心",
+          "nameEn": "Huizhan Zhongxin",
+          "target": "huizhan zhongxin",
+          "pinyin": "huizhanzhongxin",
+          "lat": 30.10095,
+          "lon": 120.517192,
+          "sequence": 6
+        }
+      ],
+      "segments": [
+        [
+          "900000082948043",
+          "900000083202002",
+          "900000083202003",
+          "900000083202004",
+          "900000083202005",
+          "900000083202006"
+        ]
+      ]
+    },
+    {
+      "id": "3306-2",
+      "operatorId": "3306",
+      "operatorName": "绍兴地铁",
+      "lineId": "2",
+      "lineName": "2号线",
+      "color": "#2249A3",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000158624001",
+          "stationId": "900000158624001",
+          "nameZh": "人民医院总院",
+          "nameEn": "Renmin Yiyuan Zongyuan",
+          "target": "renmin yiyuan zongyuan",
+          "pinyin": "renminyiyuanzongyuan",
+          "lat": 30.044265,
+          "lon": 120.558794,
+          "sequence": 1
+        },
+        {
+          "id": "900000082948046",
+          "stationId": "900000082948046",
+          "nameZh": "梅山广场",
+          "nameEn": "Meishan Guangchang",
+          "target": "meishan guangchang",
+          "pinyin": "meishanguangchang",
+          "lat": 30.048401,
+          "lon": 120.57692,
+          "sequence": 2
+        },
+        {
+          "id": "900000158624003",
+          "stationId": "900000158624003",
+          "nameZh": "后墅路",
+          "nameEn": "Houshu Lu",
+          "target": "houshu lu",
+          "pinyin": "houshulu",
+          "lat": 30.049662,
+          "lon": 120.58976,
+          "sequence": 3
+        },
+        {
+          "id": "900000158624004",
+          "stationId": "900000158624004",
+          "nameZh": "袍谷",
+          "nameEn": "Paogu",
+          "target": "paogu",
+          "pinyin": "paogu",
+          "lat": 30.049466,
+          "lon": 120.601544,
+          "sequence": 4
+        },
+        {
+          "id": "900000158624005",
+          "stationId": "900000158624005",
+          "nameZh": "袍中路",
+          "nameEn": "Paozhong Lu",
+          "target": "paozhong lu",
+          "pinyin": "paozhonglu",
+          "lat": 30.049344,
+          "lon": 120.612326,
+          "sequence": 5
+        },
+        {
+          "id": "900000158624006",
+          "stationId": "900000158624006",
+          "nameZh": "洋泾湖",
+          "nameEn": "Yangjinghu",
+          "target": "yangjinghu",
+          "pinyin": "yangjinghu",
+          "lat": 30.049552,
+          "lon": 120.62773,
+          "sequence": 6
+        },
+        {
+          "id": "900000158624007",
+          "stationId": "900000158624007",
+          "nameZh": "恂南",
+          "nameEn": "Xunnan",
+          "target": "xunnan",
+          "pinyin": "xunnan",
+          "lat": 30.049491,
+          "lon": 120.637893,
+          "sequence": 7
+        },
+        {
+          "id": "900000158624008",
+          "stationId": "900000158624008",
+          "nameZh": "豆姜",
+          "nameEn": "Doujiang",
+          "target": "doujiang",
+          "pinyin": "doujiang",
+          "lat": 30.047716,
+          "lon": 120.650415,
+          "sequence": 8
+        },
+        {
+          "id": "900000158624009",
+          "stationId": "900000158624009",
+          "nameZh": "檀渎",
+          "nameEn": "Tandu",
+          "target": "tandu",
+          "pinyin": "tandu",
+          "lat": 30.044428,
+          "lon": 120.662105,
+          "sequence": 9
+        }
+      ],
+      "segments": [
+        [
+          "900000158624001",
+          "900000082948046",
+          "900000158624003",
+          "900000158624004",
+          "900000158624005",
+          "900000158624006",
+          "900000158624007",
+          "900000158624008",
+          "900000158624009"
+        ]
+      ]
+    }
+  ]
+}

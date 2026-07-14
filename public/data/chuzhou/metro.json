@@ -1,0 +1,144 @@
+{
+  "city": "chuzhou",
+  "cityNameZh": "滁州",
+  "cityNameEn": "Chuzhou",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:08.391Z",
+  "lines": [
+    {
+      "id": "3411-宁滁",
+      "operatorId": "3411",
+      "operatorName": "滁州地铁",
+      "lineId": "宁滁",
+      "lineName": "宁滁线",
+      "color": "#EE782E",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000174185003",
+          "stationId": "900000174185003",
+          "nameZh": "汊河",
+          "nameEn": "Chahe",
+          "target": "chahe",
+          "pinyin": "chahe",
+          "lat": 32.21129,
+          "lon": 118.595895,
+          "sequence": 1
+        },
+        {
+          "id": "900000198970002",
+          "stationId": "900000198970002",
+          "nameZh": "汊河新城",
+          "nameEn": "Chahe Xincheng",
+          "target": "chahe xincheng",
+          "pinyin": "chahexincheng",
+          "lat": 32.237588,
+          "lon": 118.584221,
+          "sequence": 2
+        },
+        {
+          "id": "900000198970004",
+          "stationId": "900000198970004",
+          "nameZh": "十二里半",
+          "nameEn": "Shier Liban",
+          "target": "shier liban",
+          "pinyin": "shierliban",
+          "lat": 32.289462,
+          "lon": 118.508958,
+          "sequence": 3
+        },
+        {
+          "id": "900000198970006",
+          "stationId": "900000198970006",
+          "nameZh": "林楼",
+          "nameEn": "Linlou",
+          "target": "linlou",
+          "pinyin": "linlou",
+          "lat": 32.311754,
+          "lon": 118.410914,
+          "sequence": 4
+        },
+        {
+          "id": "900000198970007",
+          "stationId": "900000198970007",
+          "nameZh": "大王郢",
+          "nameEn": "Dawangying",
+          "target": "dawangying",
+          "pinyin": "dawangying",
+          "lat": 32.307401,
+          "lon": 118.391413,
+          "sequence": 5
+        },
+        {
+          "id": "900000198970008",
+          "stationId": "900000198970008",
+          "nameZh": "苏滁商务中心",
+          "nameEn": "Suchu Shangwu Zhongxin",
+          "target": "suchu shangwu zhongxin",
+          "pinyin": "suchushangwuzhongxin",
+          "lat": 32.281802,
+          "lon": 118.387385,
+          "sequence": 6
+        },
+        {
+          "id": "900000198970010",
+          "stationId": "900000198970010",
+          "nameZh": "滁州政务中心",
+          "nameEn": "Chuzhou Zhengwu Zhongxin",
+          "target": "chuzhou zhengwu zhongxin",
+          "pinyin": "chuzhouzhengwuzhongxin",
+          "lat": 32.253721,
+          "lon": 118.336141,
+          "sequence": 7
+        },
+        {
+          "id": "900000198970011",
+          "stationId": "900000198970011",
+          "nameZh": "琅琊山",
+          "nameEn": "Langyashan",
+          "target": "langyashan",
+          "pinyin": "langyashan",
+          "lat": 32.253686,
+          "lon": 118.308299,
+          "sequence": 8
+        },
+        {
+          "id": "900000198970012",
+          "stationId": "900000198970012",
+          "nameZh": "花博园",
+          "nameEn": "Huaboyuan",
+          "target": "huaboyuan",
+          "pinyin": "huaboyuan",
+          "lat": 32.236444,
+          "lon": 118.303292,
+          "sequence": 9
+        },
+        {
+          "id": "900000198970014",
+          "stationId": "900000198970014",
+          "nameZh": "滁州高铁站",
+          "nameEn": "Chuzhou Gaotie Zhan",
+          "target": "chuzhou gaotie zhan",
+          "pinyin": "chuzhougaotiezhan",
+          "lat": 32.199681,
+          "lon": 118.321669,
+          "sequence": 10
+        }
+      ],
+      "segments": [
+        [
+          "900000174185003",
+          "900000198970002",
+          "900000198970004",
+          "900000198970006",
+          "900000198970007",
+          "900000198970008",
+          "900000198970010",
+          "900000198970011",
+          "900000198970012",
+          "900000198970014"
+        ]
+      ]
+    }
+  ]
+}

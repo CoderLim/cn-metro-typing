@@ -1,0 +1,258 @@
+{
+  "city": "aomen",
+  "cityNameZh": "澳门",
+  "cityNameEn": "Aomen",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:13.439Z",
+  "lines": [
+    {
+      "id": "8200-横琴",
+      "operatorId": "8200",
+      "operatorName": "澳门地铁",
+      "lineId": "横琴",
+      "lineName": "横琴线",
+      "color": "#E3002A",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000126430006",
+          "stationId": "900000126430006",
+          "nameZh": "莲花",
+          "nameEn": "Lianhua",
+          "target": "lianhua",
+          "pinyin": "lianhua",
+          "lat": 22.136602,
+          "lon": 113.56483,
+          "sequence": 1
+        },
+        {
+          "id": "900000213462002",
+          "stationId": "900000213462002",
+          "nameZh": "横琴",
+          "nameEn": "Hengqin",
+          "target": "hengqin",
+          "pinyin": "hengqin",
+          "lat": 22.136977,
+          "lon": 113.550454,
+          "sequence": 2
+        }
+      ],
+      "segments": [
+        [
+          "900000126430006",
+          "900000213462002"
+        ]
+      ]
+    },
+    {
+      "id": "8200-石排",
+      "operatorId": "8200",
+      "operatorName": "澳门地铁",
+      "lineId": "石排",
+      "lineName": "石排湾线",
+      "color": "#786DAF",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000126430013",
+          "stationId": "900000126430013",
+          "nameZh": "协和医院",
+          "nameEn": "Xiehe Yiyuan",
+          "target": "xiehe yiyuan",
+          "pinyin": "xieheyiyuan",
+          "lat": 22.135779,
+          "lon": 113.568327,
+          "sequence": 1
+        },
+        {
+          "id": "900000213458002",
+          "stationId": "900000213458002",
+          "nameZh": "石排湾",
+          "nameEn": "Shipaiwan",
+          "target": "shipaiwan",
+          "pinyin": "shipaiwan",
+          "lat": 22.128488,
+          "lon": 113.566708,
+          "sequence": 2
+        }
+      ],
+      "segments": [
+        [
+          "900000126430013",
+          "900000213458002"
+        ]
+      ]
+    },
+    {
+      "id": "8200-氹仔",
+      "operatorId": "8200",
+      "operatorName": "澳门地铁",
+      "lineId": "氹仔",
+      "lineName": "氹仔线",
+      "color": "#008187",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000126430001",
+          "stationId": "900000126430001",
+          "nameZh": "氹仔码头",
+          "nameEn": "Dangzai Matou",
+          "target": "dangzai matou",
+          "pinyin": "dangzaimatou",
+          "lat": 22.160074,
+          "lon": 113.578876,
+          "sequence": 1
+        },
+        {
+          "id": "900000126430002",
+          "stationId": "900000126430002",
+          "nameZh": "机场",
+          "nameEn": "Jichang",
+          "target": "jichang",
+          "pinyin": "jichang",
+          "lat": 22.156449,
+          "lon": 113.579661,
+          "sequence": 2
+        },
+        {
+          "id": "900000126430003",
+          "stationId": "900000126430003",
+          "nameZh": "科大",
+          "nameEn": "Keda",
+          "target": "keda",
+          "pinyin": "keda",
+          "lat": 22.150112,
+          "lon": 113.575625,
+          "sequence": 3
+        },
+        {
+          "id": "900000126430004",
+          "stationId": "900000126430004",
+          "nameZh": "路氹东",
+          "nameEn": "Lu Dangdong",
+          "target": "lu dangdong",
+          "pinyin": "ludangdong",
+          "lat": 22.14529,
+          "lon": 113.574142,
+          "sequence": 4
+        },
+        {
+          "id": "900000126430005",
+          "stationId": "900000126430005",
+          "nameZh": "东亚运",
+          "nameEn": "Dongyayun",
+          "target": "dongyayun",
+          "pinyin": "dongyayun",
+          "lat": 22.139456,
+          "lon": 113.57363,
+          "sequence": 5
+        },
+        {
+          "id": "900000126430013",
+          "stationId": "900000126430013",
+          "nameZh": "协和医院",
+          "nameEn": "Xiehe Yiyuan",
+          "target": "xiehe yiyuan",
+          "pinyin": "xieheyiyuan",
+          "lat": 22.135779,
+          "lon": 113.568327,
+          "sequence": 6
+        },
+        {
+          "id": "900000126430006",
+          "stationId": "900000126430006",
+          "nameZh": "莲花",
+          "nameEn": "Lianhua",
+          "target": "lianhua",
+          "pinyin": "lianhua",
+          "lat": 22.136602,
+          "lon": 113.56483,
+          "sequence": 7
+        },
+        {
+          "id": "900000126430007",
+          "stationId": "900000126430007",
+          "nameZh": "路氹西",
+          "nameEn": "Lu Dangxi",
+          "target": "lu dangxi",
+          "pinyin": "ludangxi",
+          "lat": 22.142123,
+          "lon": 113.56287,
+          "sequence": 8
+        },
+        {
+          "id": "900000126430008",
+          "stationId": "900000126430008",
+          "nameZh": "排角",
+          "nameEn": "Paijiao",
+          "target": "paijiao",
+          "pinyin": "paijiao",
+          "lat": 22.147957,
+          "lon": 113.559544,
+          "sequence": 9
+        },
+        {
+          "id": "900000126430009",
+          "stationId": "900000126430009",
+          "nameZh": "运动场",
+          "nameEn": "Yundongchang",
+          "target": "yundongchang",
+          "pinyin": "yundongchang",
+          "lat": 22.151425,
+          "lon": 113.556898,
+          "sequence": 10
+        },
+        {
+          "id": "900000126430010",
+          "stationId": "900000126430010",
+          "nameZh": "马会",
+          "nameEn": "Mahui",
+          "target": "mahui",
+          "pinyin": "mahui",
+          "lat": 22.15419,
+          "lon": 113.5523,
+          "sequence": 11
+        },
+        {
+          "id": "900000126430011",
+          "stationId": "900000126430011",
+          "nameZh": "海洋",
+          "nameEn": "Haiyang",
+          "target": "haiyang",
+          "pinyin": "haiyang",
+          "lat": 22.154891,
+          "lon": 113.546401,
+          "sequence": 12
+        },
+        {
+          "id": "900000126430012",
+          "stationId": "900000126430012",
+          "nameZh": "妈阁",
+          "nameEn": "Mage",
+          "target": "mage",
+          "pinyin": "mage",
+          "lat": 22.180541,
+          "lon": 113.534903,
+          "sequence": 13
+        }
+      ],
+      "segments": [
+        [
+          "900000126430001",
+          "900000126430002",
+          "900000126430003",
+          "900000126430004",
+          "900000126430005",
+          "900000126430013",
+          "900000126430006",
+          "900000126430007",
+          "900000126430008",
+          "900000126430009",
+          "900000126430010",
+          "900000126430011",
+          "900000126430012"
+        ]
+      ]
+    }
+  ]
+}

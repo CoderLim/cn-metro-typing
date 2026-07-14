@@ -1,0 +1,204 @@
+{
+  "city": "taizhou",
+  "cityNameZh": "台州",
+  "cityNameEn": "Taizhou",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:09.631Z",
+  "lines": [
+    {
+      "id": "3310-S1",
+      "operatorId": "3310",
+      "operatorName": "台州地铁",
+      "lineId": "S1",
+      "lineName": "S1线",
+      "color": "#01A2E2",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000168091001",
+          "stationId": "900000168091001",
+          "nameZh": "台州火车站",
+          "nameEn": "Taizhou Huochezhan",
+          "target": "taizhou huochezhan",
+          "pinyin": "taizhouhuochezhan",
+          "lat": 28.652884,
+          "lon": 121.373601,
+          "sequence": 1
+        },
+        {
+          "id": "900000168091002",
+          "stationId": "900000168091002",
+          "nameZh": "学院路",
+          "nameEn": "Xueyuan Lu",
+          "target": "xueyuan lu",
+          "pinyin": "xueyuanlu",
+          "lat": 28.637985,
+          "lon": 121.40276,
+          "sequence": 2
+        },
+        {
+          "id": "900000168091003",
+          "stationId": "900000168091003",
+          "nameZh": "国博中心",
+          "nameEn": "Guobo Zhongxin",
+          "target": "guobo zhongxin",
+          "pinyin": "guobozhongxin",
+          "lat": 28.621134,
+          "lon": 121.399617,
+          "sequence": 3
+        },
+        {
+          "id": "900000168091004",
+          "stationId": "900000168091004",
+          "nameZh": "汇丰路",
+          "nameEn": "Huifeng Lu",
+          "target": "huifeng lu",
+          "pinyin": "huifenglu",
+          "lat": 28.610756,
+          "lon": 121.389021,
+          "sequence": 4
+        },
+        {
+          "id": "900000168091005",
+          "stationId": "900000168091005",
+          "nameZh": "锦泰",
+          "nameEn": "Jintai",
+          "target": "jintai",
+          "pinyin": "jintai",
+          "lat": 28.59852,
+          "lon": 121.368828,
+          "sequence": 5
+        },
+        {
+          "id": "900000168091006",
+          "stationId": "900000168091006",
+          "nameZh": "恩泽医院",
+          "nameEn": "Enze Yiyuan",
+          "target": "enze yiyuan",
+          "pinyin": "enzeyiyuan",
+          "lat": 28.587069,
+          "lon": 121.337156,
+          "sequence": 6
+        },
+        {
+          "id": "900000168091007",
+          "stationId": "900000168091007",
+          "nameZh": "台州汽车南站",
+          "nameEn": "Taizhou Qiche Nanzhan",
+          "target": "taizhou qiche nanzhan",
+          "pinyin": "taizhouqichenanzhan",
+          "lat": 28.567723,
+          "lon": 121.328653,
+          "sequence": 7
+        },
+        {
+          "id": "900000168091008",
+          "stationId": "900000168091008",
+          "nameZh": "泽国",
+          "nameEn": "Zeguo",
+          "target": "zeguo",
+          "pinyin": "zeguo",
+          "lat": 28.496147,
+          "lon": 121.337637,
+          "sequence": 8
+        },
+        {
+          "id": "900000168091009",
+          "stationId": "900000168091009",
+          "nameZh": "温岭火车站",
+          "nameEn": "Wenling Huochezhan",
+          "target": "wenling huochezhan",
+          "pinyin": "wenlinghuochezhan",
+          "lat": 28.478881,
+          "lon": 121.326549,
+          "sequence": 9
+        },
+        {
+          "id": "900000168091010",
+          "stationId": "900000168091010",
+          "nameZh": "汇川王",
+          "nameEn": "Huichuanwang",
+          "target": "huichuanwang",
+          "pinyin": "huichuanwang",
+          "lat": 28.433424,
+          "lon": 121.333188,
+          "sequence": 10
+        },
+        {
+          "id": "900000168091011",
+          "stationId": "900000168091011",
+          "nameZh": "温岭第一人民医院",
+          "nameEn": "Wenling Diyi Renmin Yiyuan",
+          "target": "wenling diyi renmin yiyuan",
+          "pinyin": "wenlingdiyirenminyiyuan",
+          "lat": 28.404336,
+          "lon": 121.343457,
+          "sequence": 11
+        },
+        {
+          "id": "900000168091012",
+          "stationId": "900000168091012",
+          "nameZh": "九龙大道",
+          "nameEn": "Jiulong Dadao",
+          "target": "jiulong dadao",
+          "pinyin": "jiulongdadao",
+          "lat": 28.392819,
+          "lon": 121.360021,
+          "sequence": 12
+        },
+        {
+          "id": "900000168091013",
+          "stationId": "900000168091013",
+          "nameZh": "万昌路",
+          "nameEn": "Wanchang Lu",
+          "target": "wanchang lu",
+          "pinyin": "wanchanglu",
+          "lat": 28.377406,
+          "lon": 121.376537,
+          "sequence": 13
+        },
+        {
+          "id": "900000168091014",
+          "stationId": "900000168091014",
+          "nameZh": "南屏",
+          "nameEn": "Nanping",
+          "target": "nanping",
+          "pinyin": "nanping",
+          "lat": 28.363818,
+          "lon": 121.386186,
+          "sequence": 14
+        },
+        {
+          "id": "900000168091015",
+          "stationId": "900000168091015",
+          "nameZh": "城南",
+          "nameEn": "Chengnan",
+          "target": "chengnan",
+          "pinyin": "chengnan",
+          "lat": 28.315443,
+          "lon": 121.414957,
+          "sequence": 15
+        }
+      ],
+      "segments": [
+        [
+          "900000168091001",
+          "900000168091002",
+          "900000168091003",
+          "900000168091004",
+          "900000168091005",
+          "900000168091006",
+          "900000168091007",
+          "900000168091008",
+          "900000168091009",
+          "900000168091010",
+          "900000168091011",
+          "900000168091012",
+          "900000168091013",
+          "900000168091014",
+          "900000168091015"
+        ]
+      ]
+    }
+  ]
+}

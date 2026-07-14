@@ -1,0 +1,471 @@
+{
+  "city": "wuhu",
+  "cityNameZh": "芜湖",
+  "cityNameEn": "Wuhu",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:08.187Z",
+  "lines": [
+    {
+      "id": "3402-1",
+      "operatorId": "3402",
+      "operatorName": "芜湖地铁",
+      "lineId": "1",
+      "lineName": "1号线",
+      "color": "#CC0000",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000075437001",
+          "stationId": "900000075437001",
+          "nameZh": "保顺路",
+          "nameEn": "Baoshun Lu",
+          "target": "baoshun lu",
+          "pinyin": "baoshunlu",
+          "lat": 31.479819,
+          "lon": 118.412095,
+          "sequence": 1
+        },
+        {
+          "id": "900000075437002",
+          "stationId": "900000075437002",
+          "nameZh": "华山路",
+          "nameEn": "Huashan Lu",
+          "target": "huashan lu",
+          "pinyin": "huashanlu",
+          "lat": 31.471,
+          "lon": 118.40386,
+          "sequence": 2
+        },
+        {
+          "id": "900000075437003",
+          "stationId": "900000075437003",
+          "nameZh": "泰山路",
+          "nameEn": "Taishan Lu",
+          "target": "taishan lu",
+          "pinyin": "taishanlu",
+          "lat": 31.460096,
+          "lon": 118.40091,
+          "sequence": 3
+        },
+        {
+          "id": "900000075437004",
+          "stationId": "900000075437004",
+          "nameZh": "衡山路",
+          "nameEn": "Hengshan Lu",
+          "target": "hengshan lu",
+          "pinyin": "hengshanlu",
+          "lat": 31.4517,
+          "lon": 118.393773,
+          "sequence": 4
+        },
+        {
+          "id": "900000075437005",
+          "stationId": "900000075437005",
+          "nameZh": "龙山路",
+          "nameEn": "Longshan Lu",
+          "target": "longshan lu",
+          "pinyin": "longshanlu",
+          "lat": 31.440102,
+          "lon": 118.381457,
+          "sequence": 5
+        },
+        {
+          "id": "900000075437006",
+          "stationId": "900000075437006",
+          "nameZh": "鞍山路",
+          "nameEn": "Anshan Lu",
+          "target": "anshan lu",
+          "pinyin": "anshanlu",
+          "lat": 31.431767,
+          "lon": 118.382984,
+          "sequence": 6
+        },
+        {
+          "id": "900000075437007",
+          "stationId": "900000075437007",
+          "nameZh": "港湾路",
+          "nameEn": "Gangwan Lu",
+          "target": "gangwan lu",
+          "pinyin": "gangwanlu",
+          "lat": 31.41685,
+          "lon": 118.380973,
+          "sequence": 7
+        },
+        {
+          "id": "900000075437008",
+          "stationId": "900000075437008",
+          "nameZh": "裕安路",
+          "nameEn": "Yuan Lu",
+          "target": "yuan lu",
+          "pinyin": "yuanlu",
+          "lat": 31.409852,
+          "lon": 118.375178,
+          "sequence": 8
+        },
+        {
+          "id": "900000075437009",
+          "stationId": "900000075437009",
+          "nameZh": "武夷山路",
+          "nameEn": "Wuyishan Lu",
+          "target": "wuyishan lu",
+          "pinyin": "wuyishanlu",
+          "lat": 31.399344,
+          "lon": 118.373896,
+          "sequence": 9
+        },
+        {
+          "id": "900000075437010",
+          "stationId": "900000075437010",
+          "nameZh": "港一路",
+          "nameEn": "Gangyilu",
+          "target": "gangyilu",
+          "pinyin": "gangyilu",
+          "lat": 31.391503,
+          "lon": 118.372902,
+          "sequence": 10
+        },
+        {
+          "id": "900000075437011",
+          "stationId": "900000075437011",
+          "nameZh": "天柱山路",
+          "nameEn": "Tianzhushan Lu",
+          "target": "tianzhushan lu",
+          "pinyin": "tianzhushanlu",
+          "lat": 31.378453,
+          "lon": 118.373254,
+          "sequence": 11
+        },
+        {
+          "id": "900000075437012",
+          "stationId": "900000075437012",
+          "nameZh": "天门山路",
+          "nameEn": "Tianmen Shanlu",
+          "target": "tianmen shanlu",
+          "pinyin": "tianmenshanlu",
+          "lat": 31.370012,
+          "lon": 118.37374,
+          "sequence": 12
+        },
+        {
+          "id": "900000075437013",
+          "stationId": "900000075437013",
+          "nameZh": "赤铸山路",
+          "nameEn": "Chizhushan Lu",
+          "target": "chizhushan lu",
+          "pinyin": "chizhushanlu",
+          "lat": 31.361992,
+          "lon": 118.374245,
+          "sequence": 13
+        },
+        {
+          "id": "900000075437014",
+          "stationId": "900000075437014",
+          "nameZh": "赭山路",
+          "nameEn": "Zheshan Lu",
+          "target": "zheshan lu",
+          "pinyin": "zheshanlu",
+          "lat": 31.351189,
+          "lon": 118.374973,
+          "sequence": 14
+        },
+        {
+          "id": "900000075437015",
+          "stationId": "900000075437015",
+          "nameZh": "赭山公园",
+          "nameEn": "Zheshan Gongyuan",
+          "target": "zheshan gongyuan",
+          "pinyin": "zheshangongyuan",
+          "lat": 31.34515,
+          "lon": 118.372786,
+          "sequence": 15
+        },
+        {
+          "id": "900000075437016",
+          "stationId": "900000075437016",
+          "nameZh": "中山北路",
+          "nameEn": "Zhongshan Beilu",
+          "target": "zhongshan beilu",
+          "pinyin": "zhongshanbeilu",
+          "lat": 31.339753,
+          "lon": 118.368674,
+          "sequence": 16
+        },
+        {
+          "id": "900000075437017",
+          "stationId": "900000075437017",
+          "nameZh": "鸠兹广场",
+          "nameEn": "Jiuzi Guangchang",
+          "target": "jiuzi guangchang",
+          "pinyin": "jiuziguangchang",
+          "lat": 31.332566,
+          "lon": 118.371759,
+          "sequence": 17
+        },
+        {
+          "id": "900000075437018",
+          "stationId": "900000075437018",
+          "nameZh": "环城北路",
+          "nameEn": "Huancheng Beilu",
+          "target": "huancheng beilu",
+          "pinyin": "huanchengbeilu",
+          "lat": 31.32477,
+          "lon": 118.380744,
+          "sequence": 18
+        },
+        {
+          "id": "900000075437019",
+          "stationId": "900000075437019",
+          "nameZh": "奥体中心",
+          "nameEn": "Aoti Zhongxin",
+          "target": "aoti zhongxin",
+          "pinyin": "aotizhongxin",
+          "lat": 31.31138,
+          "lon": 118.378882,
+          "sequence": 19
+        },
+        {
+          "id": "900000075437020",
+          "stationId": "900000075437020",
+          "nameZh": "红花山路",
+          "nameEn": "Honghua Shanlu",
+          "target": "honghua shanlu",
+          "pinyin": "honghuashanlu",
+          "lat": 31.301666,
+          "lon": 118.379874,
+          "sequence": 20
+        },
+        {
+          "id": "900000075437021",
+          "stationId": "900000075437021",
+          "nameZh": "博览中心",
+          "nameEn": "Bolan Zhongxin",
+          "target": "bolan zhongxin",
+          "pinyin": "bolanzhongxin",
+          "lat": 31.294078,
+          "lon": 118.380897,
+          "sequence": 21
+        },
+        {
+          "id": "900000075437022",
+          "stationId": "900000075437022",
+          "nameZh": "文津东路",
+          "nameEn": "Wenjin Donglu",
+          "target": "wenjin donglu",
+          "pinyin": "wenjindonglu",
+          "lat": 31.283299,
+          "lon": 118.384043,
+          "sequence": 22
+        },
+        {
+          "id": "900000075437023",
+          "stationId": "900000075437023",
+          "nameZh": "珩琅山路",
+          "nameEn": "Henglang Shanlu",
+          "target": "henglang shanlu",
+          "pinyin": "henglangshanlu",
+          "lat": 31.265191,
+          "lon": 118.389031,
+          "sequence": 23
+        },
+        {
+          "id": "900000075437024",
+          "stationId": "900000075437024",
+          "nameZh": "芜湖南站",
+          "nameEn": "Wuhu Nanzhan",
+          "target": "wuhu nanzhan",
+          "pinyin": "wuhunanzhan",
+          "lat": 31.250717,
+          "lon": 118.378615,
+          "sequence": 24
+        },
+        {
+          "id": "900000075437025",
+          "stationId": "900000075437025",
+          "nameZh": "白马山",
+          "nameEn": "Baimashan",
+          "target": "baimashan",
+          "pinyin": "baimashan",
+          "lat": 31.245257,
+          "lon": 118.372376,
+          "sequence": 25
+        }
+      ],
+      "segments": [
+        [
+          "900000075437001",
+          "900000075437002",
+          "900000075437003",
+          "900000075437004",
+          "900000075437005",
+          "900000075437006",
+          "900000075437007",
+          "900000075437008",
+          "900000075437009",
+          "900000075437010",
+          "900000075437011",
+          "900000075437012",
+          "900000075437013",
+          "900000075437014",
+          "900000075437015",
+          "900000075437016",
+          "900000075437017",
+          "900000075437018",
+          "900000075437019",
+          "900000075437020",
+          "900000075437021",
+          "900000075437022",
+          "900000075437023",
+          "900000075437024",
+          "900000075437025"
+        ]
+      ]
+    },
+    {
+      "id": "3402-2",
+      "operatorId": "3402",
+      "operatorName": "芜湖地铁",
+      "lineId": "2",
+      "lineName": "2号线",
+      "color": "#01A2E2",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000075437017",
+          "stationId": "900000075437017",
+          "nameZh": "鸠兹广场",
+          "nameEn": "Jiuzi Guangchang",
+          "target": "jiuzi guangchang",
+          "pinyin": "jiuziguangchang",
+          "lat": 31.332566,
+          "lon": 118.371759,
+          "sequence": 1
+        },
+        {
+          "id": "900000075459002",
+          "stationId": "900000075459002",
+          "nameZh": "文化路",
+          "nameEn": "Wenhua Lu",
+          "target": "wenhua lu",
+          "pinyin": "wenhualu",
+          "lat": 31.335487,
+          "lon": 118.383807,
+          "sequence": 2
+        },
+        {
+          "id": "900000075459003",
+          "stationId": "900000075459003",
+          "nameZh": "神山口",
+          "nameEn": "Shen Shankou",
+          "target": "shen shankou",
+          "pinyin": "shenshankou",
+          "lat": 31.338301,
+          "lon": 118.397119,
+          "sequence": 3
+        },
+        {
+          "id": "900000075459004",
+          "stationId": "900000075459004",
+          "nameZh": "芜湖火车站",
+          "nameEn": "Wuhu Huochezhan",
+          "target": "wuhu huochezhan",
+          "pinyin": "wuhuhuochezhan",
+          "lat": 31.348059,
+          "lon": 118.394746,
+          "sequence": 4
+        },
+        {
+          "id": "900000075459012",
+          "stationId": "900000075459012",
+          "nameZh": "神山公园",
+          "nameEn": "Shenshan Gongyuan",
+          "target": "shenshan gongyuan",
+          "pinyin": "shenshangongyuan",
+          "lat": 31.357263,
+          "lon": 118.409984,
+          "sequence": 5
+        },
+        {
+          "id": "900000075459013",
+          "stationId": "900000075459013",
+          "nameZh": "云从路",
+          "nameEn": "Yuncong Lu",
+          "target": "yuncong lu",
+          "pinyin": "yunconglu",
+          "lat": 31.357368,
+          "lon": 118.421869,
+          "sequence": 6
+        },
+        {
+          "id": "900000075459006",
+          "stationId": "900000075459006",
+          "nameZh": "政务中心",
+          "nameEn": "Zhengwu Zhongxin",
+          "target": "zhengwu zhongxin",
+          "pinyin": "zhengwuzhongxin",
+          "lat": 31.357423,
+          "lon": 118.430649,
+          "sequence": 7
+        },
+        {
+          "id": "900000075459008",
+          "stationId": "900000075459008",
+          "nameZh": "海晏路",
+          "nameEn": "Haiyan Lu",
+          "target": "haiyan lu",
+          "pinyin": "haiyanlu",
+          "lat": 31.354898,
+          "lon": 118.440757,
+          "sequence": 8
+        },
+        {
+          "id": "900000075459009",
+          "stationId": "900000075459009",
+          "nameZh": "方特·徽州路",
+          "nameEn": "Fangte Huizhou Lu",
+          "target": "fangte huizhou lu",
+          "pinyin": "fangtehuizhoulu",
+          "lat": 31.356145,
+          "lon": 118.459758,
+          "sequence": 9
+        },
+        {
+          "id": "900000075459010",
+          "stationId": "900000075459010",
+          "nameZh": "梦溪路",
+          "nameEn": "Mengxi Lu",
+          "target": "mengxi lu",
+          "pinyin": "mengxilu",
+          "lat": 31.351545,
+          "lon": 118.481371,
+          "sequence": 10
+        },
+        {
+          "id": "900000075459011",
+          "stationId": "900000075459011",
+          "nameZh": "万春湖路",
+          "nameEn": "Wanchunhu Lu",
+          "target": "wanchunhu lu",
+          "pinyin": "wanchunhulu",
+          "lat": 31.362525,
+          "lon": 118.49614,
+          "sequence": 11
+        }
+      ],
+      "segments": [
+        [
+          "900000075437017",
+          "900000075459002",
+          "900000075459003",
+          "900000075459004",
+          "900000075459012",
+          "900000075459013",
+          "900000075459006",
+          "900000075459008",
+          "900000075459009",
+          "900000075459010",
+          "900000075459011"
+        ]
+      ]
+    }
+  ]
+}

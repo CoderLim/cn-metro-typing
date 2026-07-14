@@ -16,6 +16,7 @@ const MODE_OPTIONS = [
 export default function HomeScreen({
   data,
   mapModel,
+  cityCount,
   selectedLine,
   runIndex,
   onRunChange,
@@ -57,7 +58,8 @@ export default function HomeScreen({
           <span>从地图或下方线路列表选择线路</span>
         </div>
         <span className="data-status">
-          {data.lines.length} 条线路 · {totalStations} 个站点坐标 · 更多城市即将到站
+          {cityCount ? `${cityCount} 座城市 · ` : ""}
+          本市 {data.lines.length} 条线路 · {totalStations} 个站点坐标
         </span>
       </div>
       {selectedLine ? (

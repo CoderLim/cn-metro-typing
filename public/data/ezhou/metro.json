@@ -1,0 +1,300 @@
+{
+  "city": "ezhou",
+  "cityNameZh": "鄂州",
+  "cityNameEn": "Ezhou",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:13.642Z",
+  "lines": [
+    {
+      "id": "4207-11",
+      "operatorId": "4207",
+      "operatorName": "鄂州地铁",
+      "lineId": "11",
+      "lineName": "11号线",
+      "color": "#FCD600",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000134664014",
+          "stationId": "900000134664014",
+          "nameZh": "葛店南站",
+          "nameEn": "Gedian Nanzhan",
+          "target": "gedian nanzhan",
+          "pinyin": "gediannanzhan",
+          "lat": 30.48932,
+          "lon": 114.660675,
+          "sequence": 1
+        },
+        {
+          "id": "900000134664013",
+          "stationId": "900000134664013",
+          "nameZh": "左岭",
+          "nameEn": "Zuoling",
+          "target": "zuoling",
+          "pinyin": "zuoling",
+          "lat": 30.488119,
+          "lon": 114.620662,
+          "sequence": 2
+        },
+        {
+          "id": "900000134664012",
+          "stationId": "900000134664012",
+          "nameZh": "未来三路",
+          "nameEn": "Weilai San Lu",
+          "target": "weilai san lu",
+          "pinyin": "weilaisanlu",
+          "lat": 30.48645,
+          "lon": 114.605998,
+          "sequence": 3
+        },
+        {
+          "id": "900000134664011",
+          "stationId": "900000134664011",
+          "nameZh": "未来一路",
+          "nameEn": "Weilai Yilu",
+          "target": "weilai yilu",
+          "pinyin": "weilaiyilu",
+          "lat": 30.484577,
+          "lon": 114.585145,
+          "sequence": 4
+        },
+        {
+          "id": "900000134664010",
+          "stationId": "900000134664010",
+          "nameZh": "长岭山",
+          "nameEn": "Changling Shan",
+          "target": "changling shan",
+          "pinyin": "changlingshan",
+          "lat": 30.487628,
+          "lon": 114.563156,
+          "sequence": 5
+        },
+        {
+          "id": "900000134664009",
+          "stationId": "900000134664009",
+          "nameZh": "光谷七路",
+          "nameEn": "Guanggu Qi Lu",
+          "target": "guanggu qi lu",
+          "pinyin": "guangguqilu",
+          "lat": 30.488447,
+          "lon": 114.534098,
+          "sequence": 6
+        },
+        {
+          "id": "900000134664008",
+          "stationId": "900000134664008",
+          "nameZh": "豹澥",
+          "nameEn": "Baoxie",
+          "target": "baoxie",
+          "pinyin": "baoxie",
+          "lat": 30.488736,
+          "lon": 114.522905,
+          "sequence": 7
+        },
+        {
+          "id": "900000134664007",
+          "stationId": "900000134664007",
+          "nameZh": "光谷六路",
+          "nameEn": "Guanggu Liu Lu",
+          "target": "guanggu liu lu",
+          "pinyin": "guangguliulu",
+          "lat": 30.485028,
+          "lon": 114.512862,
+          "sequence": 8
+        },
+        {
+          "id": "900000134664006",
+          "stationId": "900000134664006",
+          "nameZh": "光谷五路",
+          "nameEn": "Guanggu Wu Lu",
+          "target": "guanggu wu lu",
+          "pinyin": "guangguwulu",
+          "lat": 30.485101,
+          "lon": 114.502876,
+          "sequence": 9
+        },
+        {
+          "id": "900000134664005",
+          "stationId": "900000134664005",
+          "nameZh": "光谷四路",
+          "nameEn": "Guanggu Si Lu",
+          "target": "guanggu si lu",
+          "pinyin": "guanggusilu",
+          "lat": 30.489155,
+          "lon": 114.492018,
+          "sequence": 10
+        },
+        {
+          "id": "900000134664004",
+          "stationId": "900000134664004",
+          "nameZh": "光谷生物园",
+          "nameEn": "Guanggu Shengwu Yuan",
+          "target": "guanggu shengwu yuan",
+          "pinyin": "guanggushengwuyuan",
+          "lat": 30.48761,
+          "lon": 114.481231,
+          "sequence": 11
+        },
+        {
+          "id": "900000134664003",
+          "stationId": "900000134664003",
+          "nameZh": "光谷同济医院",
+          "nameEn": "Guanggu Tongji Yiyuan",
+          "target": "guanggu tongji yiyuan",
+          "pinyin": "guanggutongjiyiyuan",
+          "lat": 30.485267,
+          "lon": 114.466409,
+          "sequence": 12
+        },
+        {
+          "id": "900000134664002",
+          "stationId": "900000134664002",
+          "nameZh": "湖口",
+          "nameEn": "Hukou",
+          "target": "hukou",
+          "pinyin": "hukou",
+          "lat": 30.487938,
+          "lon": 114.448734,
+          "sequence": 13
+        },
+        {
+          "id": "900000134664001",
+          "stationId": "900000134664001",
+          "nameZh": "武汉东站",
+          "nameEn": "Wuhan Dongzhan",
+          "target": "wuhan dongzhan",
+          "pinyin": "wuhandongzhan",
+          "lat": 30.486956,
+          "lon": 114.431755,
+          "sequence": 14
+        },
+        {
+          "id": "900000134664023",
+          "stationId": "900000134664023",
+          "nameZh": "关山大道",
+          "nameEn": "Guanshan Dadao",
+          "target": "guanshan dadao",
+          "pinyin": "guanshandadao",
+          "lat": 30.497038,
+          "lon": 114.413429,
+          "sequence": 15
+        },
+        {
+          "id": "900000134664022",
+          "stationId": "900000134664022",
+          "nameZh": "光谷广场",
+          "nameEn": "Guanggu Guangchang",
+          "target": "guanggu guangchang",
+          "pinyin": "guangguguangchang",
+          "lat": 30.506016,
+          "lon": 114.398936,
+          "sequence": 16
+        },
+        {
+          "id": "900000134664021",
+          "stationId": "900000134664021",
+          "nameZh": "武汉体育学院",
+          "nameEn": "Wuhan Tiyu Xueyuan",
+          "target": "wuhan tiyu xueyuan",
+          "pinyin": "wuhantiyuxueyuan",
+          "lat": 30.516978,
+          "lon": 114.37946,
+          "sequence": 17
+        },
+        {
+          "id": "900000134664020",
+          "stationId": "900000134664020",
+          "nameZh": "虎泉",
+          "nameEn": "Huquan",
+          "target": "huquan",
+          "pinyin": "huquan",
+          "lat": 30.512359,
+          "lon": 114.370478,
+          "sequence": 18
+        },
+        {
+          "id": "900000134664019",
+          "stationId": "900000134664019",
+          "nameZh": "马房山",
+          "nameEn": "Ma Fangshan",
+          "target": "ma fangshan",
+          "pinyin": "mafangshan",
+          "lat": 30.514069,
+          "lon": 114.348079,
+          "sequence": 19
+        },
+        {
+          "id": "900000134664018",
+          "stationId": "900000134664018",
+          "nameZh": "丁字桥",
+          "nameEn": "Dingzi Qiao",
+          "target": "dingzi qiao",
+          "pinyin": "dingziqiao",
+          "lat": 30.521467,
+          "lon": 114.33093,
+          "sequence": 20
+        },
+        {
+          "id": "900000134664017",
+          "stationId": "900000134664017",
+          "nameZh": "武昌站东广场",
+          "nameEn": "Wuchang Zhandong Guangchang",
+          "target": "wuchang zhandong guangchang",
+          "pinyin": "wuchangzhandongguangchang",
+          "lat": 30.528977,
+          "lon": 114.32224,
+          "sequence": 21
+        },
+        {
+          "id": "900000134664016",
+          "stationId": "900000134664016",
+          "nameZh": "紫阳湖",
+          "nameEn": "Ziyanghu",
+          "target": "ziyanghu",
+          "pinyin": "ziyanghu",
+          "lat": 30.52794,
+          "lon": 114.301175,
+          "sequence": 22
+        },
+        {
+          "id": "900000134664015",
+          "stationId": "900000134664015",
+          "nameZh": "江安路",
+          "nameEn": "Jiangan Lu",
+          "target": "jiangan lu",
+          "pinyin": "jianganlu",
+          "lat": 30.518833,
+          "lon": 114.293411,
+          "sequence": 23
+        }
+      ],
+      "segments": [
+        [
+          "900000134664014",
+          "900000134664013",
+          "900000134664012",
+          "900000134664011",
+          "900000134664010",
+          "900000134664009",
+          "900000134664008",
+          "900000134664007",
+          "900000134664006",
+          "900000134664005",
+          "900000134664004",
+          "900000134664003",
+          "900000134664002",
+          "900000134664001",
+          "900000134664023",
+          "900000134664022",
+          "900000134664021",
+          "900000134664020",
+          "900000134664019",
+          "900000134664018",
+          "900000134664017",
+          "900000134664016",
+          "900000134664015"
+        ]
+      ]
+    }
+  ]
+}
