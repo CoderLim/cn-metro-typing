@@ -95,7 +95,7 @@ function typingTarget(nameEn) {
   return nameEn
     .normalize("NFKC")
     .toLowerCase()
-    .replace(/[^a-z0-9'& ]/g, " ")
+    .replace(/[^a-z0-9'&\- ]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
 }

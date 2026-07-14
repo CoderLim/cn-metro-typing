@@ -3,7 +3,7 @@
   "cityNameZh": "台州",
   "cityNameEn": "Taizhou",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T14:48:47.276Z",
+  "generatedAt": "2026-07-14T15:53:22.074Z",
   "lines": [
     {
       "id": "3310-S1",
@@ -128,8 +128,8 @@
           "id": "900000168091011",
           "stationId": "900000168091011",
           "nameZh": "温岭第一人民医院",
-          "nameEn": "Wenling Diyi Renmin Yiyuan",
-          "target": "wenling diyi renmin yiyuan",
+          "nameEn": "Wenling Di 1 Renmin Yiyuan",
+          "target": "wenling di 1 renmin yiyuan",
           "pinyin": "wenlingdiyirenminyiyuan",
           "lat": 28.404336,
           "lon": 121.343457,
