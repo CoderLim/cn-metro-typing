@@ -40,6 +40,7 @@ export default function HomeScreen({
       <CityMap
         mapModel={mapModel}
         selectedLineId={selectedLine?.id ?? null}
+        direction={direction}
         onSelect={onSelect}
       />
       <div className="home-copy" aria-hidden={selectedLine ? "true" : undefined}>

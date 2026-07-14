@@ -34,6 +34,16 @@ export function RestartIcon({ size = 18 }) {
   );
 }
 
+export function MapIcon({ size = 17 }) {
+  return (
+    <svg {...base} width={size} height={size} viewBox="0 0 24 24">
+      <path d="M14.1 6.4 9 3.6 3.5 5.5a.8.8 0 0 0-.5.7v13.2a.6.6 0 0 0 .8.6L9 18l5.9 2.4 5.6-1.9a.8.8 0 0 0 .5-.7V4.6a.6.6 0 0 0-.8-.6L14.1 6.4Z" />
+      <path d="M9 3.6v14.5" />
+      <path d="M14.5 6.3v14" />
+    </svg>
+  );
+}
+
 export function SunIcon({ size = 17 }) {
   return (
     <svg {...base} width={size} height={size} viewBox="0 0 24 24">

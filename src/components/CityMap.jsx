@@ -1,8 +1,21 @@
 import { memo, useEffect, useMemo, useRef, useState } from "react";
-import { HOME_VIEW, fitRouteBox, toPolyline } from "../lib/map.js";
+import { HOME_VIEW, fitRouteBox, toPolyline, DIRECTION } from "../lib/map.js";
+
+// 沿线路每隔几站取一个箭头位置与朝向；reverse 时调头。
+function directionArrows(points, direction, gap = 3) {
+  const arrows = [];
+  for (let k = 1; k < points.length; k += gap) {
+    const [x0, y0] = points[k - 1];
+    const [x1, y1] = points[k];
+    let angle = (Math.atan2(y1 - y0, x1 - x0) * 180) / Math.PI;
+    if (direction === DIRECTION.REVERSE) angle += 180;
+    arrows.push({ x: (x0 + x1) / 2, y: (y0 + y1) / 2, angle });
+  }
+  return arrows;
+}
 
 // 首页城市地图：真实边界 + 全部线路；选中线路时 viewBox 缓动聚焦。
-export default memo(function CityMap({ mapModel, selectedLineId, onSelect }) {
+export default memo(function CityMap({ mapModel, selectedLineId, direction, onSelect }) {
   const svgRef = useRef(null);
   const [intro, setIntro] = useState(true);
   const selected = mapModel.routes.find((r) => r.id === selectedLineId) ?? null;
@@ -128,6 +141,19 @@ export default memo(function CityMap({ mapModel, selectedLineId, onSelect }) {
               {nodes.map(([x, y], ni) => (
                 <circle key={ni} className="home-route-node" cx={x} cy={y} />
               ))}
+              {isSelected && direction
+                ? route.segmentPoints.map((pts, si) =>
+                    directionArrows(pts, direction).map((a, ai) => (
+                      <g
+                        key={`${direction}-${si}-${ai}`}
+                        className="route-arrow"
+                        transform={`translate(${a.x.toFixed(2)} ${a.y.toFixed(2)}) rotate(${a.angle.toFixed(1)})`}
+                      >
+                        <path className="dir-arrow" d="M -2.2 -1.7 L 2.6 0 L -2.2 1.7 Z" />
+                      </g>
+                    )),
+                  )
+                : null}
             </g>
           );
         })}

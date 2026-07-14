@@ -7,7 +7,8 @@ import { stationTarget, normalizeInput, charMatches, LANG } from "./lib/typing.j
 import HomeScreen from "./components/HomeScreen.jsx";
 import GameScreen from "./components/GameScreen.jsx";
 import ResultScreen from "./components/ResultScreen.jsx";
-import { SunIcon, MoonIcon } from "./components/icons.jsx";
+import ChinaMap from "./components/ChinaMap.jsx";
+import { SunIcon, MoonIcon, MapIcon } from "./components/icons.jsx";
 
 const TIMED_MS = 30_000;
 
@@ -39,6 +40,9 @@ export default function App() {
   );
 
   const [screen, setScreen] = useState("home");
+  // 全国省界数据：首次进入全国地图时才拉取，之后缓存复用。
+  const [china, setChina] = useState(null);
+  const [chinaError, setChinaError] = useState(null);
   const [lineId, setLineId] = useState(null);
   const [runIndex, setRunIndex] = useState(0);
   const [direction, setDirection] = useState(DIRECTION.FORWARD);
@@ -87,6 +91,24 @@ export default function App() {
   useEffect(() => {
     document.body.classList.toggle("dark", dark);
   }, [dark]);
+
+  useEffect(() => {
+    if (screen !== "china" || china) return;
+    const controller = new AbortController();
+    fetch("/data/china.json", { signal: controller.signal })
+      .then((res) => {
+        if (!res.ok) throw new Error(`数据加载失败（${res.status}）`);
+        return res.json();
+      })
+      .then((geo) => {
+        setChina(geo);
+        setChinaError(null);
+      })
+      .catch((err) => {
+        if (err.name !== "AbortError") setChinaError(err);
+      });
+    return () => controller.abort();
+  }, [screen, china]);
 
   const clearInput = useCallback(() => {
     composingRef.current = false;
@@ -223,6 +245,7 @@ export default function App() {
       if (e.isComposing || e.keyCode === 229) return;
       if (e.key === "Escape") {
         if (screen === "game" || screen === "result") backHome();
+        else if (screen === "china") setScreen("home");
         else if (screen === "home" && lineId) {
           setLineId(null);
           setRunIndex(0);
@@ -285,6 +308,15 @@ export default function App() {
     [cityId, clearInput],
   );
 
+  // 从全国地图点选：同城直接回首页，异城走 changeCity（自带重置与 URL 回写）。
+  const pickFromChina = useCallback(
+    (id) => {
+      if (id === cityId) setScreen("home");
+      else changeCity(id);
+    },
+    [cityId, changeCity],
+  );
+
   const chrome = screen !== "game";
 
   return (
@@ -317,6 +349,15 @@ export default function App() {
             <span>CHINA METRO TYPING</span>
           </button>
           <div className="top-actions">
+            <button
+              className="icon-button"
+              type="button"
+              aria-pressed={screen === "china"}
+              aria-label="全国地图选城"
+              onClick={() => setScreen(screen === "china" ? "home" : "china")}
+            >
+              <MapIcon />
+            </button>
             <select
               className="city-chip city-select"
               aria-label="切换城市"
@@ -365,7 +406,31 @@ export default function App() {
             </button>
           </div>
         ) : null}
-        {!citiesError && !error && (!data || !mapModel) ? (
+        {!citiesError && screen === "china" ? (
+          chinaError ? (
+            <div className="data-error">
+              <strong>全国地图加载失败</strong>
+              <span>{chinaError.message}</span>
+              <button type="button" onClick={() => setChinaError(null)}>
+                重试
+              </button>
+            </div>
+          ) : china && cities ? (
+            <ChinaMap
+              china={china}
+              cities={cities}
+              currentCityId={cityId}
+              onPick={pickFromChina}
+              onBack={() => setScreen("home")}
+            />
+          ) : (
+            <div className="loading">
+              <span />
+              正在加载全国地图…
+            </div>
+          )
+        ) : null}
+        {!citiesError && !error && screen !== "china" && (!data || !mapModel) ? (
           <div className="loading">
             <span />
             正在加载{city?.nameZh ?? ""}路网…

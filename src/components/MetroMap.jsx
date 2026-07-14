@@ -46,7 +46,7 @@ export default function MetroMap({
   if (t > 0) progressPoints.push(train);
 
   const unit = box[2] / HOME_VIEW[2] / (following ? zoom : 1);
-  const trainScale = unit * 0.28;
+  const trainScale = unit * 0.42;
 
   // 跟随时火车固定在画面偏上（38% 高度），底部留给到站牌。
   const cameraTransform = following
@@ -157,7 +157,7 @@ export default function MetroMap({
         <text
           className="map-station-label"
           x={current[0]}
-          y={current[1] - 9 * unit}
+          y={current[1] - 13 * unit}
           textAnchor="middle"
         >
           {stations[stationIndex].nameZh}
