@@ -1,0 +1,315 @@
+{
+  "city": "wulumuqi",
+  "cityNameZh": "乌鲁木齐",
+  "cityNameEn": "Wulumuqi",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:13.030Z",
+  "lines": [
+    {
+      "id": "6501-1",
+      "operatorId": "6501",
+      "operatorName": "乌鲁木齐地铁",
+      "lineId": "1",
+      "lineName": "1号线",
+      "color": "#2249A3",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000073875001",
+          "stationId": "900000073875001",
+          "nameZh": "国际机场",
+          "nameEn": "Guoji Jichang",
+          "target": "guoji jichang",
+          "pinyin": "guojijichang",
+          "lat": 43.90099,
+          "lon": 87.474505,
+          "sequence": 1
+        },
+        {
+          "id": "900000073875002",
+          "stationId": "900000073875002",
+          "nameZh": "大地窝堡",
+          "nameEn": "Dadi Wopu",
+          "target": "dadi wopu",
+          "pinyin": "dadiwopu",
+          "lat": 43.896566,
+          "lon": 87.496534,
+          "sequence": 2
+        },
+        {
+          "id": "900000073875003",
+          "stationId": "900000073875003",
+          "nameZh": "宣仁墩",
+          "nameEn": "Xuanrendun",
+          "target": "xuanrendun",
+          "pinyin": "xuanrendun",
+          "lat": 43.914664,
+          "lon": 87.52245,
+          "sequence": 3
+        },
+        {
+          "id": "900000073875004",
+          "stationId": "900000073875004",
+          "nameZh": "三工",
+          "nameEn": "Sangong",
+          "target": "sangong",
+          "pinyin": "sangong",
+          "lat": 43.910127,
+          "lon": 87.534972,
+          "sequence": 4
+        },
+        {
+          "id": "900000073875005",
+          "stationId": "900000073875005",
+          "nameZh": "迎宾路口",
+          "nameEn": "Yingbin Lukou",
+          "target": "yingbin lukou",
+          "pinyin": "yingbinlukou",
+          "lat": 43.900109,
+          "lon": 87.541841,
+          "sequence": 5
+        },
+        {
+          "id": "900000073875006",
+          "stationId": "900000073875006",
+          "nameZh": "植物园",
+          "nameEn": "Zhiwuyuan",
+          "target": "zhiwuyuan",
+          "pinyin": "zhiwuyuan",
+          "lat": 43.890863,
+          "lon": 87.548133,
+          "sequence": 6
+        },
+        {
+          "id": "900000073875007",
+          "stationId": "900000073875007",
+          "nameZh": "体育中心",
+          "nameEn": "Tiyuzhongxin",
+          "target": "tiyuzhongxin",
+          "pinyin": "tiyuzhongxin",
+          "lat": 43.880499,
+          "lon": 87.555159,
+          "sequence": 7
+        },
+        {
+          "id": "900000073875008",
+          "stationId": "900000073875008",
+          "nameZh": "铁路局",
+          "nameEn": "Tieluju",
+          "target": "tieluju",
+          "pinyin": "tieluju",
+          "lat": 43.870168,
+          "lon": 87.56223,
+          "sequence": 8
+        },
+        {
+          "id": "900000073875009",
+          "stationId": "900000073875009",
+          "nameZh": "小西沟",
+          "nameEn": "Xiaoxigou",
+          "target": "xiaoxigou",
+          "pinyin": "xiaoxigou",
+          "lat": 43.860249,
+          "lon": 87.566252,
+          "sequence": 9
+        },
+        {
+          "id": "900000073875010",
+          "stationId": "900000073875010",
+          "nameZh": "中营工",
+          "nameEn": "Zhongyinggong",
+          "target": "zhongyinggong",
+          "pinyin": "zhongyinggong",
+          "lat": 43.847756,
+          "lon": 87.571633,
+          "sequence": 10
+        },
+        {
+          "id": "900000073875011",
+          "stationId": "900000073875011",
+          "nameZh": "新疆图书馆",
+          "nameEn": "Xinjiang Tushuguan",
+          "target": "xinjiang tushuguan",
+          "pinyin": "xinjiangtushuguan",
+          "lat": 43.840678,
+          "lon": 87.574626,
+          "sequence": 11
+        },
+        {
+          "id": "900000073875012",
+          "stationId": "900000073875012",
+          "nameZh": "八楼",
+          "nameEn": "Balou",
+          "target": "balou",
+          "pinyin": "balou",
+          "lat": 43.834696,
+          "lon": 87.584515,
+          "sequence": 12
+        },
+        {
+          "id": "900000073875022",
+          "stationId": "900000073875022",
+          "nameZh": "王家梁",
+          "nameEn": "Wangjia Liang",
+          "target": "wangjia liang",
+          "pinyin": "wangjialiang",
+          "lat": 43.837001,
+          "lon": 87.603195,
+          "sequence": 13
+        },
+        {
+          "id": "900000073875023",
+          "stationId": "900000073875023",
+          "nameZh": "南湖北路",
+          "nameEn": "Nanhu Beilu",
+          "target": "nanhu beilu",
+          "pinyin": "nanhubeilu",
+          "lat": 43.832828,
+          "lon": 87.612477,
+          "sequence": 14
+        },
+        {
+          "id": "900000073875024",
+          "stationId": "900000073875024",
+          "nameZh": "南湖广场",
+          "nameEn": "Nanhu Guangchang",
+          "target": "nanhu guangchang",
+          "pinyin": "nanhuguangchang",
+          "lat": 43.821928,
+          "lon": 87.613471,
+          "sequence": 15
+        },
+        {
+          "id": "900000073875025",
+          "stationId": "900000073875025",
+          "nameZh": "新兴街",
+          "nameEn": "Xinxing Jie",
+          "target": "xinxing jie",
+          "pinyin": "xinxingjie",
+          "lat": 43.813621,
+          "lon": 87.614995,
+          "sequence": 16
+        },
+        {
+          "id": "900000073875026",
+          "stationId": "900000073875026",
+          "nameZh": "北门",
+          "nameEn": "Beimen",
+          "target": "beimen",
+          "pinyin": "beimen",
+          "lat": 43.801472,
+          "lon": 87.621989,
+          "sequence": 17
+        },
+        {
+          "id": "900000073875027",
+          "stationId": "900000073875027",
+          "nameZh": "南门",
+          "nameEn": "Nanmen",
+          "target": "nanmen",
+          "pinyin": "nanmen",
+          "lat": 43.790847,
+          "lon": 87.61954,
+          "sequence": 18
+        },
+        {
+          "id": "900000073875028",
+          "stationId": "900000073875028",
+          "nameZh": "二道桥",
+          "nameEn": "Erdao Qiao",
+          "target": "erdao qiao",
+          "pinyin": "erdaoqiao",
+          "lat": 43.780632,
+          "lon": 87.616992,
+          "sequence": 19
+        },
+        {
+          "id": "900000073875029",
+          "stationId": "900000073875029",
+          "nameZh": "新疆大学",
+          "nameEn": "Xinjiang Daxue",
+          "target": "xinjiang daxue",
+          "pinyin": "xinjiangdaxue",
+          "lat": 43.769503,
+          "lon": 87.614063,
+          "sequence": 20
+        },
+        {
+          "id": "900000073875030",
+          "stationId": "900000073875030",
+          "nameZh": "三屯碑",
+          "nameEn": "Santunbei",
+          "target": "santunbei",
+          "pinyin": "santunbei",
+          "lat": 43.761448,
+          "lon": 87.610749,
+          "sequence": 21
+        }
+      ],
+      "segments": [
+        [
+          "900000073875001",
+          "900000073875002",
+          "900000073875003",
+          "900000073875004",
+          "900000073875005",
+          "900000073875006",
+          "900000073875007",
+          "900000073875008",
+          "900000073875009",
+          "900000073875010",
+          "900000073875011",
+          "900000073875012",
+          "900000073875022",
+          "900000073875023",
+          "900000073875024",
+          "900000073875025",
+          "900000073875026",
+          "900000073875027",
+          "900000073875028",
+          "900000073875029",
+          "900000073875030"
+        ]
+      ]
+    },
+    {
+      "id": "6501-机场",
+      "operatorId": "6501",
+      "operatorName": "乌鲁木齐地铁",
+      "lineId": "机场",
+      "lineName": "机场捷运",
+      "color": "#FFA500",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000073875001",
+          "stationId": "900000073875001",
+          "nameZh": "国际机场",
+          "nameEn": "Guoji Jichang",
+          "target": "guoji jichang",
+          "pinyin": "guojijichang",
+          "lat": 43.90099,
+          "lon": 87.474505,
+          "sequence": 1
+        },
+        {
+          "id": "900000215647002",
+          "stationId": "900000215647002",
+          "nameZh": "国际机场北",
+          "nameEn": "Guoji Jichang Bei",
+          "target": "guoji jichang bei",
+          "pinyin": "guojijichangbei",
+          "lat": 43.918087,
+          "lon": 87.482805,
+          "sequence": 2
+        }
+      ],
+      "segments": [
+        [
+          "900000073875001",
+          "900000215647002"
+        ]
+      ]
+    }
+  ]
+}

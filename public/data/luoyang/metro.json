@@ -1,0 +1,447 @@
+{
+  "city": "luoyang",
+  "cityNameZh": "洛阳",
+  "cityNameEn": "Luoyang",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:05.309Z",
+  "lines": [
+    {
+      "id": "4103-1",
+      "operatorId": "4103",
+      "operatorName": "洛阳地铁",
+      "lineId": "1",
+      "lineName": "1号线",
+      "color": "#B97CAF",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000076062020",
+          "stationId": "900000076062020",
+          "nameZh": "红山",
+          "nameEn": "Hongshan",
+          "target": "hongshan",
+          "pinyin": "hongshan",
+          "lat": 34.701961,
+          "lon": 112.324063,
+          "sequence": 1
+        },
+        {
+          "id": "900000076062001",
+          "stationId": "900000076062001",
+          "nameZh": "谷水",
+          "nameEn": "Gushui",
+          "target": "gushui",
+          "pinyin": "gushui",
+          "lat": 34.681508,
+          "lon": 112.334779,
+          "sequence": 2
+        },
+        {
+          "id": "900000076062002",
+          "stationId": "900000076062002",
+          "nameZh": "秦岭路",
+          "nameEn": "Qinling Lu",
+          "target": "qinling lu",
+          "pinyin": "qinlinglu",
+          "lat": 34.677344,
+          "lon": 112.355177,
+          "sequence": 3
+        },
+        {
+          "id": "900000076062003",
+          "stationId": "900000076062003",
+          "nameZh": "武汉路",
+          "nameEn": "Wuhan Lu",
+          "target": "wuhan lu",
+          "pinyin": "wuhanlu",
+          "lat": 34.669415,
+          "lon": 112.367473,
+          "sequence": 4
+        },
+        {
+          "id": "900000076062004",
+          "stationId": "900000076062004",
+          "nameZh": "长安路",
+          "nameEn": "Changan Lu",
+          "target": "changan lu",
+          "pinyin": "changanlu",
+          "lat": 34.662497,
+          "lon": 112.376619,
+          "sequence": 5
+        },
+        {
+          "id": "900000076062005",
+          "stationId": "900000076062005",
+          "nameZh": "上海市场",
+          "nameEn": "Shanghai Shichang",
+          "target": "shanghai shichang",
+          "pinyin": "shanghaishichang",
+          "lat": 34.659963,
+          "lon": 112.385428,
+          "sequence": 6
+        },
+        {
+          "id": "900000076062006",
+          "stationId": "900000076062006",
+          "nameZh": "牡丹广场",
+          "nameEn": "Mudan Guangchang",
+          "target": "mudan guangchang",
+          "pinyin": "mudanguangchang",
+          "lat": 34.656545,
+          "lon": 112.397848,
+          "sequence": 7
+        },
+        {
+          "id": "900000076062007",
+          "stationId": "900000076062007",
+          "nameZh": "七里河",
+          "nameEn": "Qilihe",
+          "target": "qilihe",
+          "pinyin": "qilihe",
+          "lat": 34.659743,
+          "lon": 112.411156,
+          "sequence": 8
+        },
+        {
+          "id": "900000076062008",
+          "stationId": "900000076062008",
+          "nameZh": "王城公园",
+          "nameEn": "Wangcheng Gongyuan",
+          "target": "wangcheng gongyuan",
+          "pinyin": "wangchenggongyuan",
+          "lat": 34.666354,
+          "lon": 112.426714,
+          "sequence": 9
+        },
+        {
+          "id": "900000076062009",
+          "stationId": "900000076062009",
+          "nameZh": "解放路",
+          "nameEn": "Jiefang Lu",
+          "target": "jiefang lu",
+          "pinyin": "jiefanglu",
+          "lat": 34.669503,
+          "lon": 112.435022,
+          "sequence": 10
+        },
+        {
+          "id": "900000076062010",
+          "stationId": "900000076062010",
+          "nameZh": "周王城广场",
+          "nameEn": "Zhouwangcheng Guangchang",
+          "target": "zhouwangcheng guangchang",
+          "pinyin": "zhouwangchengguangchang",
+          "lat": 34.672823,
+          "lon": 112.443869,
+          "sequence": 11
+        },
+        {
+          "id": "900000076062011",
+          "stationId": "900000076062011",
+          "nameZh": "应天门",
+          "nameEn": "Yingtianmen",
+          "target": "yingtianmen",
+          "pinyin": "yingtianmen",
+          "lat": 34.678179,
+          "lon": 112.45804,
+          "sequence": 12
+        },
+        {
+          "id": "900000076062012",
+          "stationId": "900000076062012",
+          "nameZh": "丽景门",
+          "nameEn": "Lijingmen",
+          "target": "lijingmen",
+          "pinyin": "lijingmen",
+          "lat": 34.682028,
+          "lon": 112.468444,
+          "sequence": 13
+        },
+        {
+          "id": "900000076062013",
+          "stationId": "900000076062013",
+          "nameZh": "洛邑古城",
+          "nameEn": "Luoyi Gucheng",
+          "target": "luoyi gucheng",
+          "pinyin": "luoyigucheng",
+          "lat": 34.684292,
+          "lon": 112.482249,
+          "sequence": 14
+        },
+        {
+          "id": "900000076062014",
+          "stationId": "900000076062014",
+          "nameZh": "夹马营",
+          "nameEn": "Jiamaying",
+          "target": "jiamaying",
+          "pinyin": "jiamaying",
+          "lat": 34.685522,
+          "lon": 112.492414,
+          "sequence": 15
+        },
+        {
+          "id": "900000076062015",
+          "stationId": "900000076062015",
+          "nameZh": "启明南路·河南省洛阳正骨医院",
+          "nameEn": "Qiming Nanlu Henansheng Luoyang Zhenggu Yiyuan",
+          "target": "qiming nanlu henansheng luoyang zhenggu yiyuan",
+          "pinyin": "qimingnanluhenanshengluoyangzhengguyiyuan",
+          "lat": 34.687909,
+          "lon": 112.504737,
+          "sequence": 16
+        },
+        {
+          "id": "900000076062016",
+          "stationId": "900000076062016",
+          "nameZh": "塔湾",
+          "nameEn": "Tawan",
+          "target": "tawan",
+          "pinyin": "tawan",
+          "lat": 34.689986,
+          "lon": 112.51761,
+          "sequence": 17
+        },
+        {
+          "id": "900000076062017",
+          "stationId": "900000076062017",
+          "nameZh": "史家湾",
+          "nameEn": "Shijiawan",
+          "target": "shijiawan",
+          "pinyin": "shijiawan",
+          "lat": 34.692382,
+          "lon": 112.532439,
+          "sequence": 18
+        },
+        {
+          "id": "900000076062018",
+          "stationId": "900000076062018",
+          "nameZh": "杨湾",
+          "nameEn": "Yangwan",
+          "target": "yangwan",
+          "pinyin": "yangwan",
+          "lat": 34.695853,
+          "lon": 112.552856,
+          "sequence": 19
+        }
+      ],
+      "segments": [
+        [
+          "900000076062020",
+          "900000076062001",
+          "900000076062002",
+          "900000076062003",
+          "900000076062004",
+          "900000076062005",
+          "900000076062006",
+          "900000076062007",
+          "900000076062008",
+          "900000076062009",
+          "900000076062010",
+          "900000076062011",
+          "900000076062012",
+          "900000076062013",
+          "900000076062014",
+          "900000076062015",
+          "900000076062016",
+          "900000076062017",
+          "900000076062018"
+        ]
+      ]
+    },
+    {
+      "id": "4103-2",
+      "operatorId": "4103",
+      "operatorName": "洛阳地铁",
+      "lineId": "2",
+      "lineName": "2号线",
+      "color": "#86B81C",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000076079001",
+          "stationId": "900000076079001",
+          "nameZh": "二乔路",
+          "nameEn": "Erqiao Lu",
+          "target": "erqiao lu",
+          "pinyin": "erqiaolu",
+          "lat": 34.707131,
+          "lon": 112.413087,
+          "sequence": 1
+        },
+        {
+          "id": "900000076079002",
+          "stationId": "900000076079002",
+          "nameZh": "邙岭",
+          "nameEn": "Mangling",
+          "target": "mangling",
+          "pinyin": "mangling",
+          "lat": 34.707013,
+          "lon": 112.421478,
+          "sequence": 2
+        },
+        {
+          "id": "900000076079003",
+          "stationId": "900000076079003",
+          "nameZh": "国花路",
+          "nameEn": "Guohua Lu",
+          "target": "guohua lu",
+          "pinyin": "guohualu",
+          "lat": 34.695817,
+          "lon": 112.428806,
+          "sequence": 3
+        },
+        {
+          "id": "900000076079004",
+          "stationId": "900000076079004",
+          "nameZh": "洛阳火车站",
+          "nameEn": "Luoyang Huochezhan",
+          "target": "luoyang huochezhan",
+          "pinyin": "luoyanghuochezhan",
+          "lat": 34.685009,
+          "lon": 112.43403,
+          "sequence": 4
+        },
+        {
+          "id": "900000076079005",
+          "stationId": "900000076079005",
+          "nameZh": "纱厂路",
+          "nameEn": "Shachang Lu",
+          "target": "shachang lu",
+          "pinyin": "shachanglu",
+          "lat": 34.677552,
+          "lon": 112.434142,
+          "sequence": 5
+        },
+        {
+          "id": "900000076062009",
+          "stationId": "900000076062009",
+          "nameZh": "解放路",
+          "nameEn": "Jiefang Lu",
+          "target": "jiefang lu",
+          "pinyin": "jiefanglu",
+          "lat": 34.669503,
+          "lon": 112.435022,
+          "sequence": 6
+        },
+        {
+          "id": "900000076079007",
+          "stationId": "900000076079007",
+          "nameZh": "牡丹桥",
+          "nameEn": "Mudan Qiao",
+          "target": "mudan qiao",
+          "pinyin": "mudanqiao",
+          "lat": 34.66103,
+          "lon": 112.440943,
+          "sequence": 7
+        },
+        {
+          "id": "900000076079008",
+          "stationId": "900000076079008",
+          "nameZh": "文博园",
+          "nameEn": "Wenboyuan",
+          "target": "wenboyuan",
+          "pinyin": "wenboyuan",
+          "lat": 34.642416,
+          "lon": 112.445538,
+          "sequence": 8
+        },
+        {
+          "id": "900000076079009",
+          "stationId": "900000076079009",
+          "nameZh": "隋唐园",
+          "nameEn": "Suitangyuan",
+          "target": "suitangyuan",
+          "pinyin": "suitangyuan",
+          "lat": 34.636261,
+          "lon": 112.439928,
+          "sequence": 9
+        },
+        {
+          "id": "900000076079010",
+          "stationId": "900000076079010",
+          "nameZh": "体育中心",
+          "nameEn": "Tiyuzhongxin",
+          "target": "tiyuzhongxin",
+          "pinyin": "tiyuzhongxin",
+          "lat": 34.622179,
+          "lon": 112.437469,
+          "sequence": 10
+        },
+        {
+          "id": "900000076079011",
+          "stationId": "900000076079011",
+          "nameZh": "市民之家",
+          "nameEn": "Shimin Zhijia",
+          "target": "shimin zhijia",
+          "pinyin": "shiminzhijia",
+          "lat": 34.617408,
+          "lon": 112.445892,
+          "sequence": 11
+        },
+        {
+          "id": "900000076079012",
+          "stationId": "900000076079012",
+          "nameZh": "开元湖",
+          "nameEn": "Kaiyuan Hu",
+          "target": "kaiyuan hu",
+          "pinyin": "kaiyuanhu",
+          "lat": 34.611053,
+          "lon": 112.452975,
+          "sequence": 12
+        },
+        {
+          "id": "900000076079013",
+          "stationId": "900000076079013",
+          "nameZh": "兴洛湖",
+          "nameEn": "Xingluohu",
+          "target": "xingluohu",
+          "pinyin": "xingluohu",
+          "lat": 34.604277,
+          "lon": 112.453857,
+          "sequence": 13
+        },
+        {
+          "id": "900000076079014",
+          "stationId": "900000076079014",
+          "nameZh": "龙门高铁站",
+          "nameEn": "Longmen Gaotie Zhan",
+          "target": "longmen gaotie zhan",
+          "pinyin": "longmengaotiezhan",
+          "lat": 34.593779,
+          "lon": 112.457114,
+          "sequence": 14
+        },
+        {
+          "id": "900000076079015",
+          "stationId": "900000076079015",
+          "nameZh": "八里堂",
+          "nameEn": "Bali Tang",
+          "target": "bali tang",
+          "pinyin": "balitang",
+          "lat": 34.600105,
+          "lon": 112.474744,
+          "sequence": 15
+        }
+      ],
+      "segments": [
+        [
+          "900000076079001",
+          "900000076079002",
+          "900000076079003",
+          "900000076079004",
+          "900000076079005",
+          "900000076062009",
+          "900000076079007",
+          "900000076079008",
+          "900000076079009",
+          "900000076079010",
+          "900000076079011",
+          "900000076079012",
+          "900000076079013",
+          "900000076079014",
+          "900000076079015"
+        ]
+      ]
+    }
+  ]
+}

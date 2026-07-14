@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { CITIES, DEFAULT_CITY } from "./cities.js";
+import { DEFAULT_CITY } from "./cities.js";
 import { useCityData } from "./hooks/useCityData.js";
+import { useCityRegistry } from "./hooks/useCityRegistry.js";
 import { buildMapModel, runStations, DIRECTION } from "./lib/map.js";
 import { stationTarget, normalizeInput, charMatches, LANG } from "./lib/typing.js";
 import HomeScreen from "./components/HomeScreen.jsx";
@@ -10,10 +11,28 @@ import { SunIcon, MoonIcon } from "./components/icons.jsx";
 
 const TIMED_MS = 30_000;
 
+// 初始城市：优先取 ?city=<spell>，注册表加载后会校验是否真实存在。
+function initialCityId() {
+  try {
+    const fromUrl = new URLSearchParams(window.location.search).get("city");
+    if (fromUrl && /^[a-z]+$/.test(fromUrl)) return fromUrl;
+  } catch {
+    // window/URL 不可用（如测试环境）时忽略，走默认城市
+  }
+  return DEFAULT_CITY;
+}
+
 export default function App() {
-  const [cityId] = useState(DEFAULT_CITY);
-  const city = CITIES.find((c) => c.id === cityId);
+  const { cities, error: citiesError } = useCityRegistry();
+  const [cityId, setCityId] = useState(initialCityId);
+  const city = cities?.find((c) => c.id === cityId) ?? null;
   const { data, boundary, error } = useCityData(cityId);
+
+  // 注册表加载完成后，URL 里给的城市若不存在就回退默认城市。
+  useEffect(() => {
+    if (!cities) return;
+    setCityId((current) => (cities.some((c) => c.id === current) ? current : DEFAULT_CITY));
+  }, [cities]);
   const mapModel = useMemo(
     () => (data && boundary ? buildMapModel(boundary, data.lines) : null),
     [data, boundary],
@@ -245,6 +264,27 @@ export default function App() {
     setDirection(DIRECTION.FORWARD);
   }, []);
 
+  const changeCity = useCallback(
+    (id) => {
+      if (id === cityId) return;
+      playingRef.current = false;
+      clearInput();
+      setCityId(id);
+      setLineId(null);
+      setRunIndex(0);
+      setDirection(DIRECTION.FORWARD);
+      setScreen("home");
+      try {
+        const url = new URL(window.location.href);
+        url.searchParams.set("city", id);
+        window.history.replaceState(null, "", url);
+      } catch {
+        // URL/history 不可用时静默跳过，不影响城市切换本身
+      }
+    },
+    [cityId, clearInput],
+  );
+
   const chrome = screen !== "game";
 
   return (
@@ -277,9 +317,23 @@ export default function App() {
             <span>CHINA METRO TYPING</span>
           </button>
           <div className="top-actions">
-            <span className="city-chip">
-              {city.nameEn} {city.nameZh}
-            </span>
+            <select
+              className="city-chip city-select"
+              aria-label="切换城市"
+              value={cityId}
+              disabled={!cities}
+              onChange={(e) => changeCity(e.target.value)}
+            >
+              {(
+                cities ?? [
+                  { id: cityId, nameZh: city?.nameZh ?? "", nameEn: city?.nameEn ?? cityId.toUpperCase() },
+                ]
+              ).map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.nameZh ? `${c.nameZh} ${c.nameEn.toUpperCase()}` : c.nameEn}
+                </option>
+              ))}
+            </select>
             <button
               className="icon-button"
               type="button"
@@ -293,7 +347,16 @@ export default function App() {
         </header>
       ) : null}
       <main>
-        {error ? (
+        {citiesError ? (
+          <div className="data-error">
+            <strong>城市列表加载失败</strong>
+            <span>{citiesError.message}</span>
+            <button type="button" onClick={() => location.reload()}>
+              重新加载
+            </button>
+          </div>
+        ) : null}
+        {!citiesError && error ? (
           <div className="data-error">
             <strong>地图数据加载失败</strong>
             <span>{error.message}</span>
@@ -302,16 +365,17 @@ export default function App() {
             </button>
           </div>
         ) : null}
-        {!error && (!data || !mapModel) ? (
+        {!citiesError && !error && (!data || !mapModel) ? (
           <div className="loading">
             <span />
-            正在加载{city.nameZh}路网…
+            正在加载{city?.nameZh ?? ""}路网…
           </div>
         ) : null}
-        {data && mapModel && screen === "home" ? (
+        {!citiesError && data && mapModel && screen === "home" ? (
           <HomeScreen
             data={data}
             mapModel={mapModel}
+            cityCount={cities?.length ?? null}
             selectedLine={line}
             runIndex={runIndex}
             onRunChange={changeRun}

@@ -1,0 +1,60 @@
+{
+  "city": "qingyuan",
+  "cityNameZh": "清远",
+  "cityNameEn": "Qingyuan",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:13.846Z",
+  "lines": [
+    {
+      "id": "4418-磁浮",
+      "operatorId": "4418",
+      "operatorName": "清远地铁",
+      "lineId": "磁浮",
+      "lineName": "磁浮旅游专线",
+      "color": "#3080B7",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000208956001",
+          "stationId": "900000208956001",
+          "nameZh": "清远长隆",
+          "nameEn": "Qingyuan Changlong",
+          "target": "qingyuan changlong",
+          "pinyin": "qingyuanchanglong",
+          "lat": 23.549293,
+          "lon": 113.129801,
+          "sequence": 1
+        },
+        {
+          "id": "900000208956002",
+          "stationId": "900000208956002",
+          "nameZh": "湖蝶湾",
+          "nameEn": "Hu Diewan",
+          "target": "hu diewan",
+          "pinyin": "hudiewan",
+          "lat": 23.572545,
+          "lon": 113.130417,
+          "sequence": 2
+        },
+        {
+          "id": "900000208956003",
+          "stationId": "900000208956003",
+          "nameZh": "长隆森林王国",
+          "nameEn": "Changlong Senlin Wangguo",
+          "target": "changlong senlin wangguo",
+          "pinyin": "changlongsenlinwangguo",
+          "lat": 23.58951,
+          "lon": 113.164068,
+          "sequence": 3
+        }
+      ],
+      "segments": [
+        [
+          "900000208956001",
+          "900000208956002",
+          "900000208956003"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "city": "jinhua",
+  "cityNameZh": "金华",
+  "cityNameEn": "Jinhua",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:09.425Z",
+  "lines": [
+    {
+      "id": "3307-金义",
+      "operatorId": "3307",
+      "operatorName": "金华地铁",
+      "lineId": "金义",
+      "lineName": "金义东线金义段",
+      "color": "#EE3F42",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000167204001",
+          "stationId": "900000167204001",
+          "nameZh": "金华站",
+          "nameEn": "Jinhua Zhan",
+          "target": "jinhua zhan",
+          "pinyin": "jinhuazhan",
+          "lat": 29.107367,
+          "lon": 119.636326,
+          "sequence": 1
+        },
+        {
+          "id": "900000167204002",
+          "stationId": "900000167204002",
+          "nameZh": "双溪西路",
+          "nameEn": "Shuangxi Xilu",
+          "target": "shuangxi xilu",
+          "pinyin": "shuangxixilu",
+          "lat": 29.088008,
+          "lon": 119.643743,
+          "sequence": 2
+        },
+        {
+          "id": "900000167204003",
+          "stationId": "900000167204003",
+          "nameZh": "八一南街",
+          "nameEn": "Bayi Nanjie",
+          "target": "bayi nanjie",
+          "pinyin": "bayinanjie",
+          "lat": 29.081611,
+          "lon": 119.654743,
+          "sequence": 3
+        },
+        {
+          "id": "900000167204004",
+          "stationId": "900000167204004",
+          "nameZh": "万达广场",
+          "nameEn": "Wanda Guangchang",
+          "target": "wanda guangchang",
+          "pinyin": "wandaguangchang",
+          "lat": 29.088454,
+          "lon": 119.675717,
+          "sequence": 4
+        },
+        {
+          "id": "900000167204005",
+          "stationId": "900000167204005",
+          "nameZh": "大堰河街",
+          "nameEn": "Dayanhe Jie",
+          "target": "dayanhe jie",
+          "pinyin": "dayanhejie",
+          "lat": 29.09749,
+          "lon": 119.70281,
+          "sequence": 5
+        },
+        {
+          "id": "900000167204006",
+          "stationId": "900000167204006",
+          "nameZh": "轨道大厦",
+          "nameEn": "Guidao Dasha",
+          "target": "guidao dasha",
+          "pinyin": "guidaodasha",
+          "lat": 29.097531,
+          "lon": 119.721249,
+          "sequence": 6
+        },
+        {
+          "id": "900000167204007",
+          "stationId": "900000167204007",
+          "nameZh": "金华南站",
+          "nameEn": "Jinhua Nanzhan",
+          "target": "jinhua nanzhan",
+          "pinyin": "jinhuananzhan",
+          "lat": 29.114318,
+          "lon": 119.737051,
+          "sequence": 7
+        },
+        {
+          "id": "900000167204008",
+          "stationId": "900000167204008",
+          "nameZh": "塘雅",
+          "nameEn": "Tangya",
+          "target": "tangya",
+          "pinyin": "tangya",
+          "lat": 29.167198,
+          "lon": 119.806284,
+          "sequence": 8
+        },
+        {
+          "id": "900000167204009",
+          "stationId": "900000167204009",
+          "nameZh": "综保区",
+          "nameEn": "Zong Baoqu",
+          "target": "zong baoqu",
+          "pinyin": "zongbaoqu",
+          "lat": 29.182605,
+          "lon": 119.853299,
+          "sequence": 9
+        },
+        {
+          "id": "900000167204010",
+          "stationId": "900000167204010",
+          "nameZh": "新区",
+          "nameEn": "Xinqu",
+          "target": "xinqu",
+          "pinyin": "xinqu",
+          "lat": 29.192811,
+          "lon": 119.873647,
+          "sequence": 10
+        },
+        {
+          "id": "900000167204011",
+          "stationId": "900000167204011",
+          "nameZh": "东华街",
+          "nameEn": "Donghua Jie",
+          "target": "donghua jie",
+          "pinyin": "donghuajie",
+          "lat": 29.198621,
+          "lon": 119.894032,
+          "sequence": 11
+        },
+        {
+          "id": "900000167204012",
+          "stationId": "900000167204012",
+          "nameZh": "义亭",
+          "nameEn": "Yiting",
+          "target": "yiting",
+          "pinyin": "yiting",
+          "lat": 29.236757,
+          "lon": 119.972801,
+          "sequence": 12
+        },
+        {
+          "id": "900000167204013",
+          "stationId": "900000167204013",
+          "nameZh": "官塘",
+          "nameEn": "Guantang",
+          "target": "guantang",
+          "pinyin": "guantang",
+          "lat": 29.269505,
+          "lon": 120.019292,
+          "sequence": 13
+        },
+        {
+          "id": "900000167204014",
+          "stationId": "900000167204014",
+          "nameZh": "稠江",
+          "nameEn": "Choujiang",
+          "target": "choujiang",
+          "pinyin": "choujiang",
+          "lat": 29.280636,
+          "lon": 120.037038,
+          "sequence": 14
+        },
+        {
+          "id": "900000167204015",
+          "stationId": "900000167204015",
+          "nameZh": "绣湖",
+          "nameEn": "Xiuhu",
+          "target": "xiuhu",
+          "pinyin": "xiuhu",
+          "lat": 29.30563,
+          "lon": 120.06299,
+          "sequence": 15
+        },
+        {
+          "id": "900000167204016",
+          "stationId": "900000167204016",
+          "nameZh": "秦塘",
+          "nameEn": "Qintang",
+          "target": "qintang",
+          "pinyin": "qintang",
+          "lat": 29.329459,
+          "lon": 120.088253,
+          "sequence": 16
+        }
+      ],
+      "segments": [
+        [
+          "900000167204001",
+          "900000167204002",
+          "900000167204003",
+          "900000167204004",
+          "900000167204005",
+          "900000167204006",
+          "900000167204007",
+          "900000167204008",
+          "900000167204009",
+          "900000167204010",
+          "900000167204011",
+          "900000167204012",
+          "900000167204013",
+          "900000167204014",
+          "900000167204015",
+          "900000167204016"
+        ]
+      ]
+    },
+    {
+      "id": "3307-金义",
+      "operatorId": "3307",
+      "operatorName": "金华地铁",
+      "lineId": "金义",
+      "lineName": "金义东线义东段",
+      "color": "#EE3F42",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000167206001",
+          "stationId": "900000167206001",
+          "nameZh": "义乌高铁站",
+          "nameEn": "Yiwu Gaotie Zhan",
+          "target": "yiwu gaotie zhan",
+          "pinyin": "yiwugaotiezhan",
+          "lat": 29.377224,
+          "lon": 120.045596,
+          "sequence": 1
+        },
+        {
+          "id": "900000167206002",
+          "stationId": "900000167206002",
+          "nameZh": "凌云",
+          "nameEn": "Lingyun",
+          "target": "lingyun",
+          "pinyin": "lingyun",
+          "lat": 29.351277,
+          "lon": 120.05745,
+          "sequence": 2
+        },
+        {
+          "id": "900000167206003",
+          "stationId": "900000167206003",
+          "nameZh": "春晗",
+          "nameEn": "Chunhan",
+          "target": "chunhan",
+          "pinyin": "chunhan",
+          "lat": 29.33706,
+          "lon": 120.07006,
+          "sequence": 3
+        },
+        {
+          "id": "900000167204016",
+          "stationId": "900000167204016",
+          "nameZh": "秦塘",
+          "nameEn": "Qintang",
+          "target": "qintang",
+          "pinyin": "qintang",
+          "lat": 29.329459,
+          "lon": 120.088253,
+          "sequence": 4
+        },
+        {
+          "id": "900000167206005",
+          "stationId": "900000167206005",
+          "nameZh": "国际商贸城",
+          "nameEn": "Guoji Shangmaocheng",
+          "target": "guoji shangmaocheng",
+          "pinyin": "guojishangmaocheng",
+          "lat": 29.331452,
+          "lon": 120.102602,
+          "sequence": 5
+        },
+        {
+          "id": "900000167206006",
+          "stationId": "900000167206006",
+          "nameZh": "浙医四院",
+          "nameEn": "Zheyi Si Yuan",
+          "target": "zheyi si yuan",
+          "pinyin": "zheyisiyuan",
+          "lat": 29.330229,
+          "lon": 120.122731,
+          "sequence": 6
+        },
+        {
+          "id": "900000167206007",
+          "stationId": "900000167206007",
+          "nameZh": "江东",
+          "nameEn": "Jiangdong",
+          "target": "jiangdong",
+          "pinyin": "jiangdong",
+          "lat": 29.321994,
+          "lon": 120.146507,
+          "sequence": 7
+        },
+        {
+          "id": "900000167206008",
+          "stationId": "900000167206008",
+          "nameZh": "木雕城",
+          "nameEn": "Mudiaocheng",
+          "target": "mudiaocheng",
+          "pinyin": "mudiaocheng",
+          "lat": 29.29745,
+          "lon": 120.185891,
+          "sequence": 8
+        },
+        {
+          "id": "900000167206009",
+          "stationId": "900000167206009",
+          "nameZh": "歌山路",
+          "nameEn": "Geshan Lu",
+          "target": "geshan lu",
+          "pinyin": "geshanlu",
+          "lat": 29.281387,
+          "lon": 120.213966,
+          "sequence": 9
+        },
+        {
+          "id": "900000167206010",
+          "stationId": "900000167206010",
+          "nameZh": "人民路",
+          "nameEn": "Renmin Lu",
+          "target": "renmin lu",
+          "pinyin": "renminlu",
+          "lat": 29.277433,
+          "lon": 120.239263,
+          "sequence": 10
+        },
+        {
+          "id": "900000167206011",
+          "stationId": "900000167206011",
+          "nameZh": "会展中心",
+          "nameEn": "Huizhan Zhongxin",
+          "target": "huizhan zhongxin",
+          "pinyin": "huizhanzhongxin",
+          "lat": 29.271248,
+          "lon": 120.259517,
+          "sequence": 11
+        },
+        {
+          "id": "900000167206012",
+          "stationId": "900000167206012",
+          "nameZh": "体育馆",
+          "nameEn": "Tiyuguan",
+          "target": "tiyuguan",
+          "pinyin": "tiyuguan",
+          "lat": 29.266622,
+          "lon": 120.27989,
+          "sequence": 12
+        },
+        {
+          "id": "900000167206013",
+          "stationId": "900000167206013",
+          "nameZh": "横店高铁站",
+          "nameEn": "Hengdian Gaotie Zhan",
+          "target": "hengdian gaotie zhan",
+          "pinyin": "hengdiangaotiezhan",
+          "lat": 29.214469,
+          "lon": 120.264288,
+          "sequence": 13
+        },
+        {
+          "id": "900000167206014",
+          "stationId": "900000167206014",
+          "nameZh": "明清宫",
+          "nameEn": "Mingqinggong",
+          "target": "mingqinggong",
+          "pinyin": "mingqinggong",
+          "lat": 29.175134,
+          "lon": 120.307075,
+          "sequence": 14
+        }
+      ],
+      "segments": [
+        [
+          "900000167206001",
+          "900000167206002",
+          "900000167206003",
+          "900000167204016",
+          "900000167206005",
+          "900000167206006",
+          "900000167206007",
+          "900000167206008",
+          "900000167206009",
+          "900000167206010",
+          "900000167206011",
+          "900000167206012",
+          "900000167206013",
+          "900000167206014"
+        ]
+      ]
+    }
+  ]
+}

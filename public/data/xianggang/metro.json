@@ -1,0 +1,1621 @@
+{
+  "city": "xianggang",
+  "cityNameZh": "香港",
+  "cityNameEn": "Xianggang",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:13.234Z",
+  "lines": [
+    {
+      "id": "8100-迪士",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "迪士",
+      "lineName": "迪士尼线",
+      "color": "#EB81B9",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020815002",
+          "stationId": "810000020815002",
+          "nameZh": "迪士尼",
+          "nameEn": "Dishini",
+          "target": "dishini",
+          "pinyin": "dishini",
+          "lat": 22.313015,
+          "lon": 114.049859,
+          "sequence": 1
+        },
+        {
+          "id": "810000020807003",
+          "stationId": "810000020807003",
+          "nameZh": "欣澳",
+          "nameEn": "Xinao",
+          "target": "xinao",
+          "pinyin": "xinao",
+          "lat": 22.330122,
+          "lon": 114.0343,
+          "sequence": 2
+        }
+      ],
+      "segments": [
+        [
+          "810000020815002",
+          "810000020807003"
+        ]
+      ]
+    },
+    {
+      "id": "8100-东铁",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "东铁",
+      "lineName": "东铁线",
+      "color": "#69C7F4",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020809014",
+          "stationId": "810000020809014",
+          "nameZh": "金钟",
+          "nameEn": "Jinzhong",
+          "target": "jinzhong",
+          "pinyin": "jinzhong",
+          "lat": 22.276448,
+          "lon": 114.170494,
+          "sequence": 1
+        },
+        {
+          "id": "810000020809015",
+          "stationId": "810000020809015",
+          "nameZh": "会展",
+          "nameEn": "Huizhan",
+          "target": "huizhan",
+          "pinyin": "huizhan",
+          "lat": 22.278893,
+          "lon": 114.180418,
+          "sequence": 2
+        },
+        {
+          "id": "810000020809002",
+          "stationId": "810000020809002",
+          "nameZh": "红磡",
+          "nameEn": "Hongkan",
+          "target": "hongkan",
+          "pinyin": "hongkan",
+          "lat": 22.300117,
+          "lon": 114.186698,
+          "sequence": 3
+        },
+        {
+          "id": "810000020809003",
+          "stationId": "810000020809003",
+          "nameZh": "旺角东",
+          "nameEn": "Wangjiao Dong",
+          "target": "wangjiao dong",
+          "pinyin": "wangjiaodong",
+          "lat": 22.319406,
+          "lon": 114.177552,
+          "sequence": 4
+        },
+        {
+          "id": "810000020809004",
+          "stationId": "810000020809004",
+          "nameZh": "九龙塘",
+          "nameEn": "Jiulongtang",
+          "target": "jiulongtang",
+          "pinyin": "jiulongtang",
+          "lat": 22.334207,
+          "lon": 114.18082,
+          "sequence": 5
+        },
+        {
+          "id": "810000020809005",
+          "stationId": "810000020809005",
+          "nameZh": "大围",
+          "nameEn": "Dawei",
+          "target": "dawei",
+          "pinyin": "dawei",
+          "lat": 22.370133,
+          "lon": 114.183441,
+          "sequence": 6
+        },
+        {
+          "id": "810000020809006",
+          "stationId": "810000020809006",
+          "nameZh": "沙田",
+          "nameEn": "Shatian",
+          "target": "shatian",
+          "pinyin": "shatian",
+          "lat": 22.379755,
+          "lon": 114.192455,
+          "sequence": 7
+        },
+        {
+          "id": "810000020809007",
+          "stationId": "810000020809007",
+          "nameZh": "火炭",
+          "nameEn": "Huotan",
+          "target": "huotan",
+          "pinyin": "huotan",
+          "lat": 22.392434,
+          "lon": 114.203115,
+          "sequence": 8
+        },
+        {
+          "id": "810000020809008",
+          "stationId": "810000020809008",
+          "nameZh": "大学",
+          "nameEn": "Daxue",
+          "target": "daxue",
+          "pinyin": "daxue",
+          "lat": 22.41103,
+          "lon": 114.215,
+          "sequence": 9
+        },
+        {
+          "id": "810000020809009",
+          "stationId": "810000020809009",
+          "nameZh": "大埔墟",
+          "nameEn": "Dabuxu",
+          "target": "dabuxu",
+          "pinyin": "dabuxu",
+          "lat": 22.441916,
+          "lon": 114.175218,
+          "sequence": 10
+        },
+        {
+          "id": "810000020809010",
+          "stationId": "810000020809010",
+          "nameZh": "太和",
+          "nameEn": "Taihe",
+          "target": "taihe",
+          "pinyin": "taihe",
+          "lat": 22.448238,
+          "lon": 114.166196,
+          "sequence": 11
+        },
+        {
+          "id": "810000020809011",
+          "stationId": "810000020809011",
+          "nameZh": "粉岭",
+          "nameEn": "Fenling",
+          "target": "fenling",
+          "pinyin": "fenling",
+          "lat": 22.489469,
+          "lon": 114.143647,
+          "sequence": 12
+        },
+        {
+          "id": "810000020809012",
+          "stationId": "810000020809012",
+          "nameZh": "上水",
+          "nameEn": "Shangshui",
+          "target": "shangshui",
+          "pinyin": "shangshui",
+          "lat": 22.498862,
+          "lon": 114.132778,
+          "sequence": 13
+        },
+        {
+          "id": "810000020810013",
+          "stationId": "810000020810013",
+          "nameZh": "落马洲",
+          "nameEn": "Luomazhou",
+          "target": "luomazhou",
+          "pinyin": "luomazhou",
+          "lat": 22.511861,
+          "lon": 114.070889,
+          "sequence": 14
+        },
+        {
+          "id": "810000020809013",
+          "stationId": "810000020809013",
+          "nameZh": "罗湖",
+          "nameEn": "Luohu",
+          "target": "luohu",
+          "pinyin": "luohu",
+          "lat": 22.526117,
+          "lon": 114.118331,
+          "sequence": 15
+        }
+      ],
+      "segments": [
+        [
+          "810000020809014",
+          "810000020809015",
+          "810000020809002",
+          "810000020809003",
+          "810000020809004",
+          "810000020809005",
+          "810000020809006",
+          "810000020809007",
+          "810000020809008",
+          "810000020809009",
+          "810000020809010",
+          "810000020809011",
+          "810000020809012",
+          "810000020810013"
+        ],
+        [
+          "810000020809014",
+          "810000020809015",
+          "810000020809002",
+          "810000020809003",
+          "810000020809004",
+          "810000020809005",
+          "810000020809006",
+          "810000020809007",
+          "810000020809008",
+          "810000020809009",
+          "810000020809010",
+          "810000020809011",
+          "810000020809012",
+          "810000020809013"
+        ]
+      ]
+    },
+    {
+      "id": "8100-东涌",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "东涌",
+      "lineName": "东涌线",
+      "color": "#FFA500",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020807002",
+          "stationId": "810000020807002",
+          "nameZh": "东涌",
+          "nameEn": "Dongchong",
+          "target": "dongchong",
+          "pinyin": "dongchong",
+          "lat": 22.286207,
+          "lon": 113.946242,
+          "sequence": 1
+        },
+        {
+          "id": "810000020807003",
+          "stationId": "810000020807003",
+          "nameZh": "欣澳",
+          "nameEn": "Xinao",
+          "target": "xinao",
+          "pinyin": "xinao",
+          "lat": 22.330122,
+          "lon": 114.0343,
+          "sequence": 2
+        },
+        {
+          "id": "810000010813003",
+          "stationId": "810000010813003",
+          "nameZh": "青衣",
+          "nameEn": "Qingyi",
+          "target": "qingyi",
+          "pinyin": "qingyi",
+          "lat": 22.355763,
+          "lon": 114.112563,
+          "sequence": 3
+        },
+        {
+          "id": "810000020807005",
+          "stationId": "810000020807005",
+          "nameZh": "荔景",
+          "nameEn": "Lijing",
+          "target": "lijing",
+          "pinyin": "lijing",
+          "lat": 22.34597,
+          "lon": 114.131105,
+          "sequence": 4
+        },
+        {
+          "id": "810000020807006",
+          "stationId": "810000020807006",
+          "nameZh": "南昌",
+          "nameEn": "Nanchang",
+          "target": "nanchang",
+          "pinyin": "nanchang",
+          "lat": 22.323921,
+          "lon": 114.158541,
+          "sequence": 5
+        },
+        {
+          "id": "810000020807007",
+          "stationId": "810000020807007",
+          "nameZh": "奥运",
+          "nameEn": "Aoyun",
+          "target": "aoyun",
+          "pinyin": "aoyun",
+          "lat": 22.31528,
+          "lon": 114.164989,
+          "sequence": 6
+        },
+        {
+          "id": "810000010813004",
+          "stationId": "810000010813004",
+          "nameZh": "九龙",
+          "nameEn": "Jiulong",
+          "target": "jiulong",
+          "pinyin": "jiulong",
+          "lat": 22.302336,
+          "lon": 114.166578,
+          "sequence": 7
+        },
+        {
+          "id": "810000010813005",
+          "stationId": "810000010813005",
+          "nameZh": "香港",
+          "nameEn": "Xianggang",
+          "target": "xianggang",
+          "pinyin": "xianggang",
+          "lat": 22.282068,
+          "lon": 114.162952,
+          "sequence": 8
+        }
+      ],
+      "segments": [
+        [
+          "810000020807002",
+          "810000020807003",
+          "810000010813003",
+          "810000020807005",
+          "810000020807006",
+          "810000020807007",
+          "810000010813004",
+          "810000010813005"
+        ]
+      ]
+    },
+    {
+      "id": "8100-港岛",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "港岛",
+      "lineName": "港岛线",
+      "color": "#3080B7",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020817018",
+          "stationId": "810000020817018",
+          "nameZh": "坚尼地城",
+          "nameEn": "Jianni Dicheng",
+          "target": "jianni dicheng",
+          "pinyin": "jiannidicheng",
+          "lat": 22.278567,
+          "lon": 114.133869,
+          "sequence": 1
+        },
+        {
+          "id": "810000020817017",
+          "stationId": "810000020817017",
+          "nameZh": "香港大学",
+          "nameEn": "Xianggang Daxue",
+          "target": "xianggang daxue",
+          "pinyin": "xianggangdaxue",
+          "lat": 22.281397,
+          "lon": 114.140803,
+          "sequence": 2
+        },
+        {
+          "id": "810000020817016",
+          "stationId": "810000020817016",
+          "nameZh": "西营盘",
+          "nameEn": "Xiyingpan",
+          "target": "xiyingpan",
+          "pinyin": "xiyingpan",
+          "lat": 22.282666,
+          "lon": 114.147572,
+          "sequence": 3
+        },
+        {
+          "id": "810000020817015",
+          "stationId": "810000020817015",
+          "nameZh": "上环",
+          "nameEn": "Shanghuan",
+          "target": "shanghuan",
+          "pinyin": "shanghuan",
+          "lat": 22.283657,
+          "lon": 114.157738,
+          "sequence": 4
+        },
+        {
+          "id": "810000020817014",
+          "stationId": "810000020817014",
+          "nameZh": "中环",
+          "nameEn": "Zhonghuan",
+          "target": "zhonghuan",
+          "pinyin": "zhonghuan",
+          "lat": 22.278969,
+          "lon": 114.164061,
+          "sequence": 5
+        },
+        {
+          "id": "810000020809014",
+          "stationId": "810000020809014",
+          "nameZh": "金钟",
+          "nameEn": "Jinzhong",
+          "target": "jinzhong",
+          "pinyin": "jinzhong",
+          "lat": 22.276448,
+          "lon": 114.170494,
+          "sequence": 6
+        },
+        {
+          "id": "810000020817012",
+          "stationId": "810000020817012",
+          "nameZh": "湾仔",
+          "nameEn": "Wanzai",
+          "target": "wanzai",
+          "pinyin": "wanzai",
+          "lat": 22.274386,
+          "lon": 114.177904,
+          "sequence": 7
+        },
+        {
+          "id": "810000020817011",
+          "stationId": "810000020817011",
+          "nameZh": "铜锣湾",
+          "nameEn": "Tongluowan",
+          "target": "tongluowan",
+          "pinyin": "tongluowan",
+          "lat": 22.277493,
+          "lon": 114.188547,
+          "sequence": 8
+        },
+        {
+          "id": "810000020817010",
+          "stationId": "810000020817010",
+          "nameZh": "天后",
+          "nameEn": "Tianhou",
+          "target": "tianhou",
+          "pinyin": "tianhou",
+          "lat": 22.279984,
+          "lon": 114.196768,
+          "sequence": 9
+        },
+        {
+          "id": "810000020817009",
+          "stationId": "810000020817009",
+          "nameZh": "炮台山",
+          "nameEn": "Paotaishan",
+          "target": "paotaishan",
+          "pinyin": "paotaishan",
+          "lat": 22.285688,
+          "lon": 114.198948,
+          "sequence": 10
+        },
+        {
+          "id": "810000020804004",
+          "stationId": "810000020804004",
+          "nameZh": "北角",
+          "nameEn": "Beijiao",
+          "target": "beijiao",
+          "pinyin": "beijiao",
+          "lat": 22.288219,
+          "lon": 114.205467,
+          "sequence": 11
+        },
+        {
+          "id": "810000020804005",
+          "stationId": "810000020804005",
+          "nameZh": "鲗鱼涌",
+          "nameEn": "Zeiyuchong",
+          "target": "zeiyuchong",
+          "pinyin": "zeiyuchong",
+          "lat": 22.284993,
+          "lon": 114.21468,
+          "sequence": 12
+        },
+        {
+          "id": "810000020817006",
+          "stationId": "810000020817006",
+          "nameZh": "太古",
+          "nameEn": "Taigu",
+          "target": "taigu",
+          "pinyin": "taigu",
+          "lat": 22.281807,
+          "lon": 114.220993,
+          "sequence": 13
+        },
+        {
+          "id": "810000020817005",
+          "stationId": "810000020817005",
+          "nameZh": "西湾河",
+          "nameEn": "Xiwanhe",
+          "target": "xiwanhe",
+          "pinyin": "xiwanhe",
+          "lat": 22.279294,
+          "lon": 114.227223,
+          "sequence": 14
+        },
+        {
+          "id": "810000020817004",
+          "stationId": "810000020817004",
+          "nameZh": "筲箕湾",
+          "nameEn": "Shaojiwan",
+          "target": "shaojiwan",
+          "pinyin": "shaojiwan",
+          "lat": 22.276237,
+          "lon": 114.233833,
+          "sequence": 15
+        },
+        {
+          "id": "810000020817003",
+          "stationId": "810000020817003",
+          "nameZh": "杏花邨",
+          "nameEn": "Xinghuacun",
+          "target": "xinghuacun",
+          "pinyin": "xinghuacun",
+          "lat": 22.273808,
+          "lon": 114.244545,
+          "sequence": 16
+        },
+        {
+          "id": "810000020817002",
+          "stationId": "810000020817002",
+          "nameZh": "柴湾",
+          "nameEn": "Chaiwan",
+          "target": "chaiwan",
+          "pinyin": "chaiwan",
+          "lat": 22.261764,
+          "lon": 114.241982,
+          "sequence": 17
+        }
+      ],
+      "segments": [
+        [
+          "810000020817018",
+          "810000020817017",
+          "810000020817016",
+          "810000020817015",
+          "810000020817014",
+          "810000020809014",
+          "810000020817012",
+          "810000020817011",
+          "810000020817010",
+          "810000020817009",
+          "810000020804004",
+          "810000020804005",
+          "810000020817006",
+          "810000020817005",
+          "810000020817004",
+          "810000020817003",
+          "810000020817002"
+        ]
+      ]
+    },
+    {
+      "id": "8100-观塘",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "观塘",
+      "lineName": "观塘线",
+      "color": "#00AB4F",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020821017",
+          "stationId": "810000020821017",
+          "nameZh": "黄埔",
+          "nameEn": "Huangpu",
+          "target": "huangpu",
+          "pinyin": "huangpu",
+          "lat": 22.302199,
+          "lon": 114.194626,
+          "sequence": 1
+        },
+        {
+          "id": "810000020821018",
+          "stationId": "810000020821018",
+          "nameZh": "何文田",
+          "nameEn": "Hewentian",
+          "target": "hewentian",
+          "pinyin": "hewentian",
+          "lat": 22.306628,
+          "lon": 114.187751,
+          "sequence": 2
+        },
+        {
+          "id": "810000020821002",
+          "stationId": "810000020821002",
+          "nameZh": "油麻地",
+          "nameEn": "Youmadi",
+          "target": "youmadi",
+          "pinyin": "youmadi",
+          "lat": 22.310264,
+          "lon": 114.175658,
+          "sequence": 3
+        },
+        {
+          "id": "810000020821003",
+          "stationId": "810000020821003",
+          "nameZh": "旺角",
+          "nameEn": "Wangjiao",
+          "target": "wangjiao",
+          "pinyin": "wangjiao",
+          "lat": 22.316842,
+          "lon": 114.17428,
+          "sequence": 4
+        },
+        {
+          "id": "810000020821004",
+          "stationId": "810000020821004",
+          "nameZh": "太子",
+          "nameEn": "Taizi",
+          "target": "taizi",
+          "pinyin": "taizi",
+          "lat": 22.321937,
+          "lon": 114.173219,
+          "sequence": 5
+        },
+        {
+          "id": "810000020821005",
+          "stationId": "810000020821005",
+          "nameZh": "石硖尾",
+          "nameEn": "Shixiawei",
+          "target": "shixiawei",
+          "pinyin": "shixiawei",
+          "lat": 22.329145,
+          "lon": 114.17369,
+          "sequence": 6
+        },
+        {
+          "id": "810000020809004",
+          "stationId": "810000020809004",
+          "nameZh": "九龙塘",
+          "nameEn": "Jiulongtang",
+          "target": "jiulongtang",
+          "pinyin": "jiulongtang",
+          "lat": 22.334207,
+          "lon": 114.18082,
+          "sequence": 7
+        },
+        {
+          "id": "810000020821007",
+          "stationId": "810000020821007",
+          "nameZh": "乐富",
+          "nameEn": "Lefu",
+          "target": "lefu",
+          "pinyin": "lefu",
+          "lat": 22.335052,
+          "lon": 114.19218,
+          "sequence": 8
+        },
+        {
+          "id": "810000020821008",
+          "stationId": "810000020821008",
+          "nameZh": "黄大仙",
+          "nameEn": "Huangdaxian",
+          "target": "huangdaxian",
+          "pinyin": "huangdaxian",
+          "lat": 22.338902,
+          "lon": 114.198946,
+          "sequence": 9
+        },
+        {
+          "id": "810000020821009",
+          "stationId": "810000020821009",
+          "nameZh": "钻石山",
+          "nameEn": "Zuanshishan",
+          "target": "zuanshishan",
+          "pinyin": "zuanshishan",
+          "lat": 22.337385,
+          "lon": 114.20622,
+          "sequence": 10
+        },
+        {
+          "id": "810000020821010",
+          "stationId": "810000020821010",
+          "nameZh": "彩虹",
+          "nameEn": "Caihong",
+          "target": "caihong",
+          "pinyin": "caihong",
+          "lat": 22.331892,
+          "lon": 114.213861,
+          "sequence": 11
+        },
+        {
+          "id": "810000020821011",
+          "stationId": "810000020821011",
+          "nameZh": "九龙湾",
+          "nameEn": "Jiulongwan",
+          "target": "jiulongwan",
+          "pinyin": "jiulongwan",
+          "lat": 22.320799,
+          "lon": 114.218878,
+          "sequence": 12
+        },
+        {
+          "id": "810000020821012",
+          "stationId": "810000020821012",
+          "nameZh": "牛头角",
+          "nameEn": "Niutoujiao",
+          "target": "niutoujiao",
+          "pinyin": "niutoujiao",
+          "lat": 22.312629,
+          "lon": 114.224017,
+          "sequence": 13
+        },
+        {
+          "id": "810000020821013",
+          "stationId": "810000020821013",
+          "nameZh": "观塘",
+          "nameEn": "Guantang",
+          "target": "guantang",
+          "pinyin": "guantang",
+          "lat": 22.30943,
+          "lon": 114.231268,
+          "sequence": 14
+        },
+        {
+          "id": "810000020821014",
+          "stationId": "810000020821014",
+          "nameZh": "蓝田",
+          "nameEn": "Lantian",
+          "target": "lantian",
+          "pinyin": "lantian",
+          "lat": 22.303733,
+          "lon": 114.237808,
+          "sequence": 15
+        },
+        {
+          "id": "810000020804006",
+          "stationId": "810000020804006",
+          "nameZh": "油塘",
+          "nameEn": "Youtang",
+          "target": "youtang",
+          "pinyin": "youtang",
+          "lat": 22.295066,
+          "lon": 114.241935,
+          "sequence": 16
+        },
+        {
+          "id": "810000020804007",
+          "stationId": "810000020804007",
+          "nameZh": "调景岭",
+          "nameEn": "Tiaojingling",
+          "target": "tiaojingling",
+          "pinyin": "tiaojingling",
+          "lat": 22.301297,
+          "lon": 114.257144,
+          "sequence": 17
+        }
+      ],
+      "segments": [
+        [
+          "810000020821017",
+          "810000020821018",
+          "810000020821002",
+          "810000020821003",
+          "810000020821004",
+          "810000020821005",
+          "810000020809004",
+          "810000020821007",
+          "810000020821008",
+          "810000020821009",
+          "810000020821010",
+          "810000020821011",
+          "810000020821012",
+          "810000020821013",
+          "810000020821014",
+          "810000020804006",
+          "810000020804007"
+        ]
+      ]
+    },
+    {
+      "id": "8100-机场",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "机场",
+      "lineName": "机场快线",
+      "color": "#008187",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000010813005",
+          "stationId": "810000010813005",
+          "nameZh": "香港",
+          "nameEn": "Xianggang",
+          "target": "xianggang",
+          "pinyin": "xianggang",
+          "lat": 22.282068,
+          "lon": 114.162952,
+          "sequence": 1
+        },
+        {
+          "id": "810000010813004",
+          "stationId": "810000010813004",
+          "nameZh": "九龙",
+          "nameEn": "Jiulong",
+          "target": "jiulong",
+          "pinyin": "jiulong",
+          "lat": 22.302336,
+          "lon": 114.166578,
+          "sequence": 2
+        },
+        {
+          "id": "810000010813003",
+          "stationId": "810000010813003",
+          "nameZh": "青衣",
+          "nameEn": "Qingyi",
+          "target": "qingyi",
+          "pinyin": "qingyi",
+          "lat": 22.355763,
+          "lon": 114.112563,
+          "sequence": 3
+        },
+        {
+          "id": "810000010813002",
+          "stationId": "810000010813002",
+          "nameZh": "机场",
+          "nameEn": "Jichang",
+          "target": "jichang",
+          "pinyin": "jichang",
+          "lat": 22.312864,
+          "lon": 113.94148,
+          "sequence": 4
+        },
+        {
+          "id": "810000010813001",
+          "stationId": "810000010813001",
+          "nameZh": "博览馆",
+          "nameEn": "Bolanguan",
+          "target": "bolanguan",
+          "pinyin": "bolanguan",
+          "lat": 22.319283,
+          "lon": 113.948005,
+          "sequence": 5
+        }
+      ],
+      "segments": [
+        [
+          "810000010813005",
+          "810000010813004",
+          "810000010813003",
+          "810000010813002",
+          "810000010813001"
+        ]
+      ]
+    },
+    {
+      "id": "8100-将军",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "将军",
+      "lineName": "将军澳线",
+      "color": "#793E8C",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020804004",
+          "stationId": "810000020804004",
+          "nameZh": "北角",
+          "nameEn": "Beijiao",
+          "target": "beijiao",
+          "pinyin": "beijiao",
+          "lat": 22.288219,
+          "lon": 114.205467,
+          "sequence": 1
+        },
+        {
+          "id": "810000020804005",
+          "stationId": "810000020804005",
+          "nameZh": "鲗鱼涌",
+          "nameEn": "Zeiyuchong",
+          "target": "zeiyuchong",
+          "pinyin": "zeiyuchong",
+          "lat": 22.284993,
+          "lon": 114.21468,
+          "sequence": 2
+        },
+        {
+          "id": "810000020804006",
+          "stationId": "810000020804006",
+          "nameZh": "油塘",
+          "nameEn": "Youtang",
+          "target": "youtang",
+          "pinyin": "youtang",
+          "lat": 22.295066,
+          "lon": 114.241935,
+          "sequence": 3
+        },
+        {
+          "id": "810000020804007",
+          "stationId": "810000020804007",
+          "nameZh": "调景岭",
+          "nameEn": "Tiaojingling",
+          "target": "tiaojingling",
+          "pinyin": "tiaojingling",
+          "lat": 22.301297,
+          "lon": 114.257144,
+          "sequence": 4
+        },
+        {
+          "id": "810000020804002",
+          "stationId": "810000020804002",
+          "nameZh": "将军澳",
+          "nameEn": "Jiangjunao",
+          "target": "jiangjunao",
+          "pinyin": "jiangjunao",
+          "lat": 22.304583,
+          "lon": 114.264721,
+          "sequence": 5
+        },
+        {
+          "id": "810000023589003",
+          "stationId": "810000023589003",
+          "nameZh": "坑口",
+          "nameEn": "Kengkou",
+          "target": "kengkou",
+          "pinyin": "kengkou",
+          "lat": 22.312577,
+          "lon": 114.26918,
+          "sequence": 6
+        },
+        {
+          "id": "810000023589002",
+          "stationId": "810000023589002",
+          "nameZh": "宝琳",
+          "nameEn": "Baolin",
+          "target": "baolin",
+          "pinyin": "baolin",
+          "lat": 22.319765,
+          "lon": 114.26259,
+          "sequence": 7
+        },
+        {
+          "id": "810000020804003",
+          "stationId": "810000020804003",
+          "nameZh": "康城",
+          "nameEn": "Kangcheng",
+          "target": "kangcheng",
+          "pinyin": "kangcheng",
+          "lat": 22.292484,
+          "lon": 114.274085,
+          "sequence": 8
+        }
+      ],
+      "segments": [
+        [
+          "810000020804004",
+          "810000020804005",
+          "810000020804006",
+          "810000020804007",
+          "810000020804002",
+          "810000023589003",
+          "810000023589002"
+        ],
+        [
+          "810000020804003",
+          "810000020804002",
+          "810000020804007",
+          "810000020804006",
+          "810000020804005",
+          "810000020804004"
+        ]
+      ]
+    },
+    {
+      "id": "8100-南港",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "南港",
+      "lineName": "南港岛线",
+      "color": "#B8D201",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020809014",
+          "stationId": "810000020809014",
+          "nameZh": "金钟",
+          "nameEn": "Jinzhong",
+          "target": "jinzhong",
+          "pinyin": "jinzhong",
+          "lat": 22.276448,
+          "lon": 114.170494,
+          "sequence": 1
+        },
+        {
+          "id": "900000072541002",
+          "stationId": "900000072541002",
+          "nameZh": "海洋公园",
+          "nameEn": "Haiyang Gongyuan",
+          "target": "haiyang gongyuan",
+          "pinyin": "haiyanggongyuan",
+          "lat": 22.24599,
+          "lon": 114.179442,
+          "sequence": 2
+        },
+        {
+          "id": "900000072541003",
+          "stationId": "900000072541003",
+          "nameZh": "黄竹坑",
+          "nameEn": "Huangzhukeng",
+          "target": "huangzhukeng",
+          "pinyin": "huangzhukeng",
+          "lat": 22.245304,
+          "lon": 114.173092,
+          "sequence": 3
+        },
+        {
+          "id": "900000072541004",
+          "stationId": "900000072541004",
+          "nameZh": "利东",
+          "nameEn": "Lidong",
+          "target": "lidong",
+          "pinyin": "lidong",
+          "lat": 22.239958,
+          "lon": 114.161536,
+          "sequence": 4
+        },
+        {
+          "id": "900000072541005",
+          "stationId": "900000072541005",
+          "nameZh": "海怡半岛",
+          "nameEn": "Haiyi Bandao",
+          "target": "haiyi bandao",
+          "pinyin": "haiyibandao",
+          "lat": 22.240033,
+          "lon": 114.153938,
+          "sequence": 5
+        }
+      ],
+      "segments": [
+        [
+          "810000020809014",
+          "900000072541002",
+          "900000072541003",
+          "900000072541004",
+          "900000072541005"
+        ]
+      ]
+    },
+    {
+      "id": "8100-屯马",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "屯马",
+      "lineName": "屯马线",
+      "color": "#871C2A",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020825028",
+          "stationId": "810000020825028",
+          "nameZh": "屯门",
+          "nameEn": "Tunmen",
+          "target": "tunmen",
+          "pinyin": "tunmen",
+          "lat": 22.392277,
+          "lon": 113.978133,
+          "sequence": 1
+        },
+        {
+          "id": "810000020825027",
+          "stationId": "810000020825027",
+          "nameZh": "兆康",
+          "nameEn": "Zhaokang",
+          "target": "zhaokang",
+          "pinyin": "zhaokang",
+          "lat": 22.409074,
+          "lon": 113.983867,
+          "sequence": 2
+        },
+        {
+          "id": "810000020825026",
+          "stationId": "810000020825026",
+          "nameZh": "天水围",
+          "nameEn": "Tianshuiwei",
+          "target": "tianshuiwei",
+          "pinyin": "tianshuiwei",
+          "lat": 22.444788,
+          "lon": 114.009292,
+          "sequence": 3
+        },
+        {
+          "id": "810000020825025",
+          "stationId": "810000020825025",
+          "nameZh": "朗屏",
+          "nameEn": "Langping",
+          "target": "langping",
+          "pinyin": "langping",
+          "lat": 22.444794,
+          "lon": 114.03034,
+          "sequence": 4
+        },
+        {
+          "id": "810000020825024",
+          "stationId": "810000020825024",
+          "nameZh": "元朗",
+          "nameEn": "Yuanlang",
+          "target": "yuanlang",
+          "pinyin": "yuanlang",
+          "lat": 22.443354,
+          "lon": 114.040409,
+          "sequence": 5
+        },
+        {
+          "id": "810000020825023",
+          "stationId": "810000020825023",
+          "nameZh": "锦上路",
+          "nameEn": "Jinshang Lu",
+          "target": "jinshang lu",
+          "pinyin": "jinshanglu",
+          "lat": 22.43223,
+          "lon": 114.068417,
+          "sequence": 6
+        },
+        {
+          "id": "810000020825022",
+          "stationId": "810000020825022",
+          "nameZh": "荃湾西",
+          "nameEn": "Quanwan Xi",
+          "target": "quanwan xi",
+          "pinyin": "quanwanxi",
+          "lat": 22.365553,
+          "lon": 114.115213,
+          "sequence": 7
+        },
+        {
+          "id": "810000020823012",
+          "stationId": "810000020823012",
+          "nameZh": "美孚",
+          "nameEn": "Meifu",
+          "target": "meifu",
+          "pinyin": "meifu",
+          "lat": 22.335186,
+          "lon": 114.142816,
+          "sequence": 8
+        },
+        {
+          "id": "810000020807006",
+          "stationId": "810000020807006",
+          "nameZh": "南昌",
+          "nameEn": "Nanchang",
+          "target": "nanchang",
+          "pinyin": "nanchang",
+          "lat": 22.323921,
+          "lon": 114.158541,
+          "sequence": 9
+        },
+        {
+          "id": "810000020825019",
+          "stationId": "810000020825019",
+          "nameZh": "柯士甸",
+          "nameEn": "Keshidian",
+          "target": "keshidian",
+          "pinyin": "keshidian",
+          "lat": 22.302034,
+          "lon": 114.171456,
+          "sequence": 10
+        },
+        {
+          "id": "810000020825018",
+          "stationId": "810000020825018",
+          "nameZh": "尖东",
+          "nameEn": "Jiandong",
+          "target": "jiandong",
+          "pinyin": "jiandong",
+          "lat": 22.292689,
+          "lon": 114.179848,
+          "sequence": 11
+        },
+        {
+          "id": "810000020809002",
+          "stationId": "810000020809002",
+          "nameZh": "红磡",
+          "nameEn": "Hongkan",
+          "target": "hongkan",
+          "pinyin": "hongkan",
+          "lat": 22.300117,
+          "lon": 114.186698,
+          "sequence": 12
+        },
+        {
+          "id": "810000020821018",
+          "stationId": "810000020821018",
+          "nameZh": "何文田",
+          "nameEn": "Hewentian",
+          "target": "hewentian",
+          "pinyin": "hewentian",
+          "lat": 22.306628,
+          "lon": 114.187751,
+          "sequence": 13
+        },
+        {
+          "id": "810000020825015",
+          "stationId": "810000020825015",
+          "nameZh": "土瓜湾",
+          "nameEn": "Tuguawan",
+          "target": "tuguawan",
+          "pinyin": "tuguawan",
+          "lat": 22.313451,
+          "lon": 114.192895,
+          "sequence": 14
+        },
+        {
+          "id": "810000020825014",
+          "stationId": "810000020825014",
+          "nameZh": "宋皇台",
+          "nameEn": "Songhuangtai",
+          "target": "songhuangtai",
+          "pinyin": "songhuangtai",
+          "lat": 22.322976,
+          "lon": 114.195955,
+          "sequence": 15
+        },
+        {
+          "id": "810000020825013",
+          "stationId": "810000020825013",
+          "nameZh": "启德",
+          "nameEn": "Qide",
+          "target": "qide",
+          "pinyin": "qide",
+          "lat": 22.327686,
+          "lon": 114.204299,
+          "sequence": 16
+        },
+        {
+          "id": "810000020821009",
+          "stationId": "810000020821009",
+          "nameZh": "钻石山",
+          "nameEn": "Zuanshishan",
+          "target": "zuanshishan",
+          "pinyin": "zuanshishan",
+          "lat": 22.337385,
+          "lon": 114.20622,
+          "sequence": 17
+        },
+        {
+          "id": "810000020825011",
+          "stationId": "810000020825011",
+          "nameZh": "显径",
+          "nameEn": "Xianjing",
+          "target": "xianjing",
+          "pinyin": "xianjing",
+          "lat": 22.361349,
+          "lon": 114.17576,
+          "sequence": 18
+        },
+        {
+          "id": "810000020809005",
+          "stationId": "810000020809005",
+          "nameZh": "大围",
+          "nameEn": "Dawei",
+          "target": "dawei",
+          "pinyin": "dawei",
+          "lat": 22.370133,
+          "lon": 114.183441,
+          "sequence": 19
+        },
+        {
+          "id": "810000020825009",
+          "stationId": "810000020825009",
+          "nameZh": "车公庙",
+          "nameEn": "Chegongmiao",
+          "target": "chegongmiao",
+          "pinyin": "chegongmiao",
+          "lat": 22.371998,
+          "lon": 114.191357,
+          "sequence": 20
+        },
+        {
+          "id": "810000020825008",
+          "stationId": "810000020825008",
+          "nameZh": "沙田围",
+          "nameEn": "Shatianwei",
+          "target": "shatianwei",
+          "pinyin": "shatianwei",
+          "lat": 22.37423,
+          "lon": 114.199828,
+          "sequence": 21
+        },
+        {
+          "id": "810000020825007",
+          "stationId": "810000020825007",
+          "nameZh": "第一城",
+          "nameEn": "Diyi Cheng",
+          "target": "diyi cheng",
+          "pinyin": "diyicheng",
+          "lat": 22.380197,
+          "lon": 114.208398,
+          "sequence": 22
+        },
+        {
+          "id": "810000020825006",
+          "stationId": "810000020825006",
+          "nameZh": "石门",
+          "nameEn": "Shimen",
+          "target": "shimen",
+          "pinyin": "shimen",
+          "lat": 22.384946,
+          "lon": 114.21331,
+          "sequence": 23
+        },
+        {
+          "id": "810000020825005",
+          "stationId": "810000020825005",
+          "nameZh": "大水坑",
+          "nameEn": "Dashuikeng",
+          "target": "dashuikeng",
+          "pinyin": "dashuikeng",
+          "lat": 22.405632,
+          "lon": 114.227587,
+          "sequence": 24
+        },
+        {
+          "id": "810000020825004",
+          "stationId": "810000020825004",
+          "nameZh": "恒安",
+          "nameEn": "Hengan",
+          "target": "hengan",
+          "pinyin": "hengan",
+          "lat": 22.415265,
+          "lon": 114.230795,
+          "sequence": 25
+        },
+        {
+          "id": "810000020825003",
+          "stationId": "810000020825003",
+          "nameZh": "马鞍山",
+          "nameEn": "Maanshan",
+          "target": "maanshan",
+          "pinyin": "maanshan",
+          "lat": 22.42202,
+          "lon": 114.236628,
+          "sequence": 26
+        },
+        {
+          "id": "810000020825002",
+          "stationId": "810000020825002",
+          "nameZh": "乌溪沙",
+          "nameEn": "Wuxisha",
+          "target": "wuxisha",
+          "pinyin": "wuxisha",
+          "lat": 22.42626,
+          "lon": 114.24859,
+          "sequence": 27
+        }
+      ],
+      "segments": [
+        [
+          "810000020825028",
+          "810000020825027",
+          "810000020825026",
+          "810000020825025",
+          "810000020825024",
+          "810000020825023",
+          "810000020825022",
+          "810000020823012",
+          "810000020807006",
+          "810000020825019",
+          "810000020825018",
+          "810000020809002",
+          "810000020821018",
+          "810000020825015",
+          "810000020825014",
+          "810000020825013",
+          "810000020821009",
+          "810000020825011",
+          "810000020809005",
+          "810000020825009",
+          "810000020825008",
+          "810000020825007",
+          "810000020825006",
+          "810000020825005",
+          "810000020825004",
+          "810000020825003",
+          "810000020825002"
+        ]
+      ]
+    },
+    {
+      "id": "8100-荃湾",
+      "operatorId": "8100",
+      "operatorName": "香港地铁",
+      "lineId": "荃湾",
+      "lineName": "荃湾线",
+      "color": "#FC0601",
+      "loop": false,
+      "stations": [
+        {
+          "id": "810000020823017",
+          "stationId": "810000020823017",
+          "nameZh": "荃湾",
+          "nameEn": "Quanwan",
+          "target": "quanwan",
+          "pinyin": "quanwan",
+          "lat": 22.371084,
+          "lon": 114.12274,
+          "sequence": 1
+        },
+        {
+          "id": "810000020823016",
+          "stationId": "810000020823016",
+          "nameZh": "大窝口",
+          "nameEn": "Dawokou",
+          "target": "dawokou",
+          "pinyin": "dawokou",
+          "lat": 22.368253,
+          "lon": 114.130001,
+          "sequence": 2
+        },
+        {
+          "id": "810000020823015",
+          "stationId": "810000020823015",
+          "nameZh": "葵兴",
+          "nameEn": "Kuixing",
+          "target": "kuixing",
+          "pinyin": "kuixing",
+          "lat": 22.360587,
+          "lon": 114.136267,
+          "sequence": 3
+        },
+        {
+          "id": "810000020823014",
+          "stationId": "810000020823014",
+          "nameZh": "葵芳",
+          "nameEn": "Kuifang",
+          "target": "kuifang",
+          "pinyin": "kuifang",
+          "lat": 22.354319,
+          "lon": 114.13305,
+          "sequence": 4
+        },
+        {
+          "id": "810000020807005",
+          "stationId": "810000020807005",
+          "nameZh": "荔景",
+          "nameEn": "Lijing",
+          "target": "lijing",
+          "pinyin": "lijing",
+          "lat": 22.34597,
+          "lon": 114.131105,
+          "sequence": 5
+        },
+        {
+          "id": "810000020819006",
+          "stationId": "810000020819006",
+          "nameZh": "美孚",
+          "nameEn": "Meifu",
+          "target": "meifu",
+          "pinyin": "meifu",
+          "lat": 22.336083,
+          "lon": 114.141416,
+          "sequence": 6
+        },
+        {
+          "id": "810000020823011",
+          "stationId": "810000020823011",
+          "nameZh": "荔枝角",
+          "nameEn": "Lizhijiao",
+          "target": "lizhijiao",
+          "pinyin": "lizhijiao",
+          "lat": 22.334655,
+          "lon": 114.153234,
+          "sequence": 7
+        },
+        {
+          "id": "810000020823010",
+          "stationId": "810000020823010",
+          "nameZh": "长沙湾",
+          "nameEn": "Changshawan",
+          "target": "changshawan",
+          "pinyin": "changshawan",
+          "lat": 22.332675,
+          "lon": 114.161326,
+          "sequence": 8
+        },
+        {
+          "id": "810000020823009",
+          "stationId": "810000020823009",
+          "nameZh": "深水埗",
+          "nameEn": "Shenshuibu",
+          "target": "shenshuibu",
+          "pinyin": "shenshuibu",
+          "lat": 22.328073,
+          "lon": 114.167342,
+          "sequence": 9
+        },
+        {
+          "id": "810000020821004",
+          "stationId": "810000020821004",
+          "nameZh": "太子",
+          "nameEn": "Taizi",
+          "target": "taizi",
+          "pinyin": "taizi",
+          "lat": 22.321937,
+          "lon": 114.173219,
+          "sequence": 10
+        },
+        {
+          "id": "810000020821003",
+          "stationId": "810000020821003",
+          "nameZh": "旺角",
+          "nameEn": "Wangjiao",
+          "target": "wangjiao",
+          "pinyin": "wangjiao",
+          "lat": 22.316842,
+          "lon": 114.17428,
+          "sequence": 11
+        },
+        {
+          "id": "810000020821002",
+          "stationId": "810000020821002",
+          "nameZh": "油麻地",
+          "nameEn": "Youmadi",
+          "target": "youmadi",
+          "pinyin": "youmadi",
+          "lat": 22.310264,
+          "lon": 114.175658,
+          "sequence": 12
+        },
+        {
+          "id": "810000020823005",
+          "stationId": "810000020823005",
+          "nameZh": "佐敦",
+          "nameEn": "Zuodun",
+          "target": "zuodun",
+          "pinyin": "zuodun",
+          "lat": 22.302123,
+          "lon": 114.176627,
+          "sequence": 13
+        },
+        {
+          "id": "810000020823004",
+          "stationId": "810000020823004",
+          "nameZh": "尖沙咀",
+          "nameEn": "Jianshazui",
+          "target": "jianshazui",
+          "pinyin": "jianshazui",
+          "lat": 22.294678,
+          "lon": 114.17719,
+          "sequence": 14
+        },
+        {
+          "id": "810000020809014",
+          "stationId": "810000020809014",
+          "nameZh": "金钟",
+          "nameEn": "Jinzhong",
+          "target": "jinzhong",
+          "pinyin": "jinzhong",
+          "lat": 22.276448,
+          "lon": 114.170494,
+          "sequence": 15
+        },
+        {
+          "id": "810000020817014",
+          "stationId": "810000020817014",
+          "nameZh": "中环",
+          "nameEn": "Zhonghuan",
+          "target": "zhonghuan",
+          "pinyin": "zhonghuan",
+          "lat": 22.278969,
+          "lon": 114.164061,
+          "sequence": 16
+        }
+      ],
+      "segments": [
+        [
+          "810000020823017",
+          "810000020823016",
+          "810000020823015",
+          "810000020823014",
+          "810000020807005",
+          "810000020819006",
+          "810000020823011",
+          "810000020823010",
+          "810000020823009",
+          "810000020821004",
+          "810000020821003",
+          "810000020821002",
+          "810000020823005",
+          "810000020823004",
+          "810000020809014",
+          "810000020817014"
+        ]
+      ]
+    }
+  ]
+}

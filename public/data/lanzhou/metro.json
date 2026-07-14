@@ -1,0 +1,387 @@
+{
+  "city": "lanzhou",
+  "cityNameZh": "兰州",
+  "cityNameEn": "Lanzhou",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:12.620Z",
+  "lines": [
+    {
+      "id": "6201-1",
+      "operatorId": "6201",
+      "operatorName": "兰州地铁",
+      "lineId": "1",
+      "lineName": "1号线",
+      "color": "#0065B3",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000028566020",
+          "stationId": "900000028566020",
+          "nameZh": "陈官营",
+          "nameEn": "Chenguanying",
+          "target": "chenguanying",
+          "pinyin": "chenguanying",
+          "lat": 36.08694,
+          "lon": 103.662299,
+          "sequence": 1
+        },
+        {
+          "id": "900000028566019",
+          "stationId": "900000028566019",
+          "nameZh": "奥体中心",
+          "nameEn": "Aoti Zhongxin",
+          "target": "aoti zhongxin",
+          "pinyin": "aotizhongxin",
+          "lat": 36.09055,
+          "lon": 103.678051,
+          "sequence": 2
+        },
+        {
+          "id": "900000028566018",
+          "stationId": "900000028566018",
+          "nameZh": "兰州城市学院(省科技馆)",
+          "nameEn": "Lanzhou Chengshi Xueyuan (sheng Kejiguan)",
+          "target": "lanzhou chengshi xueyuan sheng kejiguan",
+          "pinyin": "lanzhouchengshixueyuanshengkejiguan",
+          "lat": 36.098899,
+          "lon": 103.70114,
+          "sequence": 3
+        },
+        {
+          "id": "900000028566017",
+          "stationId": "900000028566017",
+          "nameZh": "兰州海关",
+          "nameEn": "Lanzhou Haiguan",
+          "target": "lanzhou haiguan",
+          "pinyin": "lanzhouhaiguan",
+          "lat": 36.094513,
+          "lon": 103.709486,
+          "sequence": 4
+        },
+        {
+          "id": "900000028566016",
+          "stationId": "900000028566016",
+          "nameZh": "马滩",
+          "nameEn": "Matan",
+          "target": "matan",
+          "pinyin": "matan",
+          "lat": 36.082907,
+          "lon": 103.7273,
+          "sequence": 5
+        },
+        {
+          "id": "900000028566015",
+          "stationId": "900000028566015",
+          "nameZh": "土门墩",
+          "nameEn": "Tumendun",
+          "target": "tumendun",
+          "pinyin": "tumendun",
+          "lat": 36.07306,
+          "lon": 103.743176,
+          "sequence": 6
+        },
+        {
+          "id": "900000028566014",
+          "stationId": "900000028566014",
+          "nameZh": "兰州西站北广场",
+          "nameEn": "Lanzhou Xizhan Bei Guangchang",
+          "target": "lanzhou xizhan bei guangchang",
+          "pinyin": "lanzhouxizhanbeiguangchang",
+          "lat": 36.071459,
+          "lon": 103.752681,
+          "sequence": 7
+        },
+        {
+          "id": "900000028566013",
+          "stationId": "900000028566013",
+          "nameZh": "西站什字",
+          "nameEn": "Xizhan Shizi",
+          "target": "xizhan shizi",
+          "pinyin": "xizhanshizi",
+          "lat": 36.0685,
+          "lon": 103.769518,
+          "sequence": 8
+        },
+        {
+          "id": "900000028566012",
+          "stationId": "900000028566012",
+          "nameZh": "七里河",
+          "nameEn": "Qilihe",
+          "target": "qilihe",
+          "pinyin": "qilihe",
+          "lat": 36.06641,
+          "lon": 103.781268,
+          "sequence": 9
+        },
+        {
+          "id": "900000028566011",
+          "stationId": "900000028566011",
+          "nameZh": "小西湖",
+          "nameEn": "Xiaoxihu",
+          "target": "xiaoxihu",
+          "pinyin": "xiaoxihu",
+          "lat": 36.063522,
+          "lon": 103.796289,
+          "sequence": 10
+        },
+        {
+          "id": "900000028566010",
+          "stationId": "900000028566010",
+          "nameZh": "文化宫",
+          "nameEn": "Wenhuagong",
+          "target": "wenhuagong",
+          "pinyin": "wenhuagong",
+          "lat": 36.061132,
+          "lon": 103.805185,
+          "sequence": 11
+        },
+        {
+          "id": "900000028566009",
+          "stationId": "900000028566009",
+          "nameZh": "西关",
+          "nameEn": "Xiguan",
+          "target": "xiguan",
+          "pinyin": "xiguan",
+          "lat": 36.059373,
+          "lon": 103.816935,
+          "sequence": 12
+        },
+        {
+          "id": "900000028566008",
+          "stationId": "900000028566008",
+          "nameZh": "省政府",
+          "nameEn": "Shengzhengfu",
+          "target": "shengzhengfu",
+          "pinyin": "shengzhengfu",
+          "lat": 36.059143,
+          "lon": 103.826614,
+          "sequence": 13
+        },
+        {
+          "id": "900000028566007",
+          "stationId": "900000028566007",
+          "nameZh": "东方红广场",
+          "nameEn": "Dongfanghong Guangchang",
+          "target": "dongfanghong guangchang",
+          "pinyin": "dongfanghongguangchang",
+          "lat": 36.053191,
+          "lon": 103.842424,
+          "sequence": 14
+        },
+        {
+          "id": "900000028566006",
+          "stationId": "900000028566006",
+          "nameZh": "兰州大学",
+          "nameEn": "Lanzhou Daxue",
+          "target": "lanzhou daxue",
+          "pinyin": "lanzhoudaxue",
+          "lat": 36.049956,
+          "lon": 103.856588,
+          "sequence": 15
+        },
+        {
+          "id": "900000028566005",
+          "stationId": "900000028566005",
+          "nameZh": "五里铺",
+          "nameEn": "Wuli Pu",
+          "target": "wuli pu",
+          "pinyin": "wulipu",
+          "lat": 36.04649,
+          "lon": 103.871472,
+          "sequence": 16
+        },
+        {
+          "id": "900000028566004",
+          "stationId": "900000028566004",
+          "nameZh": "省气象局",
+          "nameEn": "Sheng Qixiangju",
+          "target": "sheng qixiangju",
+          "pinyin": "shengqixiangju",
+          "lat": 36.041587,
+          "lon": 103.883466,
+          "sequence": 17
+        },
+        {
+          "id": "900000028566003",
+          "stationId": "900000028566003",
+          "nameZh": "拱星墩",
+          "nameEn": "Gongxingdun",
+          "target": "gongxingdun",
+          "pinyin": "gongxingdun",
+          "lat": 36.03911,
+          "lon": 103.895407,
+          "sequence": 18
+        },
+        {
+          "id": "900000028566002",
+          "stationId": "900000028566002",
+          "nameZh": "焦家湾",
+          "nameEn": "Jiaojiawan",
+          "target": "jiaojiawan",
+          "pinyin": "jiaojiawan",
+          "lat": 36.038311,
+          "lon": 103.907753,
+          "sequence": 19
+        },
+        {
+          "id": "900000028566001",
+          "stationId": "900000028566001",
+          "nameZh": "东岗",
+          "nameEn": "Donggang",
+          "target": "donggang",
+          "pinyin": "donggang",
+          "lat": 36.040469,
+          "lon": 103.917786,
+          "sequence": 20
+        }
+      ],
+      "segments": [
+        [
+          "900000028566020",
+          "900000028566019",
+          "900000028566018",
+          "900000028566017",
+          "900000028566016",
+          "900000028566015",
+          "900000028566014",
+          "900000028566013",
+          "900000028566012",
+          "900000028566011",
+          "900000028566010",
+          "900000028566009",
+          "900000028566008",
+          "900000028566007",
+          "900000028566006",
+          "900000028566005",
+          "900000028566004",
+          "900000028566003",
+          "900000028566002",
+          "900000028566001"
+        ]
+      ]
+    },
+    {
+      "id": "6201-2",
+      "operatorId": "6201",
+      "operatorName": "兰州地铁",
+      "lineId": "2",
+      "lineName": "2号线",
+      "color": "#DF5914",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000077514001",
+          "stationId": "900000077514001",
+          "nameZh": "雁白大桥",
+          "nameEn": "Yanbai Daqiao",
+          "target": "yanbai daqiao",
+          "pinyin": "yanbaidaqiao",
+          "lat": 36.068349,
+          "lon": 103.884035,
+          "sequence": 1
+        },
+        {
+          "id": "900000077514002",
+          "stationId": "900000077514002",
+          "nameZh": "均家滩",
+          "nameEn": "Junjiatan",
+          "target": "junjiatan",
+          "pinyin": "junjiatan",
+          "lat": 36.0607,
+          "lon": 103.881306,
+          "sequence": 2
+        },
+        {
+          "id": "900000077514003",
+          "stationId": "900000077514003",
+          "nameZh": "张苏滩",
+          "nameEn": "Zhangsutan",
+          "target": "zhangsutan",
+          "pinyin": "zhangsutan",
+          "lat": 36.055899,
+          "lon": 103.877219,
+          "sequence": 3
+        },
+        {
+          "id": "900000028566005",
+          "stationId": "900000028566005",
+          "nameZh": "五里铺",
+          "nameEn": "Wuli Pu",
+          "target": "wuli pu",
+          "pinyin": "wulipu",
+          "lat": 36.04649,
+          "lon": 103.871472,
+          "sequence": 4
+        },
+        {
+          "id": "900000077514005",
+          "stationId": "900000077514005",
+          "nameZh": "团结新村",
+          "nameEn": "Tuanjie Xincun",
+          "target": "tuanjie xincun",
+          "pinyin": "tuanjiexincun",
+          "lat": 36.038288,
+          "lon": 103.868863,
+          "sequence": 5
+        },
+        {
+          "id": "900000077514006",
+          "stationId": "900000077514006",
+          "nameZh": "红星巷",
+          "nameEn": "Hongxing Xiang",
+          "target": "hongxing xiang",
+          "pinyin": "hongxingxiang",
+          "lat": 36.034029,
+          "lon": 103.861221,
+          "sequence": 6
+        },
+        {
+          "id": "900000077514007",
+          "stationId": "900000077514007",
+          "nameZh": "兰州火车站",
+          "nameEn": "Lanzhou Huochezhan",
+          "target": "lanzhou huochezhan",
+          "pinyin": "lanzhouhuochezhan",
+          "lat": 36.035881,
+          "lon": 103.853146,
+          "sequence": 7
+        },
+        {
+          "id": "900000077514008",
+          "stationId": "900000077514008",
+          "nameZh": "邮电大楼",
+          "nameEn": "Youdian Dalou",
+          "target": "youdian dalou",
+          "pinyin": "youdiandalou",
+          "lat": 36.041851,
+          "lon": 103.848814,
+          "sequence": 8
+        },
+        {
+          "id": "900000028566007",
+          "stationId": "900000028566007",
+          "nameZh": "东方红广场",
+          "nameEn": "Dongfanghong Guangchang",
+          "target": "dongfanghong guangchang",
+          "pinyin": "dongfanghongguangchang",
+          "lat": 36.053191,
+          "lon": 103.842424,
+          "sequence": 9
+        }
+      ],
+      "segments": [
+        [
+          "900000077514001",
+          "900000077514002",
+          "900000077514003",
+          "900000028566005",
+          "900000077514005",
+          "900000077514006",
+          "900000077514007",
+          "900000077514008",
+          "900000028566007"
+        ]
+      ]
+    }
+  ]
+}

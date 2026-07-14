@@ -1,0 +1,434 @@
+[
+  {
+    "id": "beijing",
+    "adcode": "1100",
+    "nameZh": "北京",
+    "nameEn": "Beijing",
+    "lineCount": 27,
+    "stationCount": 527
+  },
+  {
+    "id": "guangzhou",
+    "adcode": "4401",
+    "nameZh": "广州",
+    "nameEn": "Guangzhou",
+    "lineCount": 21,
+    "stationCount": 417
+  },
+  {
+    "id": "shanghai",
+    "adcode": "3100",
+    "nameZh": "上海",
+    "nameEn": "Shanghai",
+    "lineCount": 21,
+    "stationCount": 532
+  },
+  {
+    "id": "chengdu",
+    "adcode": "5101",
+    "nameZh": "成都",
+    "nameEn": "Chengdu",
+    "lineCount": 17,
+    "stationCount": 453
+  },
+  {
+    "id": "shenzhen",
+    "adcode": "4403",
+    "nameZh": "深圳",
+    "nameEn": "Shenzhen",
+    "lineCount": 17,
+    "stationCount": 443
+  },
+  {
+    "id": "chongqing",
+    "adcode": "5000",
+    "nameZh": "重庆",
+    "nameEn": "Chongqing",
+    "lineCount": 15,
+    "stationCount": 327
+  },
+  {
+    "id": "nanjing",
+    "adcode": "3201",
+    "nameZh": "南京",
+    "nameEn": "Nanjing",
+    "lineCount": 14,
+    "stationCount": 283
+  },
+  {
+    "id": "hangzhou",
+    "adcode": "3301",
+    "nameZh": "杭州",
+    "nameEn": "Hangzhou",
+    "lineCount": 14,
+    "stationCount": 348
+  },
+  {
+    "id": "wuhan",
+    "adcode": "4201",
+    "nameZh": "武汉",
+    "nameEn": "Wuhan",
+    "lineCount": 13,
+    "stationCount": 335
+  },
+  {
+    "id": "zhengzhou",
+    "adcode": "4101",
+    "nameZh": "郑州",
+    "nameEn": "Zhengzhou",
+    "lineCount": 13,
+    "stationCount": 285
+  },
+  {
+    "id": "tianjin",
+    "adcode": "1200",
+    "nameZh": "天津",
+    "nameEn": "Tianjin",
+    "lineCount": 12,
+    "stationCount": 273
+  },
+  {
+    "id": "xian",
+    "adcode": "6101",
+    "nameZh": "西安",
+    "nameEn": "Xian",
+    "lineCount": 12,
+    "stationCount": 285
+  },
+  {
+    "id": "xianggang",
+    "adcode": "8100",
+    "nameZh": "香港",
+    "nameEn": "Xianggang",
+    "lineCount": 10,
+    "stationCount": 120
+  },
+  {
+    "id": "suzhou",
+    "adcode": "3205",
+    "nameZh": "苏州",
+    "nameEn": "Suzhou",
+    "lineCount": 9,
+    "stationCount": 275
+  },
+  {
+    "id": "dalian",
+    "adcode": "2102",
+    "nameZh": "大连",
+    "nameEn": "Dalian",
+    "lineCount": 8,
+    "stationCount": 120
+  },
+  {
+    "id": "jinan",
+    "adcode": "3701",
+    "nameZh": "济南",
+    "nameEn": "Jinan",
+    "lineCount": 8,
+    "stationCount": 155
+  },
+  {
+    "id": "qingdao",
+    "adcode": "3702",
+    "nameZh": "青岛",
+    "nameEn": "Qingdao",
+    "lineCount": 8,
+    "stationCount": 189
+  },
+  {
+    "id": "hefei",
+    "adcode": "3401",
+    "nameZh": "合肥",
+    "nameEn": "Hefei",
+    "lineCount": 8,
+    "stationCount": 215
+  },
+  {
+    "id": "ningbo",
+    "adcode": "3302",
+    "nameZh": "宁波",
+    "nameEn": "Ningbo",
+    "lineCount": 8,
+    "stationCount": 200
+  },
+  {
+    "id": "changsha",
+    "adcode": "4301",
+    "nameZh": "长沙",
+    "nameEn": "Changsha",
+    "lineCount": 7,
+    "stationCount": 161
+  },
+  {
+    "id": "shenyang",
+    "adcode": "2101",
+    "nameZh": "沈阳",
+    "nameEn": "Shenyang",
+    "lineCount": 6,
+    "stationCount": 159
+  },
+  {
+    "id": "changchun",
+    "adcode": "2201",
+    "nameZh": "长春",
+    "nameEn": "Changchun",
+    "lineCount": 6,
+    "stationCount": 131
+  },
+  {
+    "id": "fuzhou",
+    "adcode": "3501",
+    "nameZh": "福州",
+    "nameEn": "Fuzhou",
+    "lineCount": 6,
+    "stationCount": 119
+  },
+  {
+    "id": "kunming",
+    "adcode": "5301",
+    "nameZh": "昆明",
+    "nameEn": "Kunming",
+    "lineCount": 6,
+    "stationCount": 115
+  },
+  {
+    "id": "wuxi",
+    "adcode": "3202",
+    "nameZh": "无锡",
+    "nameEn": "Wuxi",
+    "lineCount": 5,
+    "stationCount": 97
+  },
+  {
+    "id": "foshan",
+    "adcode": "4406",
+    "nameZh": "佛山",
+    "nameEn": "Foshan",
+    "lineCount": 5,
+    "stationCount": 121
+  },
+  {
+    "id": "nanning",
+    "adcode": "4501",
+    "nameZh": "南宁",
+    "nameEn": "Nanning",
+    "lineCount": 5,
+    "stationCount": 106
+  },
+  {
+    "id": "xuzhou",
+    "adcode": "3203",
+    "nameZh": "徐州",
+    "nameEn": "Xuzhou",
+    "lineCount": 4,
+    "stationCount": 76
+  },
+  {
+    "id": "nanchang",
+    "adcode": "3601",
+    "nameZh": "南昌",
+    "nameEn": "Nanchang",
+    "lineCount": 4,
+    "stationCount": 122
+  },
+  {
+    "id": "guiyang",
+    "adcode": "5201",
+    "nameZh": "贵阳",
+    "nameEn": "Guiyang",
+    "lineCount": 4,
+    "stationCount": 99
+  },
+  {
+    "id": "shijiazhuang",
+    "adcode": "1301",
+    "nameZh": "石家庄",
+    "nameEn": "Shijiazhuang",
+    "lineCount": 3,
+    "stationCount": 63
+  },
+  {
+    "id": "haerbin",
+    "adcode": "2301",
+    "nameZh": "哈尔滨",
+    "nameEn": "Haerbin",
+    "lineCount": 3,
+    "stationCount": 78
+  },
+  {
+    "id": "shaoxing",
+    "adcode": "3306",
+    "nameZh": "绍兴",
+    "nameEn": "Shaoxing",
+    "lineCount": 3,
+    "stationCount": 43
+  },
+  {
+    "id": "xiamen",
+    "adcode": "3502",
+    "nameZh": "厦门",
+    "nameEn": "Xiamen",
+    "lineCount": 3,
+    "stationCount": 75
+  },
+  {
+    "id": "aomen",
+    "adcode": "8200",
+    "nameZh": "澳门",
+    "nameEn": "Aomen",
+    "lineCount": 3,
+    "stationCount": 17
+  },
+  {
+    "id": "taiyuan",
+    "adcode": "1401",
+    "nameZh": "太原",
+    "nameEn": "Taiyuan",
+    "lineCount": 2,
+    "stationCount": 47
+  },
+  {
+    "id": "luoyang",
+    "adcode": "4103",
+    "nameZh": "洛阳",
+    "nameEn": "Luoyang",
+    "lineCount": 2,
+    "stationCount": 34
+  },
+  {
+    "id": "huhehaote",
+    "adcode": "1501",
+    "nameZh": "呼和浩特",
+    "nameEn": "Huhehaote",
+    "lineCount": 2,
+    "stationCount": 44
+  },
+  {
+    "id": "changzhou",
+    "adcode": "3204",
+    "nameZh": "常州",
+    "nameEn": "Changzhou",
+    "lineCount": 2,
+    "stationCount": 44
+  },
+  {
+    "id": "wuhu",
+    "adcode": "3402",
+    "nameZh": "芜湖",
+    "nameEn": "Wuhu",
+    "lineCount": 2,
+    "stationCount": 36
+  },
+  {
+    "id": "wenzhou",
+    "adcode": "3303",
+    "nameZh": "温州",
+    "nameEn": "Wenzhou",
+    "lineCount": 2,
+    "stationCount": 38
+  },
+  {
+    "id": "jinhua",
+    "adcode": "3307",
+    "nameZh": "金华",
+    "nameEn": "Jinhua",
+    "lineCount": 2,
+    "stationCount": 30
+  },
+  {
+    "id": "dongguan",
+    "adcode": "4419",
+    "nameZh": "东莞",
+    "nameEn": "Dongguan",
+    "lineCount": 2,
+    "stationCount": 40
+  },
+  {
+    "id": "lanzhou",
+    "adcode": "6201",
+    "nameZh": "兰州",
+    "nameEn": "Lanzhou",
+    "lineCount": 2,
+    "stationCount": 29
+  },
+  {
+    "id": "nantong",
+    "adcode": "3206",
+    "nameZh": "南通",
+    "nameEn": "Nantong",
+    "lineCount": 2,
+    "stationCount": 44
+  },
+  {
+    "id": "wulumuqi",
+    "adcode": "6501",
+    "nameZh": "乌鲁木齐",
+    "nameEn": "Wulumuqi",
+    "lineCount": 2,
+    "stationCount": 23
+  },
+  {
+    "id": "xuchang",
+    "adcode": "4110",
+    "nameZh": "许昌",
+    "nameEn": "Xuchang",
+    "lineCount": 1,
+    "stationCount": 27
+  },
+  {
+    "id": "ziyang",
+    "adcode": "5120",
+    "nameZh": "资阳",
+    "nameEn": "Ziyang",
+    "lineCount": 1,
+    "stationCount": 7
+  },
+  {
+    "id": "chuzhou",
+    "adcode": "3411",
+    "nameZh": "滁州",
+    "nameEn": "Chuzhou",
+    "lineCount": 1,
+    "stationCount": 10
+  },
+  {
+    "id": "taizhou",
+    "adcode": "3310",
+    "nameZh": "台州",
+    "nameEn": "Taizhou",
+    "lineCount": 1,
+    "stationCount": 15
+  },
+  {
+    "id": "xiangtan",
+    "adcode": "4303",
+    "nameZh": "湘潭",
+    "nameEn": "Xiangtan",
+    "lineCount": 1,
+    "stationCount": 33
+  },
+  {
+    "id": "xiangxi",
+    "adcode": "4331",
+    "nameZh": "湘西土家族苗族自治州",
+    "nameEn": "Xiangxi",
+    "lineCount": 1,
+    "stationCount": 4
+  },
+  {
+    "id": "ezhou",
+    "adcode": "4207",
+    "nameZh": "鄂州",
+    "nameEn": "Ezhou",
+    "lineCount": 1,
+    "stationCount": 23
+  },
+  {
+    "id": "qingyuan",
+    "adcode": "4418",
+    "nameZh": "清远",
+    "nameEn": "Qingyuan",
+    "lineCount": 1,
+    "stationCount": 3
+  }
+]

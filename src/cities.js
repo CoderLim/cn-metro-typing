@@ -1,10 +1,4 @@
-// 城市注册表：新增城市 = 跑一次 scripts/build-city-data.mjs + 在这里加一行。
-export const CITIES = [
-  {
-    id: "shanghai",
-    nameZh: "上海",
-    nameEn: "SHANGHAI",
-  },
-];
-
-export const DEFAULT_CITY = CITIES[0].id;
+// 城市注册表现在是构建产物：scripts/build-city-data.mjs --all 生成
+// public/data/cities.json，App 启动时通过 useCityRegistry 拉取。
+// 这里只留默认城市，供 URL 无 ?city= 参数或参数无效时回退。
+export const DEFAULT_CITY = "shanghai";

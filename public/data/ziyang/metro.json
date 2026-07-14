@@ -1,0 +1,108 @@
+{
+  "city": "ziyang",
+  "cityNameZh": "资阳",
+  "cityNameEn": "Ziyang",
+  "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
+  "generatedAt": "2026-07-14T13:55:05.721Z",
+  "lines": [
+    {
+      "id": "5120-S3",
+      "operatorId": "5120",
+      "operatorName": "资阳地铁",
+      "lineId": "S3",
+      "lineName": "S3(资阳)线",
+      "color": "#B5B5B6",
+      "loop": false,
+      "stations": [
+        {
+          "id": "900000156045001",
+          "stationId": "900000156045001",
+          "nameZh": "福田",
+          "nameEn": "Futian",
+          "target": "futian",
+          "pinyin": "futian",
+          "lat": 30.27816,
+          "lon": 104.387506,
+          "sequence": 1
+        },
+        {
+          "id": "900000156045002",
+          "stationId": "900000156045002",
+          "nameZh": "芦葭",
+          "nameEn": "Lujia",
+          "target": "lujia",
+          "pinyin": "lujia",
+          "lat": 30.25548,
+          "lon": 104.441771,
+          "sequence": 2
+        },
+        {
+          "id": "900000156045003",
+          "stationId": "900000156045003",
+          "nameZh": "资阳临空",
+          "nameEn": "Ziyang Linkong",
+          "target": "ziyang linkong",
+          "pinyin": "ziyanglinkong",
+          "lat": 30.172822,
+          "lon": 104.584953,
+          "sequence": 3
+        },
+        {
+          "id": "900000156045004",
+          "stationId": "900000156045004",
+          "nameZh": "幸福大道",
+          "nameEn": "Xingfu Dadao",
+          "target": "xingfu dadao",
+          "pinyin": "xingfudadao",
+          "lat": 30.126442,
+          "lon": 104.621836,
+          "sequence": 4
+        },
+        {
+          "id": "900000156045005",
+          "stationId": "900000156045005",
+          "nameZh": "苌弘广场",
+          "nameEn": "Changhong Guangchang",
+          "target": "changhong guangchang",
+          "pinyin": "changhongguangchang",
+          "lat": 30.109039,
+          "lon": 104.650507,
+          "sequence": 5
+        },
+        {
+          "id": "900000156045006",
+          "stationId": "900000156045006",
+          "nameZh": "宝台",
+          "nameEn": "Baotai",
+          "target": "baotai",
+          "pinyin": "baotai",
+          "lat": 30.114209,
+          "lon": 104.674083,
+          "sequence": 6
+        },
+        {
+          "id": "900000156045007",
+          "stationId": "900000156045007",
+          "nameZh": "资阳北站",
+          "nameEn": "Ziyang Beizhan",
+          "target": "ziyang beizhan",
+          "pinyin": "ziyangbeizhan",
+          "lat": 30.12667,
+          "lon": 104.68145,
+          "sequence": 7
+        }
+      ],
+      "segments": [
+        [
+          "900000156045001",
+          "900000156045002",
+          "900000156045003",
+          "900000156045004",
+          "900000156045005",
+          "900000156045006",
+          "900000156045007"
+        ]
+      ]
+    }
+  ]
+}
