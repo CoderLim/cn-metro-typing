@@ -4,6 +4,10 @@
     "adcode": "1100",
     "nameZh": "北京",
     "nameEn": "Beijing",
+    "center": [
+      116.469,
+      40.2518
+    ],
     "lineCount": 27,
     "stationCount": 527
   },
@@ -12,6 +16,10 @@
     "adcode": "4401",
     "nameZh": "广州",
     "nameEn": "Guangzhou",
+    "center": [
+      113.5092,
+      23.2236
+    ],
     "lineCount": 21,
     "stationCount": 417
   },
@@ -20,6 +28,10 @@
     "adcode": "3100",
     "nameZh": "上海",
     "nameEn": "Shanghai",
+    "center": [
+      121.552,
+      31.2742
+    ],
     "lineCount": 21,
     "stationCount": 532
   },
@@ -28,6 +40,10 @@
     "adcode": "5101",
     "nameZh": "成都",
     "nameEn": "Chengdu",
+    "center": [
+      103.9451,
+      30.7625
+    ],
     "lineCount": 17,
     "stationCount": 453
   },
@@ -36,6 +52,10 @@
     "adcode": "4403",
     "nameZh": "深圳",
     "nameEn": "Shenzhen",
+    "center": [
+      114.19,
+      22.629
+    ],
     "lineCount": 17,
     "stationCount": 443
   },
@@ -44,6 +64,10 @@
     "adcode": "5000",
     "nameZh": "重庆",
     "nameEn": "Chongqing",
+    "center": [
+      107.7443,
+      30.1813
+    ],
     "lineCount": 15,
     "stationCount": 327
   },
@@ -52,6 +76,10 @@
     "adcode": "3201",
     "nameZh": "南京",
     "nameEn": "Nanjing",
+    "center": [
+      118.8025,
+      31.9212
+    ],
     "lineCount": 14,
     "stationCount": 283
   },
@@ -60,6 +88,10 @@
     "adcode": "3301",
     "nameZh": "杭州",
     "nameEn": "Hangzhou",
+    "center": [
+      119.5335,
+      29.8776
+    ],
     "lineCount": 14,
     "stationCount": 348
   },
@@ -68,6 +100,10 @@
     "adcode": "4201",
     "nameZh": "武汉",
     "nameEn": "Wuhan",
+    "center": [
+      114.3923,
+      30.6652
+    ],
     "lineCount": 13,
     "stationCount": 335
   },
@@ -76,6 +112,10 @@
     "adcode": "4101",
     "nameZh": "郑州",
     "nameEn": "Zhengzhou",
+    "center": [
+      113.4711,
+      34.6258
+    ],
     "lineCount": 13,
     "stationCount": 285
   },
@@ -84,6 +124,10 @@
     "adcode": "1200",
     "nameZh": "天津",
     "nameEn": "Tianjin",
+    "center": [
+      117.3868,
+      39.4043
+    ],
     "lineCount": 12,
     "stationCount": 273
   },
@@ -92,6 +136,10 @@
     "adcode": "6101",
     "nameZh": "西安",
     "nameEn": "Xian",
+    "center": [
+      108.743,
+      34.2184
+    ],
     "lineCount": 12,
     "stationCount": 285
   },
@@ -100,6 +148,10 @@
     "adcode": "8100",
     "nameZh": "香港",
     "nameEn": "Xianggang",
+    "center": [
+      114.1436,
+      22.3551
+    ],
     "lineCount": 10,
     "stationCount": 120
   },
@@ -108,6 +160,10 @@
     "adcode": "3205",
     "nameZh": "苏州",
     "nameEn": "Suzhou",
+    "center": [
+      120.6461,
+      31.4019
+    ],
     "lineCount": 9,
     "stationCount": 275
   },
@@ -116,6 +172,10 @@
     "adcode": "2102",
     "nameZh": "大连",
     "nameEn": "Dalian",
+    "center": [
+      122.2471,
+      39.4625
+    ],
     "lineCount": 8,
     "stationCount": 120
   },
@@ -124,6 +184,10 @@
     "adcode": "3701",
     "nameZh": "济南",
     "nameEn": "Jinan",
+    "center": [
+      117.1007,
+      36.7618
+    ],
     "lineCount": 8,
     "stationCount": 155
   },
@@ -132,6 +196,10 @@
     "adcode": "3702",
     "nameZh": "青岛",
     "nameEn": "Qingdao",
+    "center": [
+      120.2907,
+      36.3624
+    ],
     "lineCount": 8,
     "stationCount": 189
   },
@@ -140,6 +208,10 @@
     "adcode": "3401",
     "nameZh": "合肥",
     "nameEn": "Hefei",
+    "center": [
+      117.3304,
+      31.7438
+    ],
     "lineCount": 8,
     "stationCount": 215
   },
@@ -148,6 +220,10 @@
     "adcode": "3302",
     "nameZh": "宁波",
     "nameEn": "Ningbo",
+    "center": [
+      121.5677,
+      29.6715
+    ],
     "lineCount": 8,
     "stationCount": 200
   },
@@ -156,6 +232,10 @@
     "adcode": "4301",
     "nameZh": "长沙",
     "nameEn": "Changsha",
+    "center": [
+      113.0788,
+      28.2548
+    ],
     "lineCount": 7,
     "stationCount": 161
   },
@@ -164,6 +244,10 @@
     "adcode": "2101",
     "nameZh": "沈阳",
     "nameEn": "Shenyang",
+    "center": [
+      123.118,
+      42.1213
+    ],
     "lineCount": 6,
     "stationCount": 159
   },
@@ -172,6 +256,10 @@
     "adcode": "2201",
     "nameZh": "长春",
     "nameEn": "Changchun",
+    "center": [
+      125.5547,
+      44.207
+    ],
     "lineCount": 6,
     "stationCount": 131
   },
@@ -180,6 +268,10 @@
     "adcode": "3501",
     "nameZh": "福州",
     "nameEn": "Fuzhou",
+    "center": [
+      119.449,
+      25.9421
+    ],
     "lineCount": 6,
     "stationCount": 119
   },
@@ -188,6 +280,10 @@
     "adcode": "5301",
     "nameZh": "昆明",
     "nameEn": "Kunming",
+    "center": [
+      102.9206,
+      25.4635
+    ],
     "lineCount": 6,
     "stationCount": 115
   },
@@ -196,6 +292,10 @@
     "adcode": "3202",
     "nameZh": "无锡",
     "nameEn": "Wuxi",
+    "center": [
+      120.0627,
+      31.5497
+    ],
     "lineCount": 5,
     "stationCount": 97
   },
@@ -204,6 +304,10 @@
     "adcode": "4406",
     "nameZh": "佛山",
     "nameEn": "Foshan",
+    "center": [
+      112.8921,
+      23.1079
+    ],
     "lineCount": 5,
     "stationCount": 121
   },
@@ -212,6 +316,10 @@
     "adcode": "4501",
     "nameZh": "南宁",
     "nameEn": "Nanning",
+    "center": [
+      108.4752,
+      23.1186
+    ],
     "lineCount": 5,
     "stationCount": 106
   },
@@ -220,6 +328,10 @@
     "adcode": "3203",
     "nameZh": "徐州",
     "nameEn": "Xuzhou",
+    "center": [
+      117.5184,
+      34.343
+    ],
     "lineCount": 4,
     "stationCount": 76
   },
@@ -228,6 +340,10 @@
     "adcode": "3601",
     "nameZh": "南昌",
     "nameEn": "Nanchang",
+    "center": [
+      116.0021,
+      28.6401
+    ],
     "lineCount": 4,
     "stationCount": 122
   },
@@ -236,6 +352,10 @@
     "adcode": "5201",
     "nameZh": "贵阳",
     "nameEn": "Guiyang",
+    "center": [
+      106.7021,
+      26.7706
+    ],
     "lineCount": 4,
     "stationCount": 99
   },
@@ -244,6 +364,10 @@
     "adcode": "1301",
     "nameZh": "石家庄",
     "nameEn": "Shijiazhuang",
+    "center": [
+      114.5044,
+      38.0991
+    ],
     "lineCount": 3,
     "stationCount": 63
   },
@@ -252,6 +376,10 @@
     "adcode": "2301",
     "nameZh": "哈尔滨",
     "nameEn": "Haerbin",
+    "center": [
+      127.9643,
+      45.368
+    ],
     "lineCount": 3,
     "stationCount": 78
   },
@@ -260,6 +388,10 @@
     "adcode": "3306",
     "nameZh": "绍兴",
     "nameEn": "Shaoxing",
+    "center": [
+      120.5603,
+      29.7557
+    ],
     "lineCount": 3,
     "stationCount": 43
   },
@@ -268,6 +400,10 @@
     "adcode": "3502",
     "nameZh": "厦门",
     "nameEn": "Xiamen",
+    "center": [
+      118.1503,
+      24.6605
+    ],
     "lineCount": 3,
     "stationCount": 75
   },
@@ -276,6 +412,10 @@
     "adcode": "8200",
     "nameZh": "澳门",
     "nameEn": "Aomen",
+    "center": [
+      113.5686,
+      22.1601
+    ],
     "lineCount": 3,
     "stationCount": 17
   },
@@ -284,6 +424,10 @@
     "adcode": "1401",
     "nameZh": "太原",
     "nameEn": "Taiyuan",
+    "center": [
+      112.3363,
+      37.9401
+    ],
     "lineCount": 2,
     "stationCount": 47
   },
@@ -292,6 +436,10 @@
     "adcode": "4103",
     "nameZh": "洛阳",
     "nameEn": "Luoyang",
+    "center": [
+      112.0616,
+      34.3204
+    ],
     "lineCount": 2,
     "stationCount": 34
   },
@@ -300,6 +448,10 @@
     "adcode": "1501",
     "nameZh": "呼和浩特",
     "nameEn": "Huhehaote",
+    "center": [
+      111.4145,
+      40.4881
+    ],
     "lineCount": 2,
     "stationCount": 44
   },
@@ -308,6 +460,10 @@
     "adcode": "3204",
     "nameZh": "常州",
     "nameEn": "Changzhou",
+    "center": [
+      119.673,
+      31.6062
+    ],
     "lineCount": 2,
     "stationCount": 44
   },
@@ -316,6 +472,10 @@
     "adcode": "3402",
     "nameZh": "芜湖",
     "nameEn": "Wuhu",
+    "center": [
+      118.1081,
+      31.0895
+    ],
     "lineCount": 2,
     "stationCount": 36
   },
@@ -324,6 +484,10 @@
     "adcode": "3303",
     "nameZh": "温州",
     "nameEn": "Wenzhou",
+    "center": [
+      120.4491,
+      27.8265
+    ],
     "lineCount": 2,
     "stationCount": 38
   },
@@ -332,6 +496,10 @@
     "adcode": "3307",
     "nameZh": "金华",
     "nameEn": "Jinhua",
+    "center": [
+      120.0059,
+      29.103
+    ],
     "lineCount": 2,
     "stationCount": 30
   },
@@ -340,6 +508,10 @@
     "adcode": "4419",
     "nameZh": "东莞",
     "nameEn": "Dongguan",
+    "center": [
+      113.8909,
+      22.8981
+    ],
     "lineCount": 2,
     "stationCount": 40
   },
@@ -348,6 +520,10 @@
     "adcode": "6201",
     "nameZh": "兰州",
     "nameEn": "Lanzhou",
+    "center": [
+      103.5893,
+      36.2851
+    ],
     "lineCount": 2,
     "stationCount": 29
   },
@@ -356,6 +532,10 @@
     "adcode": "3206",
     "nameZh": "南通",
     "nameEn": "Nantong",
+    "center": [
+      121.0888,
+      32.1641
+    ],
     "lineCount": 2,
     "stationCount": 44
   },
@@ -364,6 +544,10 @@
     "adcode": "6501",
     "nameZh": "乌鲁木齐",
     "nameEn": "Wulumuqi",
+    "center": [
+      87.886,
+      43.9129
+    ],
     "lineCount": 2,
     "stationCount": 23
   },
@@ -372,6 +556,10 @@
     "adcode": "4110",
     "nameZh": "许昌",
     "nameEn": "Xuchang",
+    "center": [
+      113.696,
+      34.0472
+    ],
     "lineCount": 1,
     "stationCount": 27
   },
@@ -380,6 +568,10 @@
     "adcode": "5120",
     "nameZh": "资阳",
     "nameEn": "Ziyang",
+    "center": [
+      105.0949,
+      30.1522
+    ],
     "lineCount": 1,
     "stationCount": 7
   },
@@ -388,6 +580,10 @@
     "adcode": "3411",
     "nameZh": "滁州",
     "nameEn": "Chuzhou",
+    "center": [
+      118.196,
+      32.5344
+    ],
     "lineCount": 1,
     "stationCount": 10
   },
@@ -396,6 +592,10 @@
     "adcode": "3310",
     "nameZh": "台州",
     "nameEn": "Taizhou",
+    "center": [
+      121.1176,
+      28.6762
+    ],
     "lineCount": 1,
     "stationCount": 15
   },
@@ -404,6 +604,10 @@
     "adcode": "4303",
     "nameZh": "湘潭",
     "nameEn": "Xiangtan",
+    "center": [
+      112.5455,
+      27.7058
+    ],
     "lineCount": 1,
     "stationCount": 33
   },
@@ -412,6 +616,10 @@
     "adcode": "4331",
     "nameZh": "湘西土家族苗族自治州",
     "nameEn": "Xiangxi",
+    "center": [
+      109.7889,
+      28.6774
+    ],
     "lineCount": 1,
     "stationCount": 4
   },
@@ -420,6 +628,10 @@
     "adcode": "4207",
     "nameZh": "鄂州",
     "nameEn": "Ezhou",
+    "center": [
+      114.7963,
+      30.3162
+    ],
     "lineCount": 1,
     "stationCount": 23
   },
@@ -428,6 +640,10 @@
     "adcode": "4418",
     "nameZh": "清远",
     "nameEn": "Qingyuan",
+    "center": [
+      112.9293,
+      24.3196
+    ],
     "lineCount": 1,
     "stationCount": 3
   }

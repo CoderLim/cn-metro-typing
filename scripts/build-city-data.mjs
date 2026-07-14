@@ -21,7 +21,7 @@
 import { mkdir, readFile, writeFile, access } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { geoArea } from "d3-geo";
+import { geoArea, geoBounds } from "d3-geo";
 
 const CITYLIST_URL = "http://map.amap.com/service/subway?srhdata=citylist.json";
 
@@ -183,10 +183,14 @@ async function buildCity(cityMeta) {
     const stripped = stationNameZh.replace(/[（(][^（）()]*[）)]/g, "").trim();
     return enNames[stationNameZh] ?? enNames[stripped] ?? null;
   }
+  // 徽章代号："1号线八通线"→"1"、"4号线大兴线"→"4"、"S1线"→"S1"、"APM线"→"APM"
   function lineCode(lineName) {
-    const numeric = lineName.match(/^(\d+)号线$/);
+    if (lineCodes[lineName]) return lineCodes[lineName];
+    const numeric = lineName.match(/^([A-Za-z]{0,2}\d+)号?线/);
     if (numeric) return numeric[1];
-    return lineCodes[lineName] ?? lineName.slice(0, 2);
+    const letters = lineName.match(/^([A-Z]{2,4})线/);
+    if (letters) return letters[1];
+    return lineName.slice(0, 2);
   }
 
   // AMap represents each service run (main line / branch) as a separate entry
@@ -268,11 +272,18 @@ async function buildCity(cityMeta) {
   await writeFile(path.join(outDir, "boundary.json"), JSON.stringify(boundaryOut));
 
   const stationCount = lines.reduce((n, l) => n + l.stations.length, 0);
+  // 城市中心（边界外包框中点），供全国地图打点与聚焦缩放使用。
+  const [[west, south], [east, north]] = geoBounds(boundaryOut);
+  const center = [
+    Number(((west + east) / 2).toFixed(4)),
+    Number(((south + north) / 2).toFixed(4)),
+  ];
   return {
     id,
     adcode,
     nameZh,
     nameEn,
+    center,
     lineCount: lines.length,
     stationCount,
     missing,
@@ -323,6 +334,7 @@ async function runAll() {
       adcode: r.adcode,
       nameZh: r.nameZh,
       nameEn: r.nameEn,
+      center: r.center,
       lineCount: r.lineCount,
       stationCount: r.stationCount,
     }))
@@ -330,6 +342,21 @@ async function runAll() {
 
   await mkdir(publicDataDir, { recursive: true });
   await writeFile(path.join(publicDataDir, "cities.json"), JSON.stringify(registry, null, 2));
+
+  // 全国省级边界（含港澳台与南海诸岛，按 DataV 原样保留），供全国选城地图使用。
+  const china = await cached(
+    "china-boundary.json",
+    "https://geo.datav.aliyun.com/areas_v3/bound/100000_full.json",
+    fresh,
+  );
+  const chinaOut = {
+    ...china,
+    features: (china.features ?? []).map((f) =>
+      f.geometry ? { ...f, geometry: rewind(f.geometry) } : f,
+    ),
+  };
+  await writeFile(path.join(publicDataDir, "china.json"), JSON.stringify(chinaOut));
+  console.log("✓ 全国省界已写入 public/data/china.json");
 
   console.log(`\n完成：${results.length}/${citylist.length} 个城市成功，已写入 public/data/cities.json`);
   if (failures.length) {
