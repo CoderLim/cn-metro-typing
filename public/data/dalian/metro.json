@@ -3,7 +3,7 @@
   "cityNameZh": "大连",
   "cityNameEn": "Dalian",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:57:45.615Z",
+  "generatedAt": "2026-07-14T16:01:51.149Z",
   "lines": [
     {
       "id": "2102-1",
@@ -648,10 +648,10 @@
       ]
     },
     {
-      "id": "2102-地铁",
+      "id": "2102-地铁支",
       "operatorId": "2102",
       "operatorName": "大连地铁",
-      "lineId": "地铁",
+      "lineId": "地铁支",
       "lineName": "地铁3号线支线",
       "color": "#F0087D",
       "loop": false,

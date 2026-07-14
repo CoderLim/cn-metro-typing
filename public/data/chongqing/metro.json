@@ -3,7 +3,7 @@
   "cityNameZh": "重庆",
   "cityNameEn": "Chongqing",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:57:43.113Z",
+  "generatedAt": "2026-07-14T16:01:48.648Z",
   "lines": [
     {
       "id": "5000-1",
@@ -636,10 +636,10 @@
       ]
     },
     {
-      "id": "5000-轨道",
+      "id": "5000-3",
       "operatorId": "5000",
       "operatorName": "重庆地铁",
-      "lineId": "轨道",
+      "lineId": "3",
       "lineName": "轨道交通3号线(空港线)",
       "color": "#2249A3",
       "loop": false,
@@ -735,7 +735,7 @@
       ]
     },
     {
-      "id": "5000-3",
+      "id": "5000-3-2",
       "operatorId": "5000",
       "operatorName": "重庆地铁",
       "lineId": "3",
@@ -2367,7 +2367,7 @@
       ]
     },
     {
-      "id": "5000-6",
+      "id": "5000-6-2",
       "operatorId": "5000",
       "operatorName": "重庆地铁",
       "lineId": "6",
@@ -3363,10 +3363,10 @@
       ]
     },
     {
-      "id": "5000-轨道",
+      "id": "5000-国博",
       "operatorId": "5000",
       "operatorName": "重庆地铁",
-      "lineId": "轨道",
+      "lineId": "国博",
       "lineName": "轨道交通国博线",
       "color": "#EA6183",
       "loop": false,

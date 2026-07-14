@@ -3,7 +3,7 @@
   "cityNameZh": "广州",
   "cityNameEn": "Guangzhou",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:57:42.476Z",
+  "generatedAt": "2026-07-14T16:01:48.018Z",
   "lines": [
     {
       "id": "4401-1",
@@ -4280,10 +4280,10 @@
       ]
     },
     {
-      "id": "4401-14",
+      "id": "4401-14支",
       "operatorId": "4401",
       "operatorName": "广州地铁",
-      "lineId": "14",
+      "lineId": "14支",
       "lineName": "14号线支线(知识城线)",
       "color": "#871C2A",
       "loop": false,

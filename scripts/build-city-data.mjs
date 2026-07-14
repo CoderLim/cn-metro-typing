@@ -183,14 +183,17 @@ async function buildCity(cityMeta) {
     const stripped = stationNameZh.replace(/[（(][^（）()]*[）)]/g, "").trim();
     return enNames[stationNameZh] ?? enNames[stripped] ?? null;
   }
-  // 徽章代号："1号线八通线"→"1"、"4号线大兴线"→"4"、"S1线"→"S1"、"APM线"→"APM"
+  // 徽章代号："1号线八通线"→"1"、"S1线"→"S1"、"APM线"→"APM"、
+  // "14号线支线(知识城线)"→"14支"、"轨道交通3号线(空港线)"→"3"
   function lineCode(lineName) {
     if (lineCodes[lineName]) return lineCodes[lineName];
-    const numeric = lineName.match(/^([A-Za-z]{0,2}\d+)号?线/);
-    if (numeric) return numeric[1];
-    const letters = lineName.match(/^([A-Z]{2,4})线/);
-    if (letters) return letters[1];
-    return lineName.slice(0, 2);
+    const name = lineName.replace(/^轨道交通/, "");
+    const branch = name.includes("支线") ? "支" : "";
+    const numeric = name.match(/^([A-Za-z]{0,2}\d+)号?线/);
+    if (numeric) return numeric[1] + branch;
+    const letters = name.match(/^([A-Z]{2,4})线/);
+    if (letters) return letters[1] + branch;
+    return name.slice(0, 2) + branch;
   }
 
   // AMap represents each service run (main line / branch) as a separate entry
@@ -204,6 +207,7 @@ async function buildCity(cityMeta) {
 
   const missing = [];
   const lines = [];
+  const usedLineIds = new Set();
   for (const [lineName, runs] of grouped) {
     runs.sort((a, b) => b.st.length - a.st.length);
     const stationsById = new Map();
@@ -240,11 +244,16 @@ async function buildCity(cityMeta) {
       ...s,
       sequence: i + 1,
     }));
+    // 徽章代号可能重名（如重庆 6号线/6号线东站段），id 追加序号保证唯一。
+    const code = lineCode(lineName);
+    let lineUid = `${adcode}-${code}`;
+    for (let n = 2; usedLineIds.has(lineUid); n++) lineUid = `${adcode}-${code}-${n}`;
+    usedLineIds.add(lineUid);
     lines.push({
-      id: `${adcode}-${lineCode(lineName)}`,
+      id: lineUid,
       operatorId: adcode,
       operatorName,
-      lineId: lineCode(lineName),
+      lineId: code,
       lineName,
       color: `#${runs[0].cl}`,
       loop: runs[0].lo === 1 || runs[0].lo === "1",

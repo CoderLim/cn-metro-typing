@@ -3,7 +3,7 @@
   "cityNameZh": "深圳",
   "cityNameEn": "Shenzhen",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:57:50.571Z",
+  "generatedAt": "2026-07-14T16:01:56.116Z",
   "lines": [
     {
       "id": "4403-1",
@@ -2619,10 +2619,10 @@
       ]
     },
     {
-      "id": "4403-6",
+      "id": "4403-6支",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "6",
+      "lineId": "6支",
       "lineName": "6号线支线",
       "color": "#008187",
       "loop": false,

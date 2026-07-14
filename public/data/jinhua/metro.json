@@ -3,7 +3,7 @@
   "cityNameZh": "金华",
   "cityNameEn": "Jinhua",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:57:49.134Z",
+  "generatedAt": "2026-07-14T16:01:54.670Z",
   "lines": [
     {
       "id": "3307-金义",
@@ -213,7 +213,7 @@
       ]
     },
     {
-      "id": "3307-金义",
+      "id": "3307-金义-2",
       "operatorId": "3307",
       "operatorName": "金华地铁",
       "lineId": "金义",
