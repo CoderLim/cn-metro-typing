@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cn-metro-typing",
+  "compatibility_date": "2026-07-14",
+  "account_id": "REDACTED",
+  "assets": {
+    "directory": "./dist"
+  }
+}
