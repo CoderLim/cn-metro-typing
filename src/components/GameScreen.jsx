@@ -30,7 +30,7 @@ export default function GameScreen({
   return (
     <section className="game" style={{ "--active-route": line.color }}>
       <p className="screen-reader-status" aria-live="polite" aria-atomic="true">
-        当前车站 {station.nameZh}，请输入 {isChinese ? station.nameZh : station.nameEn}
+        当前车站 {station.nameZh}，请输入 {target}
       </p>
       <MetroMap
         mapModel={mapModel}
@@ -85,7 +85,7 @@ export default function GameScreen({
                 chars.length * (isChinese ? 1 : 0.65)
               ).toFixed(2)})`,
             }}
-            aria-label={`请输入 ${isChinese ? station.nameZh : station.nameEn}`}
+            aria-label={`请输入 ${target}`}
           >
             {chars.map((c, i) => (
               <span
@@ -111,7 +111,9 @@ export default function GameScreen({
             </p>
           ) : (
             <span id="typing-instruction" className="screen-reader-status">
-              直接输入画面上的英文站名
+              {lang === LANG.PINYIN
+                ? "直接输入画面上站名的全拼"
+                : "直接输入画面上的英文站名"}
             </span>
           )}
         </div>

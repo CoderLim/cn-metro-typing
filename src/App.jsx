@@ -259,7 +259,13 @@ export default function App() {
         autoComplete="off"
         autoCorrect="off"
         spellCheck={false}
-        aria-label={lang === LANG.CHINESE ? "中文站名输入" : "英文站名输入"}
+        aria-label={
+          lang === LANG.CHINESE
+            ? "中文站名输入"
+            : lang === LANG.PINYIN
+              ? "拼音站名输入"
+              : "英文站名输入"
+        }
         onInput={onInput}
         onCompositionStart={onCompositionStart}
         onCompositionUpdate={onCompositionUpdate}

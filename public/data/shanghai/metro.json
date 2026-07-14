@@ -3,7 +3,7 @@
   "cityNameZh": "上海",
   "cityNameEn": "Shanghai",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T09:16:51.665Z",
+  "generatedAt": "2026-07-14T12:55:02.806Z",
   "lines": [
     {
       "id": "3100-1",
@@ -20,6 +20,7 @@
           "nameZh": "莘庄",
           "nameEn": "Xinzhuang",
           "target": "xinzhuang",
+          "pinyin": "xinzhuang",
           "lat": 31.111152,
           "lon": 121.385373,
           "sequence": 1
@@ -30,6 +31,7 @@
           "nameZh": "外环路",
           "nameEn": "Waihuanlu",
           "target": "waihuanlu",
+          "pinyin": "waihuanlu",
           "lat": 31.120899,
           "lon": 121.39302,
           "sequence": 2
@@ -40,6 +42,7 @@
           "nameZh": "莲花路",
           "nameEn": "Lianhua Road",
           "target": "lianhua road",
+          "pinyin": "lianhualu",
           "lat": 31.1309,
           "lon": 121.40291,
           "sequence": 3
@@ -50,6 +53,7 @@
           "nameZh": "锦江乐园",
           "nameEn": "Jinjiang Park",
           "target": "jinjiang park",
+          "pinyin": "jinjiangleyuan",
           "lat": 31.142217,
           "lon": 121.414107,
           "sequence": 4
@@ -60,6 +64,7 @@
           "nameZh": "上海南站",
           "nameEn": "Shanghai South Railway Station",
           "target": "shanghai south railway station",
+          "pinyin": "shanghainanzhan",
           "lat": 31.154579,
           "lon": 121.430041,
           "sequence": 5
@@ -70,6 +75,7 @@
           "nameZh": "漕宝路",
           "nameEn": "Caobao Road",
           "target": "caobao road",
+          "pinyin": "caobaolu",
           "lat": 31.168344,
           "lon": 121.433143,
           "sequence": 6
@@ -80,6 +86,7 @@
           "nameZh": "上海体育馆",
           "nameEn": "Shanghai Indoor Stadium",
           "target": "shanghai indoor stadium",
+          "pinyin": "shanghaitiyuguan",
           "lat": 31.182813,
           "lon": 121.437423,
           "sequence": 7
@@ -90,6 +97,7 @@
           "nameZh": "徐家汇",
           "nameEn": "Xujiahui",
           "target": "xujiahui",
+          "pinyin": "xujiahui",
           "lat": 31.195514,
           "lon": 121.436603,
           "sequence": 8
@@ -100,6 +108,7 @@
           "nameZh": "衡山路",
           "nameEn": "Hengshan Road",
           "target": "hengshan road",
+          "pinyin": "hengshanlu",
           "lat": 31.204528,
           "lon": 121.446424,
           "sequence": 9
@@ -110,6 +119,7 @@
           "nameZh": "常熟路",
           "nameEn": "Changshu Road",
           "target": "changshu road",
+          "pinyin": "changshulu",
           "lat": 31.213524,
           "lon": 121.449141,
           "sequence": 10
@@ -120,6 +130,7 @@
           "nameZh": "陕西南路",
           "nameEn": "South Shaanxi Road",
           "target": "south shaanxi road",
+          "pinyin": "shaanxinanlu",
           "lat": 31.215148,
           "lon": 121.458741,
           "sequence": 11
@@ -130,6 +141,7 @@
           "nameZh": "一大会址·黄陂南路",
           "nameEn": "Site of the First CPC National Congress · South Huangpi Road",
           "target": "site of the first cpc national congress south huangpi road",
+          "pinyin": "yidahuizhihuangpinanlu",
           "lat": 31.223898,
           "lon": 121.472904,
           "sequence": 12
@@ -140,6 +152,7 @@
           "nameZh": "人民广场",
           "nameEn": "People's Square",
           "target": "people's square",
+          "pinyin": "renminguangchang",
           "lat": 31.232687,
           "lon": 121.475108,
           "sequence": 13
@@ -150,6 +163,7 @@
           "nameZh": "新闸路",
           "nameEn": "Xinzha Road",
           "target": "xinzha road",
+          "pinyin": "xinzhalu",
           "lat": 31.238373,
           "lon": 121.468151,
           "sequence": 14
@@ -160,6 +174,7 @@
           "nameZh": "汉中路",
           "nameEn": "Hanzhong Road",
           "target": "hanzhong road",
+          "pinyin": "hanzhonglu",
           "lat": 31.241883,
           "lon": 121.458699,
           "sequence": 15
@@ -170,6 +185,7 @@
           "nameZh": "上海火车站",
           "nameEn": "Shanghai Railway Station",
           "target": "shanghai railway station",
+          "pinyin": "shanghaihuochezhan",
           "lat": 31.249632,
           "lon": 121.457939,
           "sequence": 16
@@ -180,6 +196,7 @@
           "nameZh": "中山北路",
           "nameEn": "North Zhongshan Road",
           "target": "north zhongshan road",
+          "pinyin": "zhongshanbeilu",
           "lat": 31.258891,
           "lon": 121.459204,
           "sequence": 17
@@ -190,6 +207,7 @@
           "nameZh": "延长路",
           "nameEn": "Yanchang Road",
           "target": "yanchang road",
+          "pinyin": "yanchanglu",
           "lat": 31.271675,
           "lon": 121.455329,
           "sequence": 18
@@ -200,6 +218,7 @@
           "nameZh": "上海马戏城",
           "nameEn": "Shanghai Circus World",
           "target": "shanghai circus world",
+          "pinyin": "shanghaimaxicheng",
           "lat": 31.279895,
           "lon": 121.452023,
           "sequence": 19
@@ -210,6 +229,7 @@
           "nameZh": "汶水路",
           "nameEn": "Wenshui Road",
           "target": "wenshui road",
+          "pinyin": "wenshuilu",
           "lat": 31.292556,
           "lon": 121.450251,
           "sequence": 20
@@ -220,6 +240,7 @@
           "nameZh": "彭浦新村",
           "nameEn": "Pengpu Xincun",
           "target": "pengpu xincun",
+          "pinyin": "pengpuxincun",
           "lat": 31.306604,
           "lon": 121.448642,
           "sequence": 21
@@ -230,6 +251,7 @@
           "nameZh": "共康路",
           "nameEn": "Gongkang Road",
           "target": "gongkang road",
+          "pinyin": "gongkanglu",
           "lat": 31.318936,
           "lon": 121.447063,
           "sequence": 22
@@ -240,6 +262,7 @@
           "nameZh": "通河新村",
           "nameEn": "Tonghe Xincun",
           "target": "tonghe xincun",
+          "pinyin": "tonghexincun",
           "lat": 31.33113,
           "lon": 121.441546,
           "sequence": 23
@@ -250,6 +273,7 @@
           "nameZh": "呼兰路",
           "nameEn": "Hulan Road",
           "target": "hulan road",
+          "pinyin": "hulanlu",
           "lat": 31.339703,
           "lon": 121.437711,
           "sequence": 24
@@ -260,6 +284,7 @@
           "nameZh": "共富新村",
           "nameEn": "Gongfu Xincun",
           "target": "gongfu xincun",
+          "pinyin": "gongfuxincun",
           "lat": 31.355082,
           "lon": 121.434063,
           "sequence": 25
@@ -270,6 +295,7 @@
           "nameZh": "宝安公路",
           "nameEn": "Bao'an Highway",
           "target": "bao'an highway",
+          "pinyin": "baoangonglu",
           "lat": 31.369555,
           "lon": 121.430914,
           "sequence": 26
@@ -280,6 +306,7 @@
           "nameZh": "友谊西路",
           "nameEn": "West Youyi Road",
           "target": "west youyi road",
+          "pinyin": "youyixilu",
           "lat": 31.381296,
           "lon": 121.427953,
           "sequence": 27
@@ -290,6 +317,7 @@
           "nameZh": "富锦路",
           "nameEn": "Fujin Road",
           "target": "fujin road",
+          "pinyin": "fujinlu",
           "lat": 31.39226,
           "lon": 121.424661,
           "sequence": 28
@@ -343,6 +371,7 @@
           "nameZh": "浦东1号2号航站楼",
           "nameEn": "Pudong Airport Terminal 1&2",
           "target": "pudong airport terminal 1&2",
+          "pinyin": "pudong1hao2haohangzhanlou",
           "lat": 31.150958,
           "lon": 121.805591,
           "sequence": 1
@@ -353,6 +382,7 @@
           "nameZh": "海天三路",
           "nameEn": "Haitiansan Road",
           "target": "haitiansan road",
+          "pinyin": "haitiansanlu",
           "lat": 31.168459,
           "lon": 121.796878,
           "sequence": 2
@@ -363,6 +393,7 @@
           "nameZh": "远东大道",
           "nameEn": "Yuandong Avenue",
           "target": "yuandong avenue",
+          "pinyin": "yuandongdadao",
           "lat": 31.199385,
           "lon": 121.755301,
           "sequence": 3
@@ -373,6 +404,7 @@
           "nameZh": "凌空路",
           "nameEn": "Lingkong Road",
           "target": "lingkong road",
+          "pinyin": "lingkonglu",
           "lat": 31.192861,
           "lon": 121.724095,
           "sequence": 4
@@ -383,6 +415,7 @@
           "nameZh": "川沙",
           "nameEn": "Chuansha",
           "target": "chuansha",
+          "pinyin": "chuansha",
           "lat": 31.186741,
           "lon": 121.69821,
           "sequence": 5
@@ -393,6 +426,7 @@
           "nameZh": "华夏东路",
           "nameEn": "East Huaxia Road",
           "target": "east huaxia road",
+          "pinyin": "huaxiadonglu",
           "lat": 31.196575,
           "lon": 121.680972,
           "sequence": 6
@@ -403,6 +437,7 @@
           "nameZh": "创新中路",
           "nameEn": "Middle Chuangxin Road",
           "target": "middle chuangxin road",
+          "pinyin": "chuangxinzhonglu",
           "lat": 31.213871,
           "lon": 121.673713,
           "sequence": 7
@@ -413,6 +448,7 @@
           "nameZh": "唐镇",
           "nameEn": "Tangzhen",
           "target": "tangzhen",
+          "pinyin": "tangzhen",
           "lat": 31.214107,
           "lon": 121.656269,
           "sequence": 8
@@ -423,6 +459,7 @@
           "nameZh": "广兰路",
           "nameEn": "Guanglan Road",
           "target": "guanglan road",
+          "pinyin": "guanglanlu",
           "lat": 31.21105,
           "lon": 121.621072,
           "sequence": 9
@@ -433,6 +470,7 @@
           "nameZh": "金科路",
           "nameEn": "Jinke Road",
           "target": "jinke road",
+          "pinyin": "jinkelu",
           "lat": 31.204213,
           "lon": 121.601989,
           "sequence": 10
@@ -443,6 +481,7 @@
           "nameZh": "张江高科",
           "nameEn": "Zhangjiang High Technology Park",
           "target": "zhangjiang high technology park",
+          "pinyin": "zhangjianggaoke",
           "lat": 31.201872,
           "lon": 121.58749,
           "sequence": 11
@@ -453,6 +492,7 @@
           "nameZh": "龙阳路",
           "nameEn": "Longyang Road",
           "target": "longyang road",
+          "pinyin": "longyanglu",
           "lat": 31.203575,
           "lon": 121.557634,
           "sequence": 12
@@ -463,6 +503,7 @@
           "nameZh": "世纪公园",
           "nameEn": "Century Park",
           "target": "century park",
+          "pinyin": "shijigongyuan",
           "lat": 31.209421,
           "lon": 121.550909,
           "sequence": 13
@@ -473,6 +514,7 @@
           "nameZh": "上海科技馆",
           "nameEn": "Shanghai Science and Technology Museum",
           "target": "shanghai science and technology museum",
+          "pinyin": "shanghaikejiguan",
           "lat": 31.21882,
           "lon": 121.544439,
           "sequence": 14
@@ -483,6 +525,7 @@
           "nameZh": "世纪大道",
           "nameEn": "Century Avenue",
           "target": "century avenue",
+          "pinyin": "shijidadao",
           "lat": 31.228682,
           "lon": 121.527213,
           "sequence": 15
@@ -493,6 +536,7 @@
           "nameZh": "浦东南路(原东昌路)",
           "nameEn": "South Pudong Road",
           "target": "south pudong road",
+          "pinyin": "pudongnanluyuandongchanglu",
           "lat": 31.23327,
           "lon": 121.515556,
           "sequence": 16
@@ -503,6 +547,7 @@
           "nameZh": "陆家嘴",
           "nameEn": "Lujiazui",
           "target": "lujiazui",
+          "pinyin": "lujiazui",
           "lat": 31.238259,
           "lon": 121.502129,
           "sequence": 17
@@ -513,6 +558,7 @@
           "nameZh": "南京东路",
           "nameEn": "East Nanjing Road",
           "target": "east nanjing road",
+          "pinyin": "nanjingdonglu",
           "lat": 31.238101,
           "lon": 121.484628,
           "sequence": 18
@@ -523,6 +569,7 @@
           "nameZh": "人民广场",
           "nameEn": "People's Square",
           "target": "people's square",
+          "pinyin": "renminguangchang",
           "lat": 31.232687,
           "lon": 121.475108,
           "sequence": 19
@@ -533,6 +580,7 @@
           "nameZh": "南京西路",
           "nameEn": "West Nanjing Road",
           "target": "west nanjing road",
+          "pinyin": "nanjingxilu",
           "lat": 31.229853,
           "lon": 121.459971,
           "sequence": 20
@@ -543,6 +591,7 @@
           "nameZh": "静安寺",
           "nameEn": "Jing'an Temple",
           "target": "jing'an temple",
+          "pinyin": "jingansi",
           "lat": 31.223231,
           "lon": 121.446533,
           "sequence": 21
@@ -553,6 +602,7 @@
           "nameZh": "江苏路",
           "nameEn": "Jiangsu Road",
           "target": "jiangsu road",
+          "pinyin": "jiangsulu",
           "lat": 31.220411,
           "lon": 121.430642,
           "sequence": 22
@@ -563,6 +613,7 @@
           "nameZh": "中山公园",
           "nameEn": "Zhongshan Park",
           "target": "zhongshan park",
+          "pinyin": "zhongshangongyuan",
           "lat": 31.217948,
           "lon": 121.415773,
           "sequence": 23
@@ -573,6 +624,7 @@
           "nameZh": "娄山关路",
           "nameEn": "Loushanguan Road",
           "target": "loushanguan road",
+          "pinyin": "loushanguanlu",
           "lat": 31.211158,
           "lon": 121.404058,
           "sequence": 24
@@ -583,6 +635,7 @@
           "nameZh": "威宁路",
           "nameEn": "Weining Road",
           "target": "weining road",
+          "pinyin": "weininglu",
           "lat": 31.21487,
           "lon": 121.387285,
           "sequence": 25
@@ -593,6 +646,7 @@
           "nameZh": "北新泾",
           "nameEn": "Beixinjing",
           "target": "beixinjing",
+          "pinyin": "beixinjing",
           "lat": 31.216395,
           "lon": 121.373998,
           "sequence": 26
@@ -603,6 +657,7 @@
           "nameZh": "淞虹路",
           "nameEn": "Songhong Road",
           "target": "songhong road",
+          "pinyin": "songhonglu",
           "lat": 31.218225,
           "lon": 121.359536,
           "sequence": 27
@@ -613,6 +668,7 @@
           "nameZh": "虹桥2号航站楼",
           "nameEn": "Hongqiao Airport Terminal 2",
           "target": "hongqiao airport terminal 2",
+          "pinyin": "hongqiao2haohangzhanlou",
           "lat": 31.194055,
           "lon": 121.324443,
           "sequence": 28
@@ -623,6 +679,7 @@
           "nameZh": "虹桥火车站",
           "nameEn": "Hongqiao Railway Station",
           "target": "hongqiao railway station",
+          "pinyin": "hongqiaohuochezhan",
           "lat": 31.194022,
           "lon": 121.31895,
           "sequence": 29
@@ -633,6 +690,7 @@
           "nameZh": "国家会展中心(2号线)",
           "nameEn": "National Exhibition and Convention Center",
           "target": "national exhibition and convention center",
+          "pinyin": "guojiahuizhanzhongxin2haoxian",
           "lat": 31.188367,
           "lon": 121.299204,
           "sequence": 30
@@ -643,6 +701,7 @@
           "nameZh": "蟠祥路·国家会计学院",
           "nameEn": "Panxiang Road · Shanghai National Accounting Institute",
           "target": "panxiang road shanghai national accounting institute",
+          "pinyin": "panxiangluguojiakuaijixueyuan",
           "lat": 31.181388,
           "lon": 121.286143,
           "sequence": 31
@@ -699,6 +758,7 @@
           "nameZh": "江杨北路",
           "nameEn": "North Jiangyang Road",
           "target": "north jiangyang road",
+          "pinyin": "jiangyangbeilu",
           "lat": 31.407858,
           "lon": 121.439819,
           "sequence": 1
@@ -709,6 +769,7 @@
           "nameZh": "铁力路",
           "nameEn": "Tieli Road",
           "target": "tieli road",
+          "pinyin": "tielilu",
           "lat": 31.40812,
           "lon": 121.461139,
           "sequence": 2
@@ -719,6 +780,7 @@
           "nameZh": "友谊路",
           "nameEn": "Youyi Road",
           "target": "youyi road",
+          "pinyin": "youyilu",
           "lat": 31.404016,
           "lon": 121.475924,
           "sequence": 3
@@ -729,6 +791,7 @@
           "nameZh": "宝杨路",
           "nameEn": "Baoyang Road",
           "target": "baoyang road",
+          "pinyin": "baoyanglu",
           "lat": 31.395315,
           "lon": 121.479574,
           "sequence": 4
@@ -739,6 +802,7 @@
           "nameZh": "水产路",
           "nameEn": "Shuichan Road",
           "target": "shuichan road",
+          "pinyin": "shuichanlu",
           "lat": 31.381302,
           "lon": 121.488247,
           "sequence": 5
@@ -749,6 +813,7 @@
           "nameZh": "淞滨路",
           "nameEn": "Songbin Road",
           "target": "songbin road",
+          "pinyin": "songbinlu",
           "lat": 31.370928,
           "lon": 121.492818,
           "sequence": 6
@@ -759,6 +824,7 @@
           "nameZh": "张华浜",
           "nameEn": "Zhanghuabang",
           "target": "zhanghuabang",
+          "pinyin": "zhanghuabang",
           "lat": 31.358016,
           "lon": 121.498671,
           "sequence": 7
@@ -769,6 +835,7 @@
           "nameZh": "淞发路",
           "nameEn": "Songfa Road",
           "target": "songfa road",
+          "pinyin": "songfalu",
           "lat": 31.345135,
           "lon": 121.50039,
           "sequence": 8
@@ -779,6 +846,7 @@
           "nameZh": "长江南路",
           "nameEn": "South Changjiang Road",
           "target": "south changjiang road",
+          "pinyin": "changjiangnanlu",
           "lat": 31.332062,
           "lon": 121.491482,
           "sequence": 9
@@ -789,6 +857,7 @@
           "nameZh": "殷高西路",
           "nameEn": "West Yingao Road",
           "target": "west yingao road",
+          "pinyin": "yingaoxilu",
           "lat": 31.320005,
           "lon": 121.484856,
           "sequence": 10
@@ -799,6 +868,7 @@
           "nameZh": "江湾镇",
           "nameEn": "Jiangwan Town",
           "target": "jiangwan town",
+          "pinyin": "jiangwanzhen",
           "lat": 31.305566,
           "lon": 121.485064,
           "sequence": 11
@@ -809,6 +879,7 @@
           "nameZh": "大柏树",
           "nameEn": "Dabaishu",
           "target": "dabaishu",
+          "pinyin": "dabaishu",
           "lat": 31.289433,
           "lon": 121.483216,
           "sequence": 12
@@ -819,6 +890,7 @@
           "nameZh": "赤峰路",
           "nameEn": "Chifeng Road",
           "target": "chifeng road",
+          "pinyin": "chifenglu",
           "lat": 31.281247,
           "lon": 121.482429,
           "sequence": 13
@@ -829,6 +901,7 @@
           "nameZh": "虹口足球场",
           "nameEn": "Hongkou Football Stadium",
           "target": "hongkou football stadium",
+          "pinyin": "hongkouzuqiuchang",
           "lat": 31.271392,
           "lon": 121.479154,
           "sequence": 14
@@ -839,6 +912,7 @@
           "nameZh": "东宝兴路",
           "nameEn": "Dongbaoxing Road",
           "target": "dongbaoxing road",
+          "pinyin": "dongbaoxinglu",
           "lat": 31.259886,
           "lon": 121.480202,
           "sequence": 15
@@ -849,6 +923,7 @@
           "nameZh": "宝山路",
           "nameEn": "Baoshan Road",
           "target": "baoshan road",
+          "pinyin": "baoshanlu",
           "lat": 31.251523,
           "lon": 121.476298,
           "sequence": 16
@@ -859,6 +934,7 @@
           "nameZh": "上海火车站",
           "nameEn": "Shanghai Railway Station",
           "target": "shanghai railway station",
+          "pinyin": "shanghaihuochezhan",
           "lat": 31.249632,
           "lon": 121.457939,
           "sequence": 17
@@ -869,6 +945,7 @@
           "nameZh": "中潭路",
           "nameEn": "Zhongtan Road",
           "target": "zhongtan road",
+          "pinyin": "zhongtanlu",
           "lat": 31.254568,
           "lon": 121.441001,
           "sequence": 18
@@ -879,6 +956,7 @@
           "nameZh": "镇坪路",
           "nameEn": "Zhenping Road",
           "target": "zhenping road",
+          "pinyin": "zhenpinglu",
           "lat": 31.246369,
           "lon": 121.429779,
           "sequence": 19
@@ -889,6 +967,7 @@
           "nameZh": "曹杨路",
           "nameEn": "Caoyang Road",
           "target": "caoyang road",
+          "pinyin": "caoyanglu",
           "lat": 31.239302,
           "lon": 121.417701,
           "sequence": 20
@@ -899,6 +978,7 @@
           "nameZh": "金沙江路",
           "nameEn": "Jinshajiang Road",
           "target": "jinshajiang road",
+          "pinyin": "jinshajianglu",
           "lat": 31.232147,
           "lon": 121.413201,
           "sequence": 21
@@ -909,6 +989,7 @@
           "nameZh": "中山公园",
           "nameEn": "Zhongshan Park",
           "target": "zhongshan park",
+          "pinyin": "zhongshangongyuan",
           "lat": 31.217948,
           "lon": 121.415773,
           "sequence": 22
@@ -919,6 +1000,7 @@
           "nameZh": "延安西路",
           "nameEn": "West Yan'an Road",
           "target": "west yan'an road",
+          "pinyin": "yananxilu",
           "lat": 31.209616,
           "lon": 121.417062,
           "sequence": 23
@@ -929,6 +1011,7 @@
           "nameZh": "虹桥路",
           "nameEn": "Hongqiao Road",
           "target": "hongqiao road",
+          "pinyin": "hongqiaolu",
           "lat": 31.197524,
           "lon": 121.420814,
           "sequence": 24
@@ -939,6 +1022,7 @@
           "nameZh": "宜山路",
           "nameEn": "Yishan Road",
           "target": "yishan road",
+          "pinyin": "yishanlu",
           "lat": 31.186717,
           "lon": 121.427194,
           "sequence": 25
@@ -949,6 +1033,7 @@
           "nameZh": "漕溪路",
           "nameEn": "Caoxi Road",
           "target": "caoxi road",
+          "pinyin": "caoxilu",
           "lat": 31.176746,
           "lon": 121.43841,
           "sequence": 26
@@ -959,6 +1044,7 @@
           "nameZh": "龙漕路",
           "nameEn": "Longcao Road",
           "target": "longcao road",
+          "pinyin": "longcaolu",
           "lat": 31.169458,
           "lon": 121.444383,
           "sequence": 27
@@ -969,6 +1055,7 @@
           "nameZh": "石龙路",
           "nameEn": "Shilong Road",
           "target": "shilong road",
+          "pinyin": "shilonglu",
           "lat": 31.157949,
           "lon": 121.443205,
           "sequence": 28
@@ -979,6 +1066,7 @@
           "nameZh": "上海南站",
           "nameEn": "Shanghai South Railway Station",
           "target": "shanghai south railway station",
+          "pinyin": "shanghainanzhan",
           "lat": 31.154579,
           "lon": 121.430041,
           "sequence": 29
@@ -1033,6 +1121,7 @@
           "nameZh": "宜山路",
           "nameEn": "Yishan Road",
           "target": "yishan road",
+          "pinyin": "yishanlu",
           "lat": 31.186717,
           "lon": 121.427194,
           "sequence": 1
@@ -1043,6 +1132,7 @@
           "nameZh": "虹桥路",
           "nameEn": "Hongqiao Road",
           "target": "hongqiao road",
+          "pinyin": "hongqiaolu",
           "lat": 31.197524,
           "lon": 121.420814,
           "sequence": 2
@@ -1053,6 +1143,7 @@
           "nameZh": "延安西路",
           "nameEn": "West Yan'an Road",
           "target": "west yan'an road",
+          "pinyin": "yananxilu",
           "lat": 31.209616,
           "lon": 121.417062,
           "sequence": 3
@@ -1063,6 +1154,7 @@
           "nameZh": "中山公园",
           "nameEn": "Zhongshan Park",
           "target": "zhongshan park",
+          "pinyin": "zhongshangongyuan",
           "lat": 31.217948,
           "lon": 121.415773,
           "sequence": 4
@@ -1073,6 +1165,7 @@
           "nameZh": "金沙江路",
           "nameEn": "Jinshajiang Road",
           "target": "jinshajiang road",
+          "pinyin": "jinshajianglu",
           "lat": 31.232147,
           "lon": 121.413201,
           "sequence": 5
@@ -1083,6 +1176,7 @@
           "nameZh": "曹杨路",
           "nameEn": "Caoyang Road",
           "target": "caoyang road",
+          "pinyin": "caoyanglu",
           "lat": 31.239302,
           "lon": 121.417701,
           "sequence": 6
@@ -1093,6 +1187,7 @@
           "nameZh": "镇坪路",
           "nameEn": "Zhenping Road",
           "target": "zhenping road",
+          "pinyin": "zhenpinglu",
           "lat": 31.246369,
           "lon": 121.429779,
           "sequence": 7
@@ -1103,6 +1198,7 @@
           "nameZh": "中潭路",
           "nameEn": "Zhongtan Road",
           "target": "zhongtan road",
+          "pinyin": "zhongtanlu",
           "lat": 31.254568,
           "lon": 121.441001,
           "sequence": 8
@@ -1113,6 +1209,7 @@
           "nameZh": "上海火车站",
           "nameEn": "Shanghai Railway Station",
           "target": "shanghai railway station",
+          "pinyin": "shanghaihuochezhan",
           "lat": 31.249632,
           "lon": 121.457939,
           "sequence": 9
@@ -1123,6 +1220,7 @@
           "nameZh": "宝山路",
           "nameEn": "Baoshan Road",
           "target": "baoshan road",
+          "pinyin": "baoshanlu",
           "lat": 31.251523,
           "lon": 121.476298,
           "sequence": 10
@@ -1133,6 +1231,7 @@
           "nameZh": "海伦路",
           "nameEn": "Hailun Road",
           "target": "hailun road",
+          "pinyin": "hailunlu",
           "lat": 31.259303,
           "lon": 121.488697,
           "sequence": 11
@@ -1143,6 +1242,7 @@
           "nameZh": "临平路",
           "nameEn": "Linping Road",
           "target": "linping road",
+          "pinyin": "linpinglu",
           "lat": 31.260874,
           "lon": 121.500696,
           "sequence": 12
@@ -1153,6 +1253,7 @@
           "nameZh": "大连路",
           "nameEn": "Dalian Road",
           "target": "dalian road",
+          "pinyin": "dalianlu",
           "lat": 31.257938,
           "lon": 121.513088,
           "sequence": 13
@@ -1163,6 +1264,7 @@
           "nameZh": "杨树浦路",
           "nameEn": "Yangshupu Road",
           "target": "yangshupu road",
+          "pinyin": "yangshupulu",
           "lat": 31.251935,
           "lon": 121.51721,
           "sequence": 14
@@ -1173,6 +1275,7 @@
           "nameZh": "浦东大道",
           "nameEn": "Pudong Avenue",
           "target": "pudong avenue",
+          "pinyin": "pudongdadao",
           "lat": 31.240308,
           "lon": 121.519302,
           "sequence": 15
@@ -1183,6 +1286,7 @@
           "nameZh": "世纪大道",
           "nameEn": "Century Avenue",
           "target": "century avenue",
+          "pinyin": "shijidadao",
           "lat": 31.228682,
           "lon": 121.527213,
           "sequence": 16
@@ -1193,6 +1297,7 @@
           "nameZh": "向城路",
           "nameEn": "Xiangcheng Road",
           "target": "xiangcheng road",
+          "pinyin": "xiangchenglu",
           "lat": 31.222285,
           "lon": 121.53208,
           "sequence": 17
@@ -1203,6 +1308,7 @@
           "nameZh": "蓝村路",
           "nameEn": "Lancun Road",
           "target": "lancun road",
+          "pinyin": "lancunlu",
           "lat": 31.211672,
           "lon": 121.527627,
           "sequence": 18
@@ -1213,6 +1319,7 @@
           "nameZh": "塘桥",
           "nameEn": "Tangqiao",
           "target": "tangqiao",
+          "pinyin": "tangqiao",
           "lat": 31.209762,
           "lon": 121.51869,
           "sequence": 19
@@ -1223,6 +1330,7 @@
           "nameZh": "南浦大桥",
           "nameEn": "Nanpu Bridge",
           "target": "nanpu bridge",
+          "pinyin": "nanpudaqiao",
           "lat": 31.208504,
           "lon": 121.499725,
           "sequence": 20
@@ -1233,6 +1341,7 @@
           "nameZh": "西藏南路",
           "nameEn": "South Xizang Road",
           "target": "south xizang road",
+          "pinyin": "xizangnanlu",
           "lat": 31.201967,
           "lon": 121.489555,
           "sequence": 21
@@ -1243,6 +1352,7 @@
           "nameZh": "鲁班路",
           "nameEn": "Luban Road",
           "target": "luban road",
+          "pinyin": "lubanlu",
           "lat": 31.199221,
           "lon": 121.475148,
           "sequence": 22
@@ -1253,6 +1363,7 @@
           "nameZh": "大木桥路",
           "nameEn": "Damuqiao Road",
           "target": "damuqiao road",
+          "pinyin": "damuqiaolu",
           "lat": 31.194057,
           "lon": 121.463278,
           "sequence": 23
@@ -1263,6 +1374,7 @@
           "nameZh": "东安路",
           "nameEn": "Dong'an Road",
           "target": "dong'an road",
+          "pinyin": "donganlu",
           "lat": 31.190819,
           "lon": 121.454897,
           "sequence": 24
@@ -1273,6 +1385,7 @@
           "nameZh": "上海体育场",
           "nameEn": "Shanghai Stadium",
           "target": "shanghai stadium",
+          "pinyin": "shanghaitiyuchang",
           "lat": 31.185605,
           "lon": 121.443529,
           "sequence": 25
@@ -1283,6 +1396,7 @@
           "nameZh": "上海体育馆",
           "nameEn": "Shanghai Indoor Stadium",
           "target": "shanghai indoor stadium",
+          "pinyin": "shanghaitiyuguan",
           "lat": 31.182813,
           "lon": 121.437423,
           "sequence": 26
@@ -1334,6 +1448,7 @@
           "nameZh": "莘庄",
           "nameEn": "Xinzhuang",
           "target": "xinzhuang",
+          "pinyin": "xinzhuang",
           "lat": 31.111152,
           "lon": 121.385373,
           "sequence": 1
@@ -1344,6 +1459,7 @@
           "nameZh": "春申路",
           "nameEn": "Chunshen Road",
           "target": "chunshen road",
+          "pinyin": "chunshenlu",
           "lat": 31.09825,
           "lon": 121.385818,
           "sequence": 2
@@ -1354,6 +1470,7 @@
           "nameZh": "银都路",
           "nameEn": "Yindu Road",
           "target": "yindu road",
+          "pinyin": "yindulu",
           "lat": 31.089345,
           "lon": 121.390264,
           "sequence": 3
@@ -1364,6 +1481,7 @@
           "nameZh": "颛桥",
           "nameEn": "Zhuanqiao",
           "target": "zhuanqiao",
+          "pinyin": "zhuanqiao",
           "lat": 31.067013,
           "lon": 121.401868,
           "sequence": 4
@@ -1374,6 +1492,7 @@
           "nameZh": "北桥",
           "nameEn": "Beiqiao",
           "target": "beiqiao",
+          "pinyin": "beiqiao",
           "lat": 31.045112,
           "lon": 121.410054,
           "sequence": 5
@@ -1384,6 +1503,7 @@
           "nameZh": "剑川路",
           "nameEn": "Jianchuan Road",
           "target": "jianchuan road",
+          "pinyin": "jianchuanlu",
           "lat": 31.026483,
           "lon": 121.416582,
           "sequence": 6
@@ -1394,6 +1514,7 @@
           "nameZh": "东川路",
           "nameEn": "Dongchuan Road",
           "target": "dongchuan road",
+          "pinyin": "dongchuanlu",
           "lat": 31.018197,
           "lon": 121.419901,
           "sequence": 7
@@ -1404,6 +1525,7 @@
           "nameZh": "江川路",
           "nameEn": "Jiangchuan Road",
           "target": "jiangchuan road",
+          "pinyin": "jiangchuanlu",
           "lat": 31.005428,
           "lon": 121.423474,
           "sequence": 8
@@ -1414,6 +1536,7 @@
           "nameZh": "西渡",
           "nameEn": "Xidu",
           "target": "xidu",
+          "pinyin": "xidu",
           "lat": 30.98935,
           "lon": 121.432441,
           "sequence": 9
@@ -1424,6 +1547,7 @@
           "nameZh": "萧塘",
           "nameEn": "Xiaotang",
           "target": "xiaotang",
+          "pinyin": "xiaotang",
           "lat": 30.965888,
           "lon": 121.441857,
           "sequence": 10
@@ -1434,6 +1558,7 @@
           "nameZh": "奉浦大道",
           "nameEn": "Fengpu Avenue",
           "target": "fengpu avenue",
+          "pinyin": "fengpudadao",
           "lat": 30.942055,
           "lon": 121.448984,
           "sequence": 11
@@ -1444,6 +1569,7 @@
           "nameZh": "环城东路",
           "nameEn": "Huanchengdong Road",
           "target": "huanchengdong road",
+          "pinyin": "huanchengdonglu",
           "lat": 30.931168,
           "lon": 121.463204,
           "sequence": 12
@@ -1454,6 +1580,7 @@
           "nameZh": "望园路",
           "nameEn": "Wangyuan Road",
           "target": "wangyuan road",
+          "pinyin": "wangyuanlu",
           "lat": 30.93194,
           "lon": 121.48358,
           "sequence": 13
@@ -1464,6 +1591,7 @@
           "nameZh": "金海湖",
           "nameEn": "Jinhai Lake",
           "target": "jinhai lake",
+          "pinyin": "jinhaihu",
           "lat": 30.928805,
           "lon": 121.492506,
           "sequence": 14
@@ -1474,6 +1602,7 @@
           "nameZh": "奉贤新城",
           "nameEn": "Fengxian Xincheng",
           "target": "fengxian xincheng",
+          "pinyin": "fengxianxincheng",
           "lat": 30.913916,
           "lon": 121.49629,
           "sequence": 15
@@ -1484,6 +1613,7 @@
           "nameZh": "金平路",
           "nameEn": "Jinping Road",
           "target": "jinping road",
+          "pinyin": "jinpinglu",
           "lat": 31.011282,
           "lon": 121.410186,
           "sequence": 16
@@ -1494,6 +1624,7 @@
           "nameZh": "华宁路",
           "nameEn": "Huaning Road",
           "target": "huaning road",
+          "pinyin": "huaninglu",
           "lat": 31.007467,
           "lon": 121.395255,
           "sequence": 17
@@ -1504,6 +1635,7 @@
           "nameZh": "文井路",
           "nameEn": "Wenjing Road",
           "target": "wenjing road",
+          "pinyin": "wenjinglu",
           "lat": 31.003597,
           "lon": 121.380775,
           "sequence": 18
@@ -1514,6 +1646,7 @@
           "nameZh": "闵行开发区",
           "nameEn": "Minhang Development Zone",
           "target": "minhang development zone",
+          "pinyin": "minhangkaifaqu",
           "lat": 31.000627,
           "lon": 121.369712,
           "sequence": 19
@@ -1567,6 +1700,7 @@
           "nameZh": "东方体育中心",
           "nameEn": "Oriental Sports Center",
           "target": "oriental sports center",
+          "pinyin": "dongfangtiyuzhongxin",
           "lat": 31.153366,
           "lon": 121.480304,
           "sequence": 1
@@ -1577,6 +1711,7 @@
           "nameZh": "灵岩南路",
           "nameEn": "South Lingyan Road",
           "target": "south lingyan road",
+          "pinyin": "lingyannanlu",
           "lat": 31.148665,
           "lon": 121.495295,
           "sequence": 2
@@ -1587,6 +1722,7 @@
           "nameZh": "上南路",
           "nameEn": "Shangnan Road",
           "target": "shangnan road",
+          "pinyin": "shangnanlu",
           "lat": 31.14882,
           "lon": 121.506447,
           "sequence": 3
@@ -1597,6 +1733,7 @@
           "nameZh": "华夏西路",
           "nameEn": "West Huaxia Road",
           "target": "west huaxia road",
+          "pinyin": "huaxiaxilu",
           "lat": 31.149878,
           "lon": 121.514539,
           "sequence": 4
@@ -1607,6 +1744,7 @@
           "nameZh": "高青路",
           "nameEn": "Gaoqing Road",
           "target": "gaoqing road",
+          "pinyin": "gaoqinglu",
           "lat": 31.159907,
           "lon": 121.515787,
           "sequence": 5
@@ -1617,6 +1755,7 @@
           "nameZh": "东明路",
           "nameEn": "Dongming Road",
           "target": "dongming road",
+          "pinyin": "dongminglu",
           "lat": 31.172646,
           "lon": 121.510868,
           "sequence": 6
@@ -1627,6 +1766,7 @@
           "nameZh": "高科西路",
           "nameEn": "West Gaoke Road",
           "target": "west gaoke road",
+          "pinyin": "gaokexilu",
           "lat": 31.185761,
           "lon": 121.509845,
           "sequence": 7
@@ -1637,6 +1777,7 @@
           "nameZh": "临沂新村",
           "nameEn": "Linyi Xincun",
           "target": "linyi xincun",
+          "pinyin": "linyixincun",
           "lat": 31.193202,
           "lon": 121.516695,
           "sequence": 8
@@ -1647,6 +1788,7 @@
           "nameZh": "上海儿童医学中心",
           "nameEn": "Shanghai Children's Medical Center",
           "target": "shanghai children's medical center",
+          "pinyin": "shanghaiertongyixuezhongxin",
           "lat": 31.203277,
           "lon": 121.523482,
           "sequence": 9
@@ -1657,6 +1799,7 @@
           "nameZh": "蓝村路",
           "nameEn": "Lancun Road",
           "target": "lancun road",
+          "pinyin": "lancunlu",
           "lat": 31.211672,
           "lon": 121.527627,
           "sequence": 10
@@ -1667,6 +1810,7 @@
           "nameZh": "浦电路",
           "nameEn": "Pudian Road",
           "target": "pudian road",
+          "pinyin": "pudianlu",
           "lat": 31.220154,
           "lon": 121.529351,
           "sequence": 11
@@ -1677,6 +1821,7 @@
           "nameZh": "世纪大道",
           "nameEn": "Century Avenue",
           "target": "century avenue",
+          "pinyin": "shijidadao",
           "lat": 31.228682,
           "lon": 121.527213,
           "sequence": 12
@@ -1687,6 +1832,7 @@
           "nameZh": "源深体育中心",
           "nameEn": "Yuanshen Sports Center",
           "target": "yuanshen sports center",
+          "pinyin": "yuanshentiyuzhongxin",
           "lat": 31.233004,
           "lon": 121.534642,
           "sequence": 13
@@ -1697,6 +1843,7 @@
           "nameZh": "民生路",
           "nameEn": "Minsheng Road",
           "target": "minsheng road",
+          "pinyin": "minshenglu",
           "lat": 31.235851,
           "lon": 121.543527,
           "sequence": 14
@@ -1707,6 +1854,7 @@
           "nameZh": "北洋泾路",
           "nameEn": "Beiyangjing Road",
           "target": "beiyangjing road",
+          "pinyin": "beiyangjinglu",
           "lat": 31.239145,
           "lon": 121.552314,
           "sequence": 15
@@ -1717,6 +1865,7 @@
           "nameZh": "德平路",
           "nameEn": "Deping Road",
           "target": "deping road",
+          "pinyin": "depinglu",
           "lat": 31.2454,
           "lon": 121.564237,
           "sequence": 16
@@ -1727,6 +1876,7 @@
           "nameZh": "云山路",
           "nameEn": "Yunshan Road",
           "target": "yunshan road",
+          "pinyin": "yunshanlu",
           "lat": 31.250969,
           "lon": 121.571153,
           "sequence": 17
@@ -1737,6 +1887,7 @@
           "nameZh": "金桥路",
           "nameEn": "Jinqiao Road",
           "target": "jinqiao road",
+          "pinyin": "jinqiaolu",
           "lat": 31.257084,
           "lon": 121.581817,
           "sequence": 18
@@ -1747,6 +1898,7 @@
           "nameZh": "博兴路",
           "nameEn": "Boxing Road",
           "target": "boxing road",
+          "pinyin": "boxinglu",
           "lat": 31.26352,
           "lon": 121.586689,
           "sequence": 19
@@ -1757,6 +1909,7 @@
           "nameZh": "五莲路",
           "nameEn": "Wulian Road",
           "target": "wulian road",
+          "pinyin": "wulianlu",
           "lat": 31.272025,
           "lon": 121.587866,
           "sequence": 20
@@ -1767,6 +1920,7 @@
           "nameZh": "巨峰路",
           "nameEn": "Jufeng Road",
           "target": "jufeng road",
+          "pinyin": "jufenglu",
           "lat": 31.280684,
           "lon": 121.588365,
           "sequence": 21
@@ -1777,6 +1931,7 @@
           "nameZh": "东靖路",
           "nameEn": "Dongjing Road",
           "target": "dongjing road",
+          "pinyin": "dongjinglu",
           "lat": 31.290684,
           "lon": 121.588736,
           "sequence": 22
@@ -1787,6 +1942,7 @@
           "nameZh": "五洲大道",
           "nameEn": "Wuzhou Avenue",
           "target": "wuzhou avenue",
+          "pinyin": "wuzhoudadao",
           "lat": 31.302569,
           "lon": 121.589212,
           "sequence": 23
@@ -1797,6 +1953,7 @@
           "nameZh": "洲海路",
           "nameEn": "Zhouhai Road",
           "target": "zhouhai road",
+          "pinyin": "zhouhailu",
           "lat": 31.312229,
           "lon": 121.589396,
           "sequence": 24
@@ -1807,6 +1964,7 @@
           "nameZh": "外高桥保税区南",
           "nameEn": "South Waigaoqiao Free Trade Zone",
           "target": "south waigaoqiao free trade zone",
+          "pinyin": "waigaoqiaobaoshuiqunan",
           "lat": 31.321578,
           "lon": 121.601963,
           "sequence": 25
@@ -1817,6 +1975,7 @@
           "nameZh": "航津路",
           "nameEn": "Hangjin Road",
           "target": "hangjin road",
+          "pinyin": "hangjinlu",
           "lat": 31.335371,
           "lon": 121.593974,
           "sequence": 26
@@ -1827,6 +1986,7 @@
           "nameZh": "外高桥保税区北",
           "nameEn": "North Waigaoqiao Free Trade Zone",
           "target": "north waigaoqiao free trade zone",
+          "pinyin": "waigaoqiaobaoshuiqubei",
           "lat": 31.347802,
           "lon": 121.586926,
           "sequence": 27
@@ -1837,6 +1997,7 @@
           "nameZh": "港城路",
           "nameEn": "Gangcheng Road",
           "target": "gangcheng road",
+          "pinyin": "gangchenglu",
           "lat": 31.353223,
           "lon": 121.575017,
           "sequence": 28
@@ -1890,6 +2051,7 @@
           "nameZh": "花木路",
           "nameEn": "Huamu Road",
           "target": "huamu road",
+          "pinyin": "huamulu",
           "lat": 31.211212,
           "lon": 121.562754,
           "sequence": 1
@@ -1900,6 +2062,7 @@
           "nameZh": "龙阳路",
           "nameEn": "Longyang Road",
           "target": "longyang road",
+          "pinyin": "longyanglu",
           "lat": 31.203575,
           "lon": 121.557634,
           "sequence": 2
@@ -1910,6 +2073,7 @@
           "nameZh": "芳华路",
           "nameEn": "Fanghua Road",
           "target": "fanghua road",
+          "pinyin": "fanghualu",
           "lat": 31.19311,
           "lon": 121.550115,
           "sequence": 3
@@ -1920,6 +2084,7 @@
           "nameZh": "锦绣路",
           "nameEn": "Jinxiu Road",
           "target": "jinxiu road",
+          "pinyin": "jinxiulu",
           "lat": 31.187592,
           "lon": 121.540041,
           "sequence": 4
@@ -1930,6 +2095,7 @@
           "nameZh": "杨高南路",
           "nameEn": "South Yanggao Road",
           "target": "south yanggao road",
+          "pinyin": "yanggaonanlu",
           "lat": 31.187613,
           "lon": 121.524539,
           "sequence": 5
@@ -1940,6 +2106,7 @@
           "nameZh": "高科西路",
           "nameEn": "West Gaoke Road",
           "target": "west gaoke road",
+          "pinyin": "gaokexilu",
           "lat": 31.185761,
           "lon": 121.509845,
           "sequence": 6
@@ -1950,6 +2117,7 @@
           "nameZh": "云台路",
           "nameEn": "Yuntai Road",
           "target": "yuntai road",
+          "pinyin": "yuntailu",
           "lat": 31.182212,
           "lon": 121.500439,
           "sequence": 7
@@ -1960,6 +2128,7 @@
           "nameZh": "耀华路",
           "nameEn": "Yaohua Road",
           "target": "yaohua road",
+          "pinyin": "yaohualu",
           "lat": 31.178513,
           "lon": 121.494605,
           "sequence": 8
@@ -1970,6 +2139,7 @@
           "nameZh": "长清路",
           "nameEn": "Changqing Road",
           "target": "changqing road",
+          "pinyin": "changqinglu",
           "lat": 31.174452,
           "lon": 121.487775,
           "sequence": 9
@@ -1980,6 +2150,7 @@
           "nameZh": "后滩",
           "nameEn": "Houtan",
           "target": "houtan",
+          "pinyin": "houtan",
           "lat": 31.171918,
           "lon": 121.473756,
           "sequence": 10
@@ -1990,6 +2161,7 @@
           "nameZh": "龙华中路",
           "nameEn": "Middle Longhua Road",
           "target": "middle longhua road",
+          "pinyin": "longhuazhonglu",
           "lat": 31.184379,
           "lon": 121.457064,
           "sequence": 11
@@ -2000,6 +2172,7 @@
           "nameZh": "东安路",
           "nameEn": "Dong'an Road",
           "target": "dong'an road",
+          "pinyin": "donganlu",
           "lat": 31.190819,
           "lon": 121.454897,
           "sequence": 12
@@ -2010,6 +2183,7 @@
           "nameZh": "肇嘉浜路",
           "nameEn": "Zhaojiabang Road",
           "target": "zhaojiabang road",
+          "pinyin": "zhaojiabanglu",
           "lat": 31.199436,
           "lon": 121.450212,
           "sequence": 13
@@ -2020,6 +2194,7 @@
           "nameZh": "常熟路",
           "nameEn": "Changshu Road",
           "target": "changshu road",
+          "pinyin": "changshulu",
           "lat": 31.213524,
           "lon": 121.449141,
           "sequence": 14
@@ -2030,6 +2205,7 @@
           "nameZh": "静安寺",
           "nameEn": "Jing'an Temple",
           "target": "jing'an temple",
+          "pinyin": "jingansi",
           "lat": 31.223231,
           "lon": 121.446533,
           "sequence": 15
@@ -2040,6 +2216,7 @@
           "nameZh": "昌平路",
           "nameEn": "Changping Road",
           "target": "changping road",
+          "pinyin": "changpinglu",
           "lat": 31.233749,
           "lon": 121.442617,
           "sequence": 16
@@ -2050,6 +2227,7 @@
           "nameZh": "长寿路",
           "nameEn": "Changshou Road",
           "target": "changshou road",
+          "pinyin": "changshoulu",
           "lat": 31.24086,
           "lon": 121.438272,
           "sequence": 17
@@ -2060,6 +2238,7 @@
           "nameZh": "镇坪路",
           "nameEn": "Zhenping Road",
           "target": "zhenping road",
+          "pinyin": "zhenpinglu",
           "lat": 31.246369,
           "lon": 121.429779,
           "sequence": 18
@@ -2070,6 +2249,7 @@
           "nameZh": "岚皋路",
           "nameEn": "Langao Road",
           "target": "langao road",
+          "pinyin": "langaolu",
           "lat": 31.256198,
           "lon": 121.421939,
           "sequence": 19
@@ -2080,6 +2260,7 @@
           "nameZh": "新村路",
           "nameEn": "Xincun Road",
           "target": "xincun road",
+          "pinyin": "xincunlu",
           "lat": 31.263855,
           "lon": 121.422668,
           "sequence": 20
@@ -2090,6 +2271,7 @@
           "nameZh": "大华三路",
           "nameEn": "Dahuasan Road",
           "target": "dahuasan road",
+          "pinyin": "dahuasanlu",
           "lat": 31.274047,
           "lon": 121.422949,
           "sequence": 21
@@ -2100,6 +2282,7 @@
           "nameZh": "行知路",
           "nameEn": "Xingzhi Road",
           "target": "xingzhi road",
+          "pinyin": "xingzhilu",
           "lat": 31.284496,
           "lon": 121.42177,
           "sequence": 22
@@ -2110,6 +2293,7 @@
           "nameZh": "大场镇",
           "nameEn": "Dachang Town",
           "target": "dachang town",
+          "pinyin": "dachangzhen",
           "lat": 31.293259,
           "lon": 121.416157,
           "sequence": 23
@@ -2120,6 +2304,7 @@
           "nameZh": "场中路",
           "nameEn": "Changzhong Road",
           "target": "changzhong road",
+          "pinyin": "changzhonglu",
           "lat": 31.303682,
           "lon": 121.413458,
           "sequence": 24
@@ -2130,6 +2315,7 @@
           "nameZh": "上大路",
           "nameEn": "Shangda Road",
           "target": "shangda road",
+          "pinyin": "shangdalu",
           "lat": 31.314969,
           "lon": 121.408686,
           "sequence": 25
@@ -2140,6 +2326,7 @@
           "nameZh": "南陈路",
           "nameEn": "Nanchen Road",
           "target": "nanchen road",
+          "pinyin": "nanchenlu",
           "lat": 31.32174,
           "lon": 121.398419,
           "sequence": 26
@@ -2150,6 +2337,7 @@
           "nameZh": "上海大学",
           "nameEn": "Shanghai University",
           "target": "shanghai university",
+          "pinyin": "shanghaidaxue",
           "lat": 31.320586,
           "lon": 121.388884,
           "sequence": 27
@@ -2160,6 +2348,7 @@
           "nameZh": "祁华路",
           "nameEn": "Qihua Road",
           "target": "qihua road",
+          "pinyin": "qihualu",
           "lat": 31.322388,
           "lon": 121.373529,
           "sequence": 28
@@ -2170,6 +2359,7 @@
           "nameZh": "顾村公园",
           "nameEn": "Gucun Park",
           "target": "gucun park",
+          "pinyin": "gucungongyuan",
           "lat": 31.344594,
           "lon": 121.373009,
           "sequence": 29
@@ -2180,6 +2370,7 @@
           "nameZh": "刘行",
           "nameEn": "Liuhang",
           "target": "liuhang",
+          "pinyin": "liuhang",
           "lat": 31.357586,
           "lon": 121.362376,
           "sequence": 30
@@ -2190,6 +2381,7 @@
           "nameZh": "潘广路",
           "nameEn": "Panguang Road",
           "target": "panguang road",
+          "pinyin": "panguanglu",
           "lat": 31.364182,
           "lon": 121.355845,
           "sequence": 31
@@ -2200,6 +2392,7 @@
           "nameZh": "罗南新村",
           "nameEn": "Luonan Xincun",
           "target": "luonan xincun",
+          "pinyin": "luonanxincun",
           "lat": 31.388831,
           "lon": 121.35747,
           "sequence": 32
@@ -2210,6 +2403,7 @@
           "nameZh": "美兰湖",
           "nameEn": "Meilan Lake",
           "target": "meilan lake",
+          "pinyin": "meilanhu",
           "lat": 31.401889,
           "lon": 121.349894,
           "sequence": 33
@@ -2268,6 +2462,7 @@
           "nameZh": "沈杜公路",
           "nameEn": "Shendu Highway",
           "target": "shendu highway",
+          "pinyin": "shendugonglu",
           "lat": 31.061427,
           "lon": 121.512272,
           "sequence": 1
@@ -2278,6 +2473,7 @@
           "nameZh": "联航路",
           "nameEn": "Lianhang Road",
           "target": "lianhang road",
+          "pinyin": "lianhanglu",
           "lat": 31.073567,
           "lon": 121.510594,
           "sequence": 2
@@ -2288,6 +2484,7 @@
           "nameZh": "江月路",
           "nameEn": "Jiangyue Road",
           "target": "jiangyue road",
+          "pinyin": "jiangyuelu",
           "lat": 31.084253,
           "lon": 121.508603,
           "sequence": 3
@@ -2298,6 +2495,7 @@
           "nameZh": "浦江镇",
           "nameEn": "Pujiang Town",
           "target": "pujiang town",
+          "pinyin": "pujiangzhen",
           "lat": 31.09659,
           "lon": 121.506272,
           "sequence": 4
@@ -2308,6 +2506,7 @@
           "nameZh": "芦恒路",
           "nameEn": "Luheng Road",
           "target": "luheng road",
+          "pinyin": "luhenglu",
           "lat": 31.11907,
           "lon": 121.49826,
           "sequence": 5
@@ -2318,6 +2517,7 @@
           "nameZh": "凌兆新村",
           "nameEn": "Lingzhao Xincun",
           "target": "lingzhao xincun",
+          "pinyin": "lingzhaoxincun",
           "lat": 31.141301,
           "lon": 121.489663,
           "sequence": 6
@@ -2328,6 +2528,7 @@
           "nameZh": "东方体育中心",
           "nameEn": "Oriental Sports Center",
           "target": "oriental sports center",
+          "pinyin": "dongfangtiyuzhongxin",
           "lat": 31.153366,
           "lon": 121.480304,
           "sequence": 7
@@ -2338,6 +2539,7 @@
           "nameZh": "杨思",
           "nameEn": "Yangsi",
           "target": "yangsi",
+          "pinyin": "yangsi",
           "lat": 31.161054,
           "lon": 121.493443,
           "sequence": 8
@@ -2348,6 +2550,7 @@
           "nameZh": "成山路",
           "nameEn": "Chengshan Road",
           "target": "chengshan road",
+          "pinyin": "chengshanlu",
           "lat": 31.170735,
           "lon": 121.49622,
           "sequence": 9
@@ -2358,6 +2561,7 @@
           "nameZh": "耀华路",
           "nameEn": "Yaohua Road",
           "target": "yaohua road",
+          "pinyin": "yaohualu",
           "lat": 31.178513,
           "lon": 121.494605,
           "sequence": 10
@@ -2368,6 +2572,7 @@
           "nameZh": "中华艺术宫",
           "nameEn": "China Art Museum",
           "target": "china art museum",
+          "pinyin": "zhonghuayishugong",
           "lat": 31.185242,
           "lon": 121.493626,
           "sequence": 11
@@ -2378,6 +2583,7 @@
           "nameZh": "西藏南路",
           "nameEn": "South Xizang Road",
           "target": "south xizang road",
+          "pinyin": "xizangnanlu",
           "lat": 31.201967,
           "lon": 121.489555,
           "sequence": 12
@@ -2388,6 +2594,7 @@
           "nameZh": "陆家浜路",
           "nameEn": "Lujiabang Road",
           "target": "lujiabang road",
+          "pinyin": "lujiabanglu",
           "lat": 31.211789,
           "lon": 121.486115,
           "sequence": 13
@@ -2398,6 +2605,7 @@
           "nameZh": "老西门",
           "nameEn": "Laoximen",
           "target": "laoximen",
+          "pinyin": "laoximen",
           "lat": 31.219014,
           "lon": 121.483793,
           "sequence": 14
@@ -2408,6 +2616,7 @@
           "nameZh": "大世界",
           "nameEn": "Dashijie",
           "target": "dashijie",
+          "pinyin": "dashijie",
           "lat": 31.227392,
           "lon": 121.479182,
           "sequence": 15
@@ -2418,6 +2627,7 @@
           "nameZh": "人民广场",
           "nameEn": "People's Square",
           "target": "people's square",
+          "pinyin": "renminguangchang",
           "lat": 31.232687,
           "lon": 121.475108,
           "sequence": 16
@@ -2428,6 +2638,7 @@
           "nameZh": "曲阜路",
           "nameEn": "Qufu Road",
           "target": "qufu road",
+          "pinyin": "qufulu",
           "lat": 31.242307,
           "lon": 121.471543,
           "sequence": 17
@@ -2438,6 +2649,7 @@
           "nameZh": "中兴路",
           "nameEn": "Zhongxing Road",
           "target": "zhongxing road",
+          "pinyin": "zhongxinglu",
           "lat": 31.253228,
           "lon": 121.469026,
           "sequence": 18
@@ -2448,6 +2660,7 @@
           "nameZh": "西藏北路",
           "nameEn": "North Xizang Road",
           "target": "north xizang road",
+          "pinyin": "xizangbeilu",
           "lat": 31.263453,
           "lon": 121.468818,
           "sequence": 19
@@ -2458,6 +2671,7 @@
           "nameZh": "虹口足球场",
           "nameEn": "Hongkou Football Stadium",
           "target": "hongkou football stadium",
+          "pinyin": "hongkouzuqiuchang",
           "lat": 31.271392,
           "lon": 121.479154,
           "sequence": 20
@@ -2468,6 +2682,7 @@
           "nameZh": "曲阳路",
           "nameEn": "Quyang Road",
           "target": "quyang road",
+          "pinyin": "quyanglu",
           "lat": 31.276524,
           "lon": 121.491138,
           "sequence": 21
@@ -2478,6 +2693,7 @@
           "nameZh": "四平路",
           "nameEn": "Siping Road",
           "target": "siping road",
+          "pinyin": "sipinglu",
           "lat": 31.27488,
           "lon": 121.501488,
           "sequence": 22
@@ -2488,6 +2704,7 @@
           "nameZh": "鞍山新村",
           "nameEn": "Anshan Xincun",
           "target": "anshan xincun",
+          "pinyin": "anshanxincun",
           "lat": 31.273242,
           "lon": 121.509685,
           "sequence": 23
@@ -2498,6 +2715,7 @@
           "nameZh": "江浦路",
           "nameEn": "Jiangpu Road",
           "target": "jiangpu road",
+          "pinyin": "jiangpulu",
           "lat": 31.274946,
           "lon": 121.518379,
           "sequence": 24
@@ -2508,6 +2726,7 @@
           "nameZh": "黄兴路",
           "nameEn": "Huangxing Road",
           "target": "huangxing road",
+          "pinyin": "huangxinglu",
           "lat": 31.278814,
           "lon": 121.528401,
           "sequence": 25
@@ -2518,6 +2737,7 @@
           "nameZh": "延吉中路",
           "nameEn": "Middle Yanji Road",
           "target": "middle yanji road",
+          "pinyin": "yanjizhonglu",
           "lat": 31.288543,
           "lon": 121.534941,
           "sequence": 26
@@ -2528,6 +2748,7 @@
           "nameZh": "黄兴公园",
           "nameEn": "Huangxing Park",
           "target": "huangxing park",
+          "pinyin": "huangxinggongyuan",
           "lat": 31.295389,
           "lon": 121.533383,
           "sequence": 27
@@ -2538,6 +2759,7 @@
           "nameZh": "翔殷路",
           "nameEn": "Xiangyin Road",
           "target": "xiangyin road",
+          "pinyin": "xiangyinlu",
           "lat": 31.305002,
           "lon": 121.531974,
           "sequence": 28
@@ -2548,6 +2770,7 @@
           "nameZh": "嫩江路",
           "nameEn": "Nenjiang Road",
           "target": "nenjiang road",
+          "pinyin": "nenjianglu",
           "lat": 31.314804,
           "lon": 121.531954,
           "sequence": 29
@@ -2558,6 +2781,7 @@
           "nameZh": "市光路",
           "nameEn": "Shiguang Road",
           "target": "shiguang road",
+          "pinyin": "shiguanglu",
           "lat": 31.322724,
           "lon": 121.531933,
           "sequence": 30
@@ -2613,6 +2837,7 @@
           "nameZh": "曹路",
           "nameEn": "Caolu",
           "target": "caolu",
+          "pinyin": "caolu",
           "lat": 31.271297,
           "lon": 121.683153,
           "sequence": 1
@@ -2623,6 +2848,7 @@
           "nameZh": "民雷路",
           "nameEn": "Minlei Road",
           "target": "minlei road",
+          "pinyin": "minleilu",
           "lat": 31.268335,
           "lon": 121.668125,
           "sequence": 2
@@ -2633,6 +2859,7 @@
           "nameZh": "顾唐路",
           "nameEn": "Gutang Road",
           "target": "gutang road",
+          "pinyin": "gutanglu",
           "lat": 31.266074,
           "lon": 121.656465,
           "sequence": 3
@@ -2643,6 +2870,7 @@
           "nameZh": "金海路",
           "nameEn": "Jinhai Road",
           "target": "jinhai road",
+          "pinyin": "jinhailu",
           "lat": 31.263141,
           "lon": 121.638629,
           "sequence": 4
@@ -2653,6 +2881,7 @@
           "nameZh": "金吉路",
           "nameEn": "Jinji Road",
           "target": "jinji road",
+          "pinyin": "jinjilu",
           "lat": 31.264304,
           "lon": 121.628741,
           "sequence": 5
@@ -2663,6 +2892,7 @@
           "nameZh": "金桥",
           "nameEn": "Jinqiao",
           "target": "jinqiao",
+          "pinyin": "jinqiao",
           "lat": 31.26085,
           "lon": 121.611336,
           "sequence": 6
@@ -2673,6 +2903,7 @@
           "nameZh": "台儿庄路",
           "nameEn": "Taierzhuang Road",
           "target": "taierzhuang road",
+          "pinyin": "taierzhuanglu",
           "lat": 31.252825,
           "lon": 121.597458,
           "sequence": 7
@@ -2683,6 +2914,7 @@
           "nameZh": "蓝天路",
           "nameEn": "Lantian Road",
           "target": "lantian road",
+          "pinyin": "lantianlu",
           "lat": 31.241028,
           "lon": 121.577995,
           "sequence": 8
@@ -2693,6 +2925,7 @@
           "nameZh": "芳甸路",
           "nameEn": "Fangdian Road",
           "target": "fangdian road",
+          "pinyin": "fangdianlu",
           "lat": 31.231845,
           "lon": 121.558431,
           "sequence": 9
@@ -2703,6 +2936,7 @@
           "nameZh": "杨高中路",
           "nameEn": "Middle Yanggao Road",
           "target": "middle yanggao road",
+          "pinyin": "yanggaozhonglu",
           "lat": 31.22751,
           "lon": 121.548664,
           "sequence": 10
@@ -2713,6 +2947,7 @@
           "nameZh": "世纪大道",
           "nameEn": "Century Avenue",
           "target": "century avenue",
+          "pinyin": "shijidadao",
           "lat": 31.228682,
           "lon": 121.527213,
           "sequence": 11
@@ -2723,6 +2958,7 @@
           "nameZh": "商城路",
           "nameEn": "Shangcheng Road",
           "target": "shangcheng road",
+          "pinyin": "shangchenglu",
           "lat": 31.230258,
           "lon": 121.516275,
           "sequence": 12
@@ -2733,6 +2969,7 @@
           "nameZh": "小南门",
           "nameEn": "Xiaonanmen",
           "target": "xiaonanmen",
+          "pinyin": "xiaonanmen",
           "lat": 31.216866,
           "lon": 121.498398,
           "sequence": 13
@@ -2743,6 +2980,7 @@
           "nameZh": "陆家浜路",
           "nameEn": "Lujiabang Road",
           "target": "lujiabang road",
+          "pinyin": "lujiabanglu",
           "lat": 31.211789,
           "lon": 121.486115,
           "sequence": 14
@@ -2753,6 +2991,7 @@
           "nameZh": "马当路",
           "nameEn": "Madang Road",
           "target": "madang road",
+          "pinyin": "madanglu",
           "lat": 31.20952,
           "lon": 121.477256,
           "sequence": 15
@@ -2763,6 +3002,7 @@
           "nameZh": "打浦桥",
           "nameEn": "Dapuqiao",
           "target": "dapuqiao",
+          "pinyin": "dapuqiao",
           "lat": 31.206309,
           "lon": 121.468681,
           "sequence": 16
@@ -2773,6 +3013,7 @@
           "nameZh": "嘉善路",
           "nameEn": "Jiashan Road",
           "target": "jiashan road",
+          "pinyin": "jiashanlu",
           "lat": 31.20282,
           "lon": 121.460704,
           "sequence": 17
@@ -2783,6 +3024,7 @@
           "nameZh": "肇嘉浜路",
           "nameEn": "Zhaojiabang Road",
           "target": "zhaojiabang road",
+          "pinyin": "zhaojiabanglu",
           "lat": 31.199436,
           "lon": 121.450212,
           "sequence": 18
@@ -2793,6 +3035,7 @@
           "nameZh": "徐家汇",
           "nameEn": "Xujiahui",
           "target": "xujiahui",
+          "pinyin": "xujiahui",
           "lat": 31.195514,
           "lon": 121.436603,
           "sequence": 19
@@ -2803,6 +3046,7 @@
           "nameZh": "宜山路",
           "nameEn": "Yishan Road",
           "target": "yishan road",
+          "pinyin": "yishanlu",
           "lat": 31.186717,
           "lon": 121.427194,
           "sequence": 20
@@ -2813,6 +3057,7 @@
           "nameZh": "桂林路",
           "nameEn": "Guilin Road",
           "target": "guilin road",
+          "pinyin": "guilinlu",
           "lat": 31.174791,
           "lon": 121.418064,
           "sequence": 21
@@ -2823,6 +3068,7 @@
           "nameZh": "漕河泾开发区",
           "nameEn": "Caohejing Hi-Tech Park",
           "target": "caohejing hi tech park",
+          "pinyin": "caohejingkaifaqu",
           "lat": 31.170644,
           "lon": 121.397769,
           "sequence": 22
@@ -2833,6 +3079,7 @@
           "nameZh": "合川路",
           "nameEn": "Hechuan Road",
           "target": "hechuan road",
+          "pinyin": "hechuanlu",
           "lat": 31.166542,
           "lon": 121.384772,
           "sequence": 23
@@ -2843,6 +3090,7 @@
           "nameZh": "星中路",
           "nameEn": "Xingzhong Road",
           "target": "xingzhong road",
+          "pinyin": "xingzhonglu",
           "lat": 31.158109,
           "lon": 121.368903,
           "sequence": 24
@@ -2853,6 +3101,7 @@
           "nameZh": "七宝",
           "nameEn": "Qibao",
           "target": "qibao",
+          "pinyin": "qibao",
           "lat": 31.155287,
           "lon": 121.349221,
           "sequence": 25
@@ -2863,6 +3112,7 @@
           "nameZh": "中春路",
           "nameEn": "Zhongchun Road",
           "target": "zhongchun road",
+          "pinyin": "zhongchunlu",
           "lat": 31.149766,
           "lon": 121.334596,
           "sequence": 26
@@ -2873,6 +3123,7 @@
           "nameZh": "九亭",
           "nameEn": "Jiuting",
           "target": "jiuting",
+          "pinyin": "jiuting",
           "lat": 31.137252,
           "lon": 121.319423,
           "sequence": 27
@@ -2883,6 +3134,7 @@
           "nameZh": "泗泾",
           "nameEn": "Sijing",
           "target": "sijing",
+          "pinyin": "sijing",
           "lat": 31.118272,
           "lon": 121.260247,
           "sequence": 28
@@ -2893,6 +3145,7 @@
           "nameZh": "佘山",
           "nameEn": "Sheshan",
           "target": "sheshan",
+          "pinyin": "sheshan",
           "lat": 31.104097,
           "lon": 121.229686,
           "sequence": 29
@@ -2903,6 +3156,7 @@
           "nameZh": "洞泾",
           "nameEn": "Dongjing",
           "target": "dongjing",
+          "pinyin": "dongjing",
           "lat": 31.084492,
           "lon": 121.230473,
           "sequence": 30
@@ -2913,6 +3167,7 @@
           "nameZh": "松江大学城",
           "nameEn": "Songjiang University Town",
           "target": "songjiang university town",
+          "pinyin": "songjiangdaxuecheng",
           "lat": 31.053984,
           "lon": 121.232577,
           "sequence": 31
@@ -2923,6 +3178,7 @@
           "nameZh": "松江新城",
           "nameEn": "Songjiang Xincheng",
           "target": "songjiang xincheng",
+          "pinyin": "songjiangxincheng",
           "lat": 31.030295,
           "lon": 121.230739,
           "sequence": 32
@@ -2933,6 +3189,7 @@
           "nameZh": "松江体育中心",
           "nameEn": "Songjiang Sports Center",
           "target": "songjiang sports center",
+          "pinyin": "songjiangtiyuzhongxin",
           "lat": 31.016006,
           "lon": 121.230546,
           "sequence": 33
@@ -2943,6 +3200,7 @@
           "nameZh": "醉白池",
           "nameEn": "Zuibaichi Park",
           "target": "zuibaichi park",
+          "pinyin": "zuibaichi",
           "lat": 31.001125,
           "lon": 121.229361,
           "sequence": 34
@@ -2953,6 +3211,7 @@
           "nameZh": "上海松江站",
           "nameEn": "Shanghai Songjiang Railway Station",
           "target": "shanghai songjiang railway station",
+          "pinyin": "shanghaisongjiangzhan",
           "lat": 30.984818,
           "lon": 121.230884,
           "sequence": 35
@@ -3013,6 +3272,7 @@
           "nameZh": "基隆路",
           "nameEn": "Jilong Road",
           "target": "jilong road",
+          "pinyin": "jilonglu",
           "lat": 31.351311,
           "lon": 121.590411,
           "sequence": 1
@@ -3023,6 +3283,7 @@
           "nameZh": "港城路",
           "nameEn": "Gangcheng Road",
           "target": "gangcheng road",
+          "pinyin": "gangchenglu",
           "lat": 31.353223,
           "lon": 121.575017,
           "sequence": 2
@@ -3033,6 +3294,7 @@
           "nameZh": "高桥",
           "nameEn": "Gaoqiao",
           "target": "gaoqiao",
+          "pinyin": "gaoqiao",
           "lat": 31.352622,
           "lon": 121.562971,
           "sequence": 3
@@ -3043,6 +3305,7 @@
           "nameZh": "高桥西",
           "nameEn": "West Gaoqiao",
           "target": "west gaoqiao",
+          "pinyin": "gaoqiaoxi",
           "lat": 31.351489,
           "lon": 121.54928,
           "sequence": 4
@@ -3053,6 +3316,7 @@
           "nameZh": "双江路",
           "nameEn": "Shuangjiang Road",
           "target": "shuangjiang road",
+          "pinyin": "shuangjianglu",
           "lat": 31.353601,
           "lon": 121.539425,
           "sequence": 5
@@ -3063,6 +3327,7 @@
           "nameZh": "国帆路",
           "nameEn": "Guofan Road",
           "target": "guofan road",
+          "pinyin": "guofanlu",
           "lat": 31.339548,
           "lon": 121.513168,
           "sequence": 6
@@ -3073,6 +3338,7 @@
           "nameZh": "新江湾城",
           "nameEn": "Xinjiangwancheng",
           "target": "xinjiangwancheng",
+          "pinyin": "xinjiangwancheng",
           "lat": 31.328496,
           "lon": 121.506951,
           "sequence": 7
@@ -3083,6 +3349,7 @@
           "nameZh": "殷高东路",
           "nameEn": "East Yingao Road",
           "target": "east yingao road",
+          "pinyin": "yingaodonglu",
           "lat": 31.321768,
           "lon": 121.506797,
           "sequence": 8
@@ -3093,6 +3360,7 @@
           "nameZh": "三门路",
           "nameEn": "Sanmen Road",
           "target": "sanmen road",
+          "pinyin": "sanmenlu",
           "lat": 31.313214,
           "lon": 121.50834,
           "sequence": 9
@@ -3103,6 +3371,7 @@
           "nameZh": "江湾体育场",
           "nameEn": "Jiangwan Stadium",
           "target": "jiangwan stadium",
+          "pinyin": "jiangwantiyuchang",
           "lat": 31.304293,
           "lon": 121.513314,
           "sequence": 10
@@ -3113,6 +3382,7 @@
           "nameZh": "五角场",
           "nameEn": "Wujiaochang",
           "target": "wujiaochang",
+          "pinyin": "wujiaochang",
           "lat": 31.298043,
           "lon": 121.514632,
           "sequence": 11
@@ -3123,6 +3393,7 @@
           "nameZh": "国权路",
           "nameEn": "Guoquan Road",
           "target": "guoquan road",
+          "pinyin": "guoquanlu",
           "lat": 31.289276,
           "lon": 121.510024,
           "sequence": 12
@@ -3133,6 +3404,7 @@
           "nameZh": "同济大学",
           "nameEn": "Tongji University",
           "target": "tongji university",
+          "pinyin": "tongjidaxue",
           "lat": 31.282086,
           "lon": 121.506357,
           "sequence": 13
@@ -3143,6 +3415,7 @@
           "nameZh": "四平路",
           "nameEn": "Siping Road",
           "target": "siping road",
+          "pinyin": "sipinglu",
           "lat": 31.27488,
           "lon": 121.501488,
           "sequence": 14
@@ -3153,6 +3426,7 @@
           "nameZh": "邮电新村",
           "nameEn": "Youdian Xincun",
           "target": "youdian xincun",
+          "pinyin": "youdianxincun",
           "lat": 31.268431,
           "lon": 121.494247,
           "sequence": 15
@@ -3163,6 +3437,7 @@
           "nameZh": "海伦路",
           "nameEn": "Hailun Road",
           "target": "hailun road",
+          "pinyin": "hailunlu",
           "lat": 31.259303,
           "lon": 121.488697,
           "sequence": 16
@@ -3173,6 +3448,7 @@
           "nameZh": "四川北路",
           "nameEn": "North Sichuan Road",
           "target": "north sichuan road",
+          "pinyin": "sichuanbeilu",
           "lat": 31.252035,
           "lon": 121.484208,
           "sequence": 17
@@ -3183,6 +3459,7 @@
           "nameZh": "天潼路",
           "nameEn": "Tiantong Road",
           "target": "tiantong road",
+          "pinyin": "tiantonglu",
           "lat": 31.243815,
           "lon": 121.482321,
           "sequence": 18
@@ -3193,6 +3470,7 @@
           "nameZh": "南京东路",
           "nameEn": "East Nanjing Road",
           "target": "east nanjing road",
+          "pinyin": "nanjingdonglu",
           "lat": 31.238101,
           "lon": 121.484628,
           "sequence": 19
@@ -3203,6 +3481,7 @@
           "nameZh": "豫园",
           "nameEn": "Yuyuan Garden",
           "target": "yuyuan garden",
+          "pinyin": "yuyuan",
           "lat": 31.228005,
           "lon": 121.487426,
           "sequence": 20
@@ -3213,6 +3492,7 @@
           "nameZh": "老西门",
           "nameEn": "Laoximen",
           "target": "laoximen",
+          "pinyin": "laoximen",
           "lat": 31.219014,
           "lon": 121.483793,
           "sequence": 21
@@ -3223,6 +3503,7 @@
           "nameZh": "一大会址·新天地",
           "nameEn": "Site of the First CPC National Congress · Xintiandi",
           "target": "site of the first cpc national congress xintiandi",
+          "pinyin": "yidahuizhixintiandi",
           "lat": 31.216367,
           "lon": 121.475182,
           "sequence": 22
@@ -3233,6 +3514,7 @@
           "nameZh": "陕西南路",
           "nameEn": "South Shaanxi Road",
           "target": "south shaanxi road",
+          "pinyin": "shaanxinanlu",
           "lat": 31.215148,
           "lon": 121.458741,
           "sequence": 23
@@ -3243,6 +3525,7 @@
           "nameZh": "上海图书馆",
           "nameEn": "Shanghai Library",
           "target": "shanghai library",
+          "pinyin": "shanghaitushuguan",
           "lat": 31.20796,
           "lon": 121.444363,
           "sequence": 24
@@ -3253,6 +3536,7 @@
           "nameZh": "交通大学",
           "nameEn": "Jiao Tong University",
           "target": "jiao tong university",
+          "pinyin": "jiaotongdaxue",
           "lat": 31.202213,
           "lon": 121.435253,
           "sequence": 25
@@ -3263,6 +3547,7 @@
           "nameZh": "虹桥路",
           "nameEn": "Hongqiao Road",
           "target": "hongqiao road",
+          "pinyin": "hongqiaolu",
           "lat": 31.197524,
           "lon": 121.420814,
           "sequence": 26
@@ -3273,6 +3558,7 @@
           "nameZh": "宋园路",
           "nameEn": "Songyuan Road",
           "target": "songyuan road",
+          "pinyin": "songyuanlu",
           "lat": 31.19654,
           "lon": 121.41208,
           "sequence": 27
@@ -3283,6 +3569,7 @@
           "nameZh": "伊犁路",
           "nameEn": "Yili Road",
           "target": "yili road",
+          "pinyin": "yililu",
           "lat": 31.19888,
           "lon": 121.403899,
           "sequence": 28
@@ -3293,6 +3580,7 @@
           "nameZh": "水城路",
           "nameEn": "Shuicheng Road",
           "target": "shuicheng road",
+          "pinyin": "shuichenglu",
           "lat": 31.199482,
           "lon": 121.392259,
           "sequence": 29
@@ -3303,6 +3591,7 @@
           "nameZh": "龙溪路",
           "nameEn": "Longxi Road",
           "target": "longxi road",
+          "pinyin": "longxilu",
           "lat": 31.1944,
           "lon": 121.380034,
           "sequence": 30
@@ -3313,6 +3602,7 @@
           "nameZh": "上海动物园",
           "nameEn": "Shanghai Zoo",
           "target": "shanghai zoo",
+          "pinyin": "shanghaidongwuyuan",
           "lat": 31.190246,
           "lon": 121.368137,
           "sequence": 31
@@ -3323,6 +3613,7 @@
           "nameZh": "虹桥1号航站楼",
           "nameEn": "Hongqiao Airport Terminal 1",
           "target": "hongqiao airport terminal 1",
+          "pinyin": "hongqiao1haohangzhanlou",
           "lat": 31.191363,
           "lon": 121.347371,
           "sequence": 32
@@ -3333,6 +3624,7 @@
           "nameZh": "虹桥2号航站楼",
           "nameEn": "Hongqiao Airport Terminal 2",
           "target": "hongqiao airport terminal 2",
+          "pinyin": "hongqiao2haohangzhanlou",
           "lat": 31.194055,
           "lon": 121.324443,
           "sequence": 33
@@ -3343,6 +3635,7 @@
           "nameZh": "虹桥火车站",
           "nameEn": "Hongqiao Railway Station",
           "target": "hongqiao railway station",
+          "pinyin": "hongqiaohuochezhan",
           "lat": 31.194022,
           "lon": 121.31895,
           "sequence": 34
@@ -3353,6 +3646,7 @@
           "nameZh": "龙柏新村",
           "nameEn": "Longbai Xincun",
           "target": "longbai xincun",
+          "pinyin": "longbaixincun",
           "lat": 31.176882,
           "lon": 121.37048,
           "sequence": 35
@@ -3363,6 +3657,7 @@
           "nameZh": "紫藤路",
           "nameEn": "Ziteng Road",
           "target": "ziteng road",
+          "pinyin": "zitenglu",
           "lat": 31.169674,
           "lon": 121.364831,
           "sequence": 36
@@ -3373,6 +3668,7 @@
           "nameZh": "航中路",
           "nameEn": "Hangzhong Road",
           "target": "hangzhong road",
+          "pinyin": "hangzhonglu",
           "lat": 31.165417,
           "lon": 121.355336,
           "sequence": 37
@@ -3467,6 +3763,7 @@
           "nameZh": "迪士尼",
           "nameEn": "Disney Resort",
           "target": "disney resort",
+          "pinyin": "dishini",
           "lat": 31.141263,
           "lon": 121.667959,
           "sequence": 1
@@ -3477,6 +3774,7 @@
           "nameZh": "康新公路",
           "nameEn": "Kangxin Highway",
           "target": "kangxin highway",
+          "pinyin": "kangxingonglu",
           "lat": 31.130439,
           "lon": 121.617199,
           "sequence": 2
@@ -3487,6 +3785,7 @@
           "nameZh": "秀沿路",
           "nameEn": "Xiuyan Road",
           "target": "xiuyan road",
+          "pinyin": "xiuyanlu",
           "lat": 31.138128,
           "lon": 121.59839,
           "sequence": 3
@@ -3497,6 +3796,7 @@
           "nameZh": "罗山路",
           "nameEn": "Luoshan Road",
           "target": "luoshan road",
+          "pinyin": "luoshanlu",
           "lat": 31.153259,
           "lon": 121.593152,
           "sequence": 4
@@ -3507,6 +3807,7 @@
           "nameZh": "御桥",
           "nameEn": "Yuqiao",
           "target": "yuqiao",
+          "pinyin": "yuqiao",
           "lat": 31.158131,
           "lon": 121.570914,
           "sequence": 5
@@ -3517,6 +3818,7 @@
           "nameZh": "康恒路",
           "nameEn": "Kangheng Road",
           "target": "kangheng road",
+          "pinyin": "kanghenglu",
           "lat": 31.154229,
           "lon": 121.553699,
           "sequence": 6
@@ -3527,6 +3829,7 @@
           "nameZh": "浦三路",
           "nameEn": "Pusan Road",
           "target": "pusan road",
+          "pinyin": "pusanlu",
           "lat": 31.150861,
           "lon": 121.539005,
           "sequence": 7
@@ -3537,6 +3840,7 @@
           "nameZh": "三林东",
           "nameEn": "East Sanlin",
           "target": "east sanlin",
+          "pinyin": "sanlindong",
           "lat": 31.146459,
           "lon": 121.522999,
           "sequence": 8
@@ -3547,6 +3851,7 @@
           "nameZh": "三林",
           "nameEn": "Sanlin",
           "target": "sanlin",
+          "pinyin": "sanlin",
           "lat": 31.143224,
           "lon": 121.511796,
           "sequence": 9
@@ -3557,6 +3862,7 @@
           "nameZh": "东方体育中心",
           "nameEn": "Oriental Sports Center",
           "target": "oriental sports center",
+          "pinyin": "dongfangtiyuzhongxin",
           "lat": 31.153366,
           "lon": 121.480304,
           "sequence": 10
@@ -3567,6 +3873,7 @@
           "nameZh": "龙耀路",
           "nameEn": "Longyao Road",
           "target": "longyao road",
+          "pinyin": "longyaolu",
           "lat": 31.15972,
           "lon": 121.459702,
           "sequence": 11
@@ -3577,6 +3884,7 @@
           "nameZh": "云锦路",
           "nameEn": "Yunjin Road",
           "target": "yunjin road",
+          "pinyin": "yunjinlu",
           "lat": 31.166488,
           "lon": 121.458519,
           "sequence": 12
@@ -3587,6 +3895,7 @@
           "nameZh": "龙华",
           "nameEn": "Longhua",
           "target": "longhua",
+          "pinyin": "longhua",
           "lat": 31.172672,
           "lon": 121.452958,
           "sequence": 13
@@ -3597,6 +3906,7 @@
           "nameZh": "上海游泳馆",
           "nameEn": "Shanghai Swimming Center",
           "target": "shanghai swimming center",
+          "pinyin": "shanghaiyouyongguan",
           "lat": 31.179123,
           "lon": 121.441424,
           "sequence": 14
@@ -3607,6 +3917,7 @@
           "nameZh": "徐家汇",
           "nameEn": "Xujiahui",
           "target": "xujiahui",
+          "pinyin": "xujiahui",
           "lat": 31.195514,
           "lon": 121.436603,
           "sequence": 15
@@ -3617,6 +3928,7 @@
           "nameZh": "交通大学",
           "nameEn": "Jiao Tong University",
           "target": "jiao tong university",
+          "pinyin": "jiaotongdaxue",
           "lat": 31.202213,
           "lon": 121.435253,
           "sequence": 16
@@ -3627,6 +3939,7 @@
           "nameZh": "江苏路",
           "nameEn": "Jiangsu Road",
           "target": "jiangsu road",
+          "pinyin": "jiangsulu",
           "lat": 31.220411,
           "lon": 121.430642,
           "sequence": 17
@@ -3637,6 +3950,7 @@
           "nameZh": "隆德路",
           "nameEn": "Longde Road",
           "target": "longde road",
+          "pinyin": "longdelu",
           "lat": 31.230509,
           "lon": 121.423576,
           "sequence": 18
@@ -3647,6 +3961,7 @@
           "nameZh": "曹杨路",
           "nameEn": "Caoyang Road",
           "target": "caoyang road",
+          "pinyin": "caoyanglu",
           "lat": 31.239302,
           "lon": 121.417701,
           "sequence": 19
@@ -3657,6 +3972,7 @@
           "nameZh": "枫桥路",
           "nameEn": "Fengqiao Road",
           "target": "fengqiao road",
+          "pinyin": "fengqiaolu",
           "lat": 31.24185,
           "lon": 121.411402,
           "sequence": 20
@@ -3667,6 +3983,7 @@
           "nameZh": "真如",
           "nameEn": "Zhenru",
           "target": "zhenru",
+          "pinyin": "zhenru",
           "lat": 31.250767,
           "lon": 121.407219,
           "sequence": 21
@@ -3677,6 +3994,7 @@
           "nameZh": "上海西站",
           "nameEn": "Shanghai West Railway Station",
           "target": "shanghai west railway station",
+          "pinyin": "shanghaixizhan",
           "lat": 31.262693,
           "lon": 121.400926,
           "sequence": 22
@@ -3687,6 +4005,7 @@
           "nameZh": "李子园",
           "nameEn": "Liziyuan",
           "target": "liziyuan",
+          "pinyin": "liziyuan",
           "lat": 31.26902,
           "lon": 121.389969,
           "sequence": 23
@@ -3697,6 +4016,7 @@
           "nameZh": "祁连山路",
           "nameEn": "Qilianshan Road",
           "target": "qilianshan road",
+          "pinyin": "qilianshanlu",
           "lat": 31.27165,
           "lon": 121.376035,
           "sequence": 24
@@ -3707,6 +4027,7 @@
           "nameZh": "武威路",
           "nameEn": "Wuwei Road",
           "target": "wuwei road",
+          "pinyin": "wuweilu",
           "lat": 31.276646,
           "lon": 121.364678,
           "sequence": 25
@@ -3717,6 +4038,7 @@
           "nameZh": "桃浦新村",
           "nameEn": "Taopu Xincun",
           "target": "taopu xincun",
+          "pinyin": "taopuxincun",
           "lat": 31.281603,
           "lon": 121.349623,
           "sequence": 26
@@ -3727,6 +4049,7 @@
           "nameZh": "南翔",
           "nameEn": "Nanxiang",
           "target": "nanxiang",
+          "pinyin": "nanxiang",
           "lat": 31.296952,
           "lon": 121.323141,
           "sequence": 27
@@ -3737,6 +4060,7 @@
           "nameZh": "陈翔公路",
           "nameEn": "Chenxiang Highway",
           "target": "chenxiang highway",
+          "pinyin": "chenxianggonglu",
           "lat": 31.306484,
           "lon": 121.306787,
           "sequence": 28
@@ -3747,6 +4071,7 @@
           "nameZh": "马陆",
           "nameEn": "Malu",
           "target": "malu",
+          "pinyin": "malu",
           "lat": 31.319675,
           "lon": 121.276906,
           "sequence": 29
@@ -3757,6 +4082,7 @@
           "nameZh": "嘉定新城",
           "nameEn": "Jiading Xincheng",
           "target": "jiading xincheng",
+          "pinyin": "jiadingxincheng",
           "lat": 31.330062,
           "lon": 121.254294,
           "sequence": 30
@@ -3767,6 +4093,7 @@
           "nameZh": "上海赛车场",
           "nameEn": "Shanghai Circuit",
           "target": "shanghai circuit",
+          "pinyin": "shanghaisaichechang",
           "lat": 31.331898,
           "lon": 121.226098,
           "sequence": 31
@@ -3777,6 +4104,7 @@
           "nameZh": "昌吉东路",
           "nameEn": "East Changji Road",
           "target": "east changji road",
+          "pinyin": "changjidonglu",
           "lat": 31.29362,
           "lon": 121.200384,
           "sequence": 32
@@ -3787,6 +4115,7 @@
           "nameZh": "上海汽车城",
           "nameEn": "Shanghai Automobile City",
           "target": "shanghai automobile city",
+          "pinyin": "shanghaiqichecheng",
           "lat": 31.285403,
           "lon": 121.180742,
           "sequence": 33
@@ -3797,6 +4126,7 @@
           "nameZh": "安亭",
           "nameEn": "Anting",
           "target": "anting",
+          "pinyin": "anting",
           "lat": 31.28849,
           "lon": 121.161985,
           "sequence": 34
@@ -3807,6 +4137,7 @@
           "nameZh": "兆丰路",
           "nameEn": "Zhaofeng Road",
           "target": "zhaofeng road",
+          "pinyin": "zhaofenglu",
           "lat": 31.289048,
           "lon": 121.150315,
           "sequence": 35
@@ -3817,6 +4148,7 @@
           "nameZh": "光明路",
           "nameEn": "Guangming Road",
           "target": "guangming road",
+          "pinyin": "guangminglu",
           "lat": 31.29621,
           "lon": 121.117186,
           "sequence": 36
@@ -3827,6 +4159,7 @@
           "nameZh": "花桥",
           "nameEn": "Huaqiao",
           "target": "huaqiao",
+          "pinyin": "huaqiao",
           "lat": 31.29879,
           "lon": 121.104407,
           "sequence": 37
@@ -3837,6 +4170,7 @@
           "nameZh": "嘉定北",
           "nameEn": "North Jiading",
           "target": "north jiading",
+          "pinyin": "jiadingbei",
           "lat": 31.391549,
           "lon": 121.23735,
           "sequence": 38
@@ -3847,6 +4181,7 @@
           "nameZh": "嘉定西",
           "nameEn": "West Jiading",
           "target": "west jiading",
+          "pinyin": "jiadingxi",
           "lat": 31.377107,
           "lon": 121.227855,
           "sequence": 39
@@ -3857,6 +4192,7 @@
           "nameZh": "白银路",
           "nameEn": "Baiyin Road",
           "target": "baiyin road",
+          "pinyin": "baiyinlu",
           "lat": 31.345359,
           "lon": 121.24535,
           "sequence": 40
@@ -3954,6 +4290,7 @@
           "nameZh": "七莘路",
           "nameEn": "Qixin Road",
           "target": "qixin road",
+          "pinyin": "qixinlu",
           "lat": 31.131634,
           "lon": 121.362461,
           "sequence": 1
@@ -3964,6 +4301,7 @@
           "nameZh": "虹莘路",
           "nameEn": "Hongxin Road",
           "target": "hongxin road",
+          "pinyin": "hongxinlu",
           "lat": 31.137452,
           "lon": 121.380349,
           "sequence": 2
@@ -3974,6 +4312,7 @@
           "nameZh": "顾戴路",
           "nameEn": "Gudai Road",
           "target": "gudai road",
+          "pinyin": "gudailu",
           "lat": 31.140888,
           "lon": 121.39185,
           "sequence": 3
@@ -3984,6 +4323,7 @@
           "nameZh": "东兰路",
           "nameEn": "Donglan Road",
           "target": "donglan road",
+          "pinyin": "donglanlu",
           "lat": 31.155826,
           "lon": 121.391919,
           "sequence": 4
@@ -3994,6 +4334,7 @@
           "nameZh": "虹梅路",
           "nameEn": "Hongmei Road",
           "target": "hongmei road",
+          "pinyin": "hongmeilu",
           "lat": 31.16035,
           "lon": 121.39725,
           "sequence": 5
@@ -4004,6 +4345,7 @@
           "nameZh": "虹漕路",
           "nameEn": "Hongcao Road",
           "target": "hongcao road",
+          "pinyin": "hongcaolu",
           "lat": 31.164033,
           "lon": 121.410553,
           "sequence": 6
@@ -4014,6 +4356,7 @@
           "nameZh": "桂林公园",
           "nameEn": "Guilin Park",
           "target": "guilin park",
+          "pinyin": "guilingongyuan",
           "lat": 31.166985,
           "lon": 121.419647,
           "sequence": 7
@@ -4024,6 +4367,7 @@
           "nameZh": "漕宝路",
           "nameEn": "Caobao Road",
           "target": "caobao road",
+          "pinyin": "caobaolu",
           "lat": 31.168344,
           "lon": 121.433143,
           "sequence": 8
@@ -4034,6 +4378,7 @@
           "nameZh": "龙漕路",
           "nameEn": "Longcao Road",
           "target": "longcao road",
+          "pinyin": "longcaolu",
           "lat": 31.169458,
           "lon": 121.444383,
           "sequence": 9
@@ -4044,6 +4389,7 @@
           "nameZh": "龙华",
           "nameEn": "Longhua",
           "target": "longhua",
+          "pinyin": "longhua",
           "lat": 31.172672,
           "lon": 121.452958,
           "sequence": 10
@@ -4054,6 +4400,7 @@
           "nameZh": "龙华中路",
           "nameEn": "Middle Longhua Road",
           "target": "middle longhua road",
+          "pinyin": "longhuazhonglu",
           "lat": 31.184379,
           "lon": 121.457064,
           "sequence": 11
@@ -4064,6 +4411,7 @@
           "nameZh": "大木桥路",
           "nameEn": "Damuqiao Road",
           "target": "damuqiao road",
+          "pinyin": "damuqiaolu",
           "lat": 31.194057,
           "lon": 121.463278,
           "sequence": 12
@@ -4074,6 +4422,7 @@
           "nameZh": "嘉善路",
           "nameEn": "Jiashan Road",
           "target": "jiashan road",
+          "pinyin": "jiashanlu",
           "lat": 31.20282,
           "lon": 121.460704,
           "sequence": 13
@@ -4084,6 +4433,7 @@
           "nameZh": "陕西南路",
           "nameEn": "South Shaanxi Road",
           "target": "south shaanxi road",
+          "pinyin": "shaanxinanlu",
           "lat": 31.215148,
           "lon": 121.458741,
           "sequence": 14
@@ -4094,6 +4444,7 @@
           "nameZh": "南京西路",
           "nameEn": "West Nanjing Road",
           "target": "west nanjing road",
+          "pinyin": "nanjingxilu",
           "lat": 31.229853,
           "lon": 121.459971,
           "sequence": 15
@@ -4104,6 +4455,7 @@
           "nameZh": "汉中路",
           "nameEn": "Hanzhong Road",
           "target": "hanzhong road",
+          "pinyin": "hanzhonglu",
           "lat": 31.241883,
           "lon": 121.458699,
           "sequence": 16
@@ -4114,6 +4466,7 @@
           "nameZh": "曲阜路",
           "nameEn": "Qufu Road",
           "target": "qufu road",
+          "pinyin": "qufulu",
           "lat": 31.242307,
           "lon": 121.471543,
           "sequence": 17
@@ -4124,6 +4477,7 @@
           "nameZh": "天潼路",
           "nameEn": "Tiantong Road",
           "target": "tiantong road",
+          "pinyin": "tiantonglu",
           "lat": 31.243815,
           "lon": 121.482321,
           "sequence": 18
@@ -4134,6 +4488,7 @@
           "nameZh": "国际客运中心",
           "nameEn": "International Cruise Terminal",
           "target": "international cruise terminal",
+          "pinyin": "guojikeyunzhongxin",
           "lat": 31.25016,
           "lon": 121.498158,
           "sequence": 19
@@ -4144,6 +4499,7 @@
           "nameZh": "提篮桥",
           "nameEn": "Tilanqiao",
           "target": "tilanqiao",
+          "pinyin": "tilanqiao",
           "lat": 31.253518,
           "lon": 121.506801,
           "sequence": 20
@@ -4154,6 +4510,7 @@
           "nameZh": "大连路",
           "nameEn": "Dalian Road",
           "target": "dalian road",
+          "pinyin": "dalianlu",
           "lat": 31.257938,
           "lon": 121.513088,
           "sequence": 21
@@ -4164,6 +4521,7 @@
           "nameZh": "江浦公园",
           "nameEn": "Jiangpu Park",
           "target": "jiangpu park",
+          "pinyin": "jiangpugongyuan",
           "lat": 31.26457,
           "lon": 121.523697,
           "sequence": 22
@@ -4174,6 +4532,7 @@
           "nameZh": "宁国路",
           "nameEn": "Ningguo Road",
           "target": "ningguo road",
+          "pinyin": "ningguolu",
           "lat": 31.268574,
           "lon": 121.532352,
           "sequence": 23
@@ -4184,6 +4543,7 @@
           "nameZh": "隆昌路",
           "nameEn": "Longchang Road",
           "target": "longchang road",
+          "pinyin": "longchanglu",
           "lat": 31.275213,
           "lon": 121.544692,
           "sequence": 24
@@ -4194,6 +4554,7 @@
           "nameZh": "爱国路",
           "nameEn": "Aiguo Road",
           "target": "aiguo road",
+          "pinyin": "aiguolu",
           "lat": 31.279788,
           "lon": 121.552655,
           "sequence": 25
@@ -4204,6 +4565,7 @@
           "nameZh": "复兴岛",
           "nameEn": "Fuxing Island",
           "target": "fuxing island",
+          "pinyin": "fuxingdao",
           "lat": 31.280779,
           "lon": 121.561315,
           "sequence": 26
@@ -4214,6 +4576,7 @@
           "nameZh": "东陆路",
           "nameEn": "Donglu Road",
           "target": "donglu road",
+          "pinyin": "donglulu",
           "lat": 31.282533,
           "lon": 121.579124,
           "sequence": 27
@@ -4224,6 +4587,7 @@
           "nameZh": "巨峰路",
           "nameEn": "Jufeng Road",
           "target": "jufeng road",
+          "pinyin": "jufenglu",
           "lat": 31.280684,
           "lon": 121.588365,
           "sequence": 28
@@ -4234,6 +4598,7 @@
           "nameZh": "杨高北路",
           "nameEn": "North Yanggao Road",
           "target": "north yanggao road",
+          "pinyin": "yanggaobeilu",
           "lat": 31.280092,
           "lon": 121.60296,
           "sequence": 29
@@ -4244,6 +4609,7 @@
           "nameZh": "金京路",
           "nameEn": "Jinjing Road",
           "target": "jinjing road",
+          "pinyin": "jinjinglu",
           "lat": 31.279823,
           "lon": 121.615477,
           "sequence": 30
@@ -4254,6 +4620,7 @@
           "nameZh": "申江路",
           "nameEn": "Shenjiang Road",
           "target": "shenjiang road",
+          "pinyin": "shenjianglu",
           "lat": 31.280231,
           "lon": 121.626863,
           "sequence": 31
@@ -4264,6 +4631,7 @@
           "nameZh": "金海路",
           "nameEn": "Jinhai Road",
           "target": "jinhai road",
+          "pinyin": "jinhailu",
           "lat": 31.263141,
           "lon": 121.638629,
           "sequence": 32
@@ -4321,6 +4689,7 @@
           "nameZh": "金运路",
           "nameEn": "Jinyun Road",
           "target": "jinyun road",
+          "pinyin": "jinyunlu",
           "lat": 31.240986,
           "lon": 121.319308,
           "sequence": 1
@@ -4331,6 +4700,7 @@
           "nameZh": "金沙江西路",
           "nameEn": "West Jinshajiang Road",
           "target": "west jinshajiang road",
+          "pinyin": "jinshajiangxilu",
           "lat": 31.241152,
           "lon": 121.335156,
           "sequence": 2
@@ -4341,6 +4711,7 @@
           "nameZh": "丰庄",
           "nameEn": "Fengzhuang",
           "target": "fengzhuang",
+          "pinyin": "fengzhuang",
           "lat": 31.242553,
           "lon": 121.355141,
           "sequence": 3
@@ -4351,6 +4722,7 @@
           "nameZh": "祁连山南路",
           "nameEn": "South Qilianshan Road",
           "target": "south qilianshan road",
+          "pinyin": "qilianshannanlu",
           "lat": 31.237625,
           "lon": 121.367275,
           "sequence": 4
@@ -4361,6 +4733,7 @@
           "nameZh": "真北路",
           "nameEn": "Zhenbei Road",
           "target": "zhenbei road",
+          "pinyin": "zhenbeilu",
           "lat": 31.232235,
           "lon": 121.381948,
           "sequence": 5
@@ -4371,6 +4744,7 @@
           "nameZh": "大渡河路",
           "nameEn": "Daduhe Road",
           "target": "daduhe road",
+          "pinyin": "daduhelu",
           "lat": 31.231752,
           "lon": 121.394431,
           "sequence": 6
@@ -4381,6 +4755,7 @@
           "nameZh": "金沙江路",
           "nameEn": "Jinshajiang Road",
           "target": "jinshajiang road",
+          "pinyin": "jinshajianglu",
           "lat": 31.232147,
           "lon": 121.413201,
           "sequence": 7
@@ -4391,6 +4766,7 @@
           "nameZh": "隆德路",
           "nameEn": "Longde Road",
           "target": "longde road",
+          "pinyin": "longdelu",
           "lat": 31.230509,
           "lon": 121.423576,
           "sequence": 8
@@ -4401,6 +4777,7 @@
           "nameZh": "武宁路",
           "nameEn": "Wuning Road",
           "target": "wuning road",
+          "pinyin": "wuninglu",
           "lat": 31.234346,
           "lon": 121.430504,
           "sequence": 9
@@ -4411,6 +4788,7 @@
           "nameZh": "长寿路",
           "nameEn": "Changshou Road",
           "target": "changshou road",
+          "pinyin": "changshoulu",
           "lat": 31.24086,
           "lon": 121.438272,
           "sequence": 10
@@ -4421,6 +4799,7 @@
           "nameZh": "江宁路",
           "nameEn": "Jiangning Road",
           "target": "jiangning road",
+          "pinyin": "jiangninglu",
           "lat": 31.244282,
           "lon": 121.44483,
           "sequence": 11
@@ -4431,6 +4810,7 @@
           "nameZh": "汉中路",
           "nameEn": "Hanzhong Road",
           "target": "hanzhong road",
+          "pinyin": "hanzhonglu",
           "lat": 31.241883,
           "lon": 121.458699,
           "sequence": 12
@@ -4441,6 +4821,7 @@
           "nameZh": "自然博物馆",
           "nameEn": "Shanghai Natural History Museum",
           "target": "shanghai natural history museum",
+          "pinyin": "ziranbowuguan",
           "lat": 31.236451,
           "lon": 121.462366,
           "sequence": 13
@@ -4451,6 +4832,7 @@
           "nameZh": "南京西路",
           "nameEn": "West Nanjing Road",
           "target": "west nanjing road",
+          "pinyin": "nanjingxilu",
           "lat": 31.229853,
           "lon": 121.459971,
           "sequence": 14
@@ -4461,6 +4843,7 @@
           "nameZh": "淮海中路",
           "nameEn": "Middle Huaihai Road",
           "target": "middle huaihai road",
+          "pinyin": "huaihaizhonglu",
           "lat": 31.220056,
           "lon": 121.464363,
           "sequence": 15
@@ -4471,6 +4854,7 @@
           "nameZh": "一大会址·新天地",
           "nameEn": "Site of the First CPC National Congress · Xintiandi",
           "target": "site of the first cpc national congress xintiandi",
+          "pinyin": "yidahuizhixintiandi",
           "lat": 31.216367,
           "lon": 121.475182,
           "sequence": 16
@@ -4481,6 +4865,7 @@
           "nameZh": "马当路",
           "nameEn": "Madang Road",
           "target": "madang road",
+          "pinyin": "madanglu",
           "lat": 31.20952,
           "lon": 121.477256,
           "sequence": 17
@@ -4491,6 +4876,7 @@
           "nameZh": "世博会博物馆",
           "nameEn": "World Expo Museum",
           "target": "world expo museum",
+          "pinyin": "shibohuibowuguan",
           "lat": 31.197572,
           "lon": 121.481592,
           "sequence": 18
@@ -4501,6 +4887,7 @@
           "nameZh": "世博大道",
           "nameEn": "Shibo Avenue",
           "target": "shibo avenue",
+          "pinyin": "shibodadao",
           "lat": 31.182789,
           "lon": 121.484313,
           "sequence": 19
@@ -4511,6 +4898,7 @@
           "nameZh": "长清路",
           "nameEn": "Changqing Road",
           "target": "changqing road",
+          "pinyin": "changqinglu",
           "lat": 31.174452,
           "lon": 121.487775,
           "sequence": 20
@@ -4521,6 +4909,7 @@
           "nameZh": "成山路",
           "nameEn": "Chengshan Road",
           "target": "chengshan road",
+          "pinyin": "chengshanlu",
           "lat": 31.170735,
           "lon": 121.49622,
           "sequence": 21
@@ -4531,6 +4920,7 @@
           "nameZh": "东明路",
           "nameEn": "Dongming Road",
           "target": "dongming road",
+          "pinyin": "dongminglu",
           "lat": 31.172646,
           "lon": 121.510868,
           "sequence": 22
@@ -4541,6 +4931,7 @@
           "nameZh": "华鹏路",
           "nameEn": "Huapeng Road",
           "target": "huapeng road",
+          "pinyin": "huapenglu",
           "lat": 31.176276,
           "lon": 121.526567,
           "sequence": 23
@@ -4551,6 +4942,7 @@
           "nameZh": "下南路",
           "nameEn": "Xianan Road",
           "target": "xianan road",
+          "pinyin": "xiananlu",
           "lat": 31.179295,
           "lon": 121.540189,
           "sequence": 24
@@ -4561,6 +4953,7 @@
           "nameZh": "北蔡",
           "nameEn": "Beicai",
           "target": "beicai",
+          "pinyin": "beicai",
           "lat": 31.180131,
           "lon": 121.552017,
           "sequence": 25
@@ -4571,6 +4964,7 @@
           "nameZh": "陈春路",
           "nameEn": "Chenchun Road",
           "target": "chenchun road",
+          "pinyin": "chenchunlu",
           "lat": 31.175095,
           "lon": 121.558194,
           "sequence": 26
@@ -4581,6 +4975,7 @@
           "nameZh": "莲溪路",
           "nameEn": "Lianxi Road",
           "target": "lianxi road",
+          "pinyin": "lianxilu",
           "lat": 31.16911,
           "lon": 121.566414,
           "sequence": 27
@@ -4591,6 +4986,7 @@
           "nameZh": "华夏中路",
           "nameEn": "Middle Huaxia Road",
           "target": "middle huaxia road",
+          "pinyin": "huaxiazhonglu",
           "lat": 31.175759,
           "lon": 121.583109,
           "sequence": 28
@@ -4601,6 +4997,7 @@
           "nameZh": "中科路",
           "nameEn": "Zhongke Road",
           "target": "zhongke road",
+          "pinyin": "zhongkelu",
           "lat": 31.178862,
           "lon": 121.602465,
           "sequence": 29
@@ -4611,6 +5008,7 @@
           "nameZh": "学林路",
           "nameEn": "Xuelin Road",
           "target": "xuelin road",
+          "pinyin": "xuelinlu",
           "lat": 31.183476,
           "lon": 121.614363,
           "sequence": 30
@@ -4621,6 +5019,7 @@
           "nameZh": "张江路",
           "nameEn": "Zhangjiang Road",
           "target": "zhangjiang road",
+          "pinyin": "zhangjianglu",
           "lat": 31.18913,
           "lon": 121.629182,
           "sequence": 31
@@ -4677,6 +5076,7 @@
           "nameZh": "封浜",
           "nameEn": "Fengbang",
           "target": "fengbang",
+          "pinyin": "fengbang",
           "lat": 31.267488,
           "lon": 121.297006,
           "sequence": 1
@@ -4687,6 +5087,7 @@
           "nameZh": "乐秀路",
           "nameEn": "Lexiu Road",
           "target": "lexiu road",
+          "pinyin": "lexiulu",
           "lat": 31.265363,
           "lon": 121.314103,
           "sequence": 2
@@ -4697,6 +5098,7 @@
           "nameZh": "临洮路",
           "nameEn": "Lintao Road",
           "target": "lintao road",
+          "pinyin": "lintaolu",
           "lat": 31.263059,
           "lon": 121.33086,
           "sequence": 3
@@ -4707,6 +5109,7 @@
           "nameZh": "嘉怡路",
           "nameEn": "Jiayi Road",
           "target": "jiayi road",
+          "pinyin": "jiayilu",
           "lat": 31.259195,
           "lon": 121.345697,
           "sequence": 4
@@ -4717,6 +5120,7 @@
           "nameZh": "定边路",
           "nameEn": "Dingbian Road",
           "target": "dingbian road",
+          "pinyin": "dingbianlu",
           "lat": 31.256392,
           "lon": 121.362396,
           "sequence": 5
@@ -4727,6 +5131,7 @@
           "nameZh": "真新新村",
           "nameEn": "Zhenxin Xincun",
           "target": "zhenxin xincun",
+          "pinyin": "zhenxinxincun",
           "lat": 31.255566,
           "lon": 121.371949,
           "sequence": 6
@@ -4737,6 +5142,7 @@
           "nameZh": "真光路",
           "nameEn": "Zhenguang Road",
           "target": "zhenguang road",
+          "pinyin": "zhenguanglu",
           "lat": 31.253278,
           "lon": 121.384162,
           "sequence": 7
@@ -4747,6 +5153,7 @@
           "nameZh": "铜川路",
           "nameEn": "Tongchuan Road",
           "target": "tongchuan road",
+          "pinyin": "tongchuanlu",
           "lat": 31.250733,
           "lon": 121.397036,
           "sequence": 8
@@ -4757,6 +5164,7 @@
           "nameZh": "真如",
           "nameEn": "Zhenru",
           "target": "zhenru",
+          "pinyin": "zhenru",
           "lat": 31.250767,
           "lon": 121.407219,
           "sequence": 9
@@ -4767,6 +5175,7 @@
           "nameZh": "中宁路",
           "nameEn": "Zhongning Road",
           "target": "zhongning road",
+          "pinyin": "zhongninglu",
           "lat": 31.245059,
           "lon": 121.414541,
           "sequence": 10
@@ -4777,6 +5186,7 @@
           "nameZh": "曹杨路",
           "nameEn": "Caoyang Road",
           "target": "caoyang road",
+          "pinyin": "caoyanglu",
           "lat": 31.239302,
           "lon": 121.417701,
           "sequence": 11
@@ -4787,6 +5197,7 @@
           "nameZh": "武宁路",
           "nameEn": "Wuning Road",
           "target": "wuning road",
+          "pinyin": "wuninglu",
           "lat": 31.234346,
           "lon": 121.430504,
           "sequence": 12
@@ -4797,6 +5208,7 @@
           "nameZh": "武定路",
           "nameEn": "Wuding Road",
           "target": "wuding road",
+          "pinyin": "wudinglu",
           "lat": 31.227303,
           "lon": 121.436157,
           "sequence": 13
@@ -4807,6 +5219,7 @@
           "nameZh": "静安寺",
           "nameEn": "Jing'an Temple",
           "target": "jing'an temple",
+          "pinyin": "jingansi",
           "lat": 31.223231,
           "lon": 121.446533,
           "sequence": 14
@@ -4817,6 +5230,7 @@
           "nameZh": "一大会址·黄陂南路",
           "nameEn": "Site of the First CPC National Congress · South Huangpi Road",
           "target": "site of the first cpc national congress south huangpi road",
+          "pinyin": "yidahuizhihuangpinanlu",
           "lat": 31.223898,
           "lon": 121.472904,
           "sequence": 15
@@ -4827,6 +5241,7 @@
           "nameZh": "大世界",
           "nameEn": "Dashijie",
           "target": "dashijie",
+          "pinyin": "dashijie",
           "lat": 31.227392,
           "lon": 121.479182,
           "sequence": 16
@@ -4837,6 +5252,7 @@
           "nameZh": "豫园",
           "nameEn": "Yuyuan Garden",
           "target": "yuyuan garden",
+          "pinyin": "yuyuan",
           "lat": 31.228005,
           "lon": 121.487426,
           "sequence": 17
@@ -4847,6 +5263,7 @@
           "nameZh": "陆家嘴",
           "nameEn": "Lujiazui",
           "target": "lujiazui",
+          "pinyin": "lujiazui",
           "lat": 31.238259,
           "lon": 121.502129,
           "sequence": 18
@@ -4857,6 +5274,7 @@
           "nameZh": "浦东南路",
           "nameEn": "South Pudong Road",
           "target": "south pudong road",
+          "pinyin": "pudongnanlu",
           "lat": 31.238532,
           "lon": 121.512412,
           "sequence": 19
@@ -4867,6 +5285,7 @@
           "nameZh": "浦东大道",
           "nameEn": "Pudong Avenue",
           "target": "pudong avenue",
+          "pinyin": "pudongdadao",
           "lat": 31.240308,
           "lon": 121.519302,
           "sequence": 20
@@ -4877,6 +5296,7 @@
           "nameZh": "源深路",
           "nameEn": "Yuanshen Road",
           "target": "yuanshen road",
+          "pinyin": "yuanshenlu",
           "lat": 31.241318,
           "lon": 121.531016,
           "sequence": 21
@@ -4887,6 +5307,7 @@
           "nameZh": "昌邑路",
           "nameEn": "Changyi Road",
           "target": "changyi road",
+          "pinyin": "changyilu",
           "lat": 31.24394,
           "lon": 121.540104,
           "sequence": 22
@@ -4897,6 +5318,7 @@
           "nameZh": "歇浦路",
           "nameEn": "Xiepu Road",
           "target": "xiepu road",
+          "pinyin": "xiepulu",
           "lat": 31.250728,
           "lon": 121.551506,
           "sequence": 23
@@ -4907,6 +5329,7 @@
           "nameZh": "云山路",
           "nameEn": "Yunshan Road",
           "target": "yunshan road",
+          "pinyin": "yunshanlu",
           "lat": 31.250969,
           "lon": 121.571153,
           "sequence": 24
@@ -4917,6 +5340,7 @@
           "nameZh": "蓝天路",
           "nameEn": "Lantian Road",
           "target": "lantian road",
+          "pinyin": "lantianlu",
           "lat": 31.241028,
           "lon": 121.577995,
           "sequence": 25
@@ -4927,6 +5351,7 @@
           "nameZh": "黄杨路",
           "nameEn": "Huangyang Road",
           "target": "huangyang road",
+          "pinyin": "huangyanglu",
           "lat": 31.233998,
           "lon": 121.591014,
           "sequence": 26
@@ -4937,6 +5362,7 @@
           "nameZh": "云顺路",
           "nameEn": "Yunshun Road",
           "target": "yunshun road",
+          "pinyin": "yunshunlu",
           "lat": 31.237064,
           "lon": 121.600336,
           "sequence": 27
@@ -4947,6 +5373,7 @@
           "nameZh": "浦东足球场",
           "nameEn": "Pudong Football Stadium",
           "target": "pudong football stadium",
+          "pinyin": "pudongzuqiuchang",
           "lat": 31.241645,
           "lon": 121.61543,
           "sequence": 28
@@ -4957,6 +5384,7 @@
           "nameZh": "金粤路",
           "nameEn": "Jinyue Road",
           "target": "jinyue road",
+          "pinyin": "jinyuelu",
           "lat": 31.242092,
           "lon": 121.629016,
           "sequence": 29
@@ -4967,6 +5395,7 @@
           "nameZh": "桂桥路",
           "nameEn": "Guiqiao Road",
           "target": "guiqiao road",
+          "pinyin": "guiqiaolu",
           "lat": 31.249419,
           "lon": 121.635087,
           "sequence": 30
@@ -5022,6 +5451,7 @@
           "nameZh": "顾村公园",
           "nameEn": "Gucun Park",
           "target": "gucun park",
+          "pinyin": "gucungongyuan",
           "lat": 31.344594,
           "lon": 121.373009,
           "sequence": 1
@@ -5032,6 +5462,7 @@
           "nameZh": "锦秋路",
           "nameEn": "Jinqiu Road",
           "target": "jinqiu road",
+          "pinyin": "jinqiulu",
           "lat": 31.320184,
           "lon": 121.381765,
           "sequence": 2
@@ -5042,6 +5473,7 @@
           "nameZh": "丰翔路",
           "nameEn": "Fengxiang Road",
           "target": "fengxiang road",
+          "pinyin": "fengxianglu",
           "lat": 31.308218,
           "lon": 121.380872,
           "sequence": 3
@@ -5052,6 +5484,7 @@
           "nameZh": "南大路",
           "nameEn": "Nanda Road",
           "target": "nanda road",
+          "pinyin": "nandalu",
           "lat": 31.299263,
           "lon": 121.380346,
           "sequence": 4
@@ -5062,6 +5495,7 @@
           "nameZh": "祁安路",
           "nameEn": "Qi'an Road",
           "target": "qi'an road",
+          "pinyin": "qianlu",
           "lat": 31.291558,
           "lon": 121.384813,
           "sequence": 5
@@ -5072,6 +5506,7 @@
           "nameZh": "古浪路",
           "nameEn": "Gulang Road",
           "target": "gulang road",
+          "pinyin": "gulanglu",
           "lat": 31.284509,
           "lon": 121.392217,
           "sequence": 6
@@ -5082,6 +5517,7 @@
           "nameZh": "武威东路",
           "nameEn": "East Wuwei Road",
           "target": "east wuwei road",
+          "pinyin": "wuweidonglu",
           "lat": 31.275647,
           "lon": 121.392094,
           "sequence": 7
@@ -5092,6 +5528,7 @@
           "nameZh": "上海西站",
           "nameEn": "Shanghai West Railway Station",
           "target": "shanghai west railway station",
+          "pinyin": "shanghaixizhan",
           "lat": 31.262693,
           "lon": 121.400926,
           "sequence": 8
@@ -5102,6 +5539,7 @@
           "nameZh": "铜川路",
           "nameEn": "Tongchuan Road",
           "target": "tongchuan road",
+          "pinyin": "tongchuanlu",
           "lat": 31.250733,
           "lon": 121.397036,
           "sequence": 9
@@ -5112,6 +5550,7 @@
           "nameZh": "梅岭北路",
           "nameEn": "North Meiling Road",
           "target": "north meiling road",
+          "pinyin": "meilingbeilu",
           "lat": 31.243301,
           "lon": 121.396997,
           "sequence": 10
@@ -5122,6 +5561,7 @@
           "nameZh": "大渡河路",
           "nameEn": "Daduhe Road",
           "target": "daduhe road",
+          "pinyin": "daduhelu",
           "lat": 31.231752,
           "lon": 121.394431,
           "sequence": 11
@@ -5132,6 +5572,7 @@
           "nameZh": "长风公园",
           "nameEn": "Changfeng Park",
           "target": "changfeng park",
+          "pinyin": "changfenggongyuan",
           "lat": 31.225254,
           "lon": 121.39632,
           "sequence": 12
@@ -5142,6 +5583,7 @@
           "nameZh": "娄山关路",
           "nameEn": "Loushanguan Road",
           "target": "loushanguan road",
+          "pinyin": "loushanguanlu",
           "lat": 31.211158,
           "lon": 121.404058,
           "sequence": 13
@@ -5152,6 +5594,7 @@
           "nameZh": "红宝石路",
           "nameEn": "Hongbaoshi Road",
           "target": "hongbaoshi road",
+          "pinyin": "hongbaoshilu",
           "lat": 31.198863,
           "lon": 121.398372,
           "sequence": 14
@@ -5162,6 +5605,7 @@
           "nameZh": "姚虹路",
           "nameEn": "Yaohong Road",
           "target": "yaohong road",
+          "pinyin": "yaohonglu",
           "lat": 31.19155,
           "lon": 121.406405,
           "sequence": 15
@@ -5172,6 +5616,7 @@
           "nameZh": "吴中路",
           "nameEn": "Wuzhong Road",
           "target": "wuzhong road",
+          "pinyin": "wuzhonglu",
           "lat": 31.184345,
           "lon": 121.413905,
           "sequence": 16
@@ -5182,6 +5627,7 @@
           "nameZh": "桂林路",
           "nameEn": "Guilin Road",
           "target": "guilin road",
+          "pinyin": "guilinlu",
           "lat": 31.174791,
           "lon": 121.418064,
           "sequence": 17
@@ -5192,6 +5638,7 @@
           "nameZh": "桂林公园",
           "nameEn": "Guilin Park",
           "target": "guilin park",
+          "pinyin": "guilingongyuan",
           "lat": 31.166985,
           "lon": 121.419647,
           "sequence": 18
@@ -5202,6 +5649,7 @@
           "nameZh": "上海南站",
           "nameEn": "Shanghai South Railway Station",
           "target": "shanghai south railway station",
+          "pinyin": "shanghainanzhan",
           "lat": 31.154579,
           "lon": 121.430041,
           "sequence": 19
@@ -5212,6 +5660,7 @@
           "nameZh": "华东理工大学",
           "nameEn": "East China University of Science and Technology",
           "target": "east china university of science and technology",
+          "pinyin": "huadongligongdaxue",
           "lat": 31.144257,
           "lon": 121.42899,
           "sequence": 20
@@ -5222,6 +5671,7 @@
           "nameZh": "罗秀路",
           "nameEn": "Luoxiu Road",
           "target": "luoxiu road",
+          "pinyin": "luoxiulu",
           "lat": 31.131552,
           "lon": 121.435806,
           "sequence": 21
@@ -5232,6 +5682,7 @@
           "nameZh": "朱梅路",
           "nameEn": "Zhumei Road",
           "target": "zhumei road",
+          "pinyin": "zhumeilu",
           "lat": 31.124364,
           "lon": 121.437804,
           "sequence": 22
@@ -5242,6 +5693,7 @@
           "nameZh": "景洪路",
           "nameEn": "Jinghong Road",
           "target": "jinghong road",
+          "pinyin": "jinghonglu",
           "lat": 31.109817,
           "lon": 121.44431,
           "sequence": 23
@@ -5252,6 +5704,7 @@
           "nameZh": "虹梅南路",
           "nameEn": "South Hongmei Road",
           "target": "south hongmei road",
+          "pinyin": "hongmeinanlu",
           "lat": 31.103839,
           "lon": 121.433059,
           "sequence": 24
@@ -5262,6 +5715,7 @@
           "nameZh": "景西路",
           "nameEn": "Jingxi Road",
           "target": "jingxi road",
+          "pinyin": "jingxilu",
           "lat": 31.099727,
           "lon": 121.41876,
           "sequence": 25
@@ -5272,6 +5726,7 @@
           "nameZh": "曙建路",
           "nameEn": "Shujian Road",
           "target": "shujian road",
+          "pinyin": "shujianlu",
           "lat": 31.090625,
           "lon": 121.417897,
           "sequence": 26
@@ -5282,6 +5737,7 @@
           "nameZh": "双柏路",
           "nameEn": "Shuangbai Road",
           "target": "shuangbai road",
+          "pinyin": "shuangbailu",
           "lat": 31.083214,
           "lon": 121.42175,
           "sequence": 27
@@ -5292,6 +5748,7 @@
           "nameZh": "元江路",
           "nameEn": "Yuanjiang Road",
           "target": "yuanjiang road",
+          "pinyin": "yuanjianglu",
           "lat": 31.062815,
           "lon": 121.431901,
           "sequence": 28
@@ -5302,6 +5759,7 @@
           "nameZh": "永德路",
           "nameEn": "Yongde Road",
           "target": "yongde road",
+          "pinyin": "yongdelu",
           "lat": 31.039147,
           "lon": 121.443203,
           "sequence": 29
@@ -5312,6 +5770,7 @@
           "nameZh": "紫竹高新区",
           "nameEn": "Zizhu Hi-tech Park",
           "target": "zizhu hi tech park",
+          "pinyin": "zizhugaoxinqu",
           "lat": 31.02319,
           "lon": 121.451221,
           "sequence": 30
@@ -5367,6 +5826,7 @@
           "nameZh": "龙阳路",
           "nameEn": "Longyang Road",
           "target": "longyang road",
+          "pinyin": "longyanglu",
           "lat": 31.203575,
           "lon": 121.557634,
           "sequence": 1
@@ -5377,6 +5837,7 @@
           "nameZh": "华夏中路",
           "nameEn": "Middle Huaxia Road",
           "target": "middle huaxia road",
+          "pinyin": "huaxiazhonglu",
           "lat": 31.175759,
           "lon": 121.583109,
           "sequence": 2
@@ -5387,6 +5848,7 @@
           "nameZh": "罗山路",
           "nameEn": "Luoshan Road",
           "target": "luoshan road",
+          "pinyin": "luoshanlu",
           "lat": 31.153259,
           "lon": 121.593152,
           "sequence": 3
@@ -5397,6 +5859,7 @@
           "nameZh": "周浦东",
           "nameEn": "East Zhoupu",
           "target": "east zhoupu",
+          "pinyin": "zhoupudong",
           "lat": 31.110038,
           "lon": 121.606895,
           "sequence": 4
@@ -5407,6 +5870,7 @@
           "nameZh": "鹤沙航城",
           "nameEn": "Heshahangcheng",
           "target": "heshahangcheng",
+          "pinyin": "heshahangcheng",
           "lat": 31.077797,
           "lon": 121.611239,
           "sequence": 5
@@ -5417,6 +5881,7 @@
           "nameZh": "航头东",
           "nameEn": "East Hangtou",
           "target": "east hangtou",
+          "pinyin": "hangtoudong",
           "lat": 31.054919,
           "lon": 121.617494,
           "sequence": 6
@@ -5427,6 +5892,7 @@
           "nameZh": "新场",
           "nameEn": "Xinchang",
           "target": "xinchang",
+          "pinyin": "xinchang",
           "lat": 31.045561,
           "lon": 121.64898,
           "sequence": 7
@@ -5437,6 +5903,7 @@
           "nameZh": "野生动物园",
           "nameEn": "Wild Animal Park",
           "target": "wild animal park",
+          "pinyin": "yeshengdongwuyuan",
           "lat": 31.050325,
           "lon": 121.699218,
           "sequence": 8
@@ -5447,6 +5914,7 @@
           "nameZh": "惠南",
           "nameEn": "Huinan",
           "target": "huinan",
+          "pinyin": "huinan",
           "lat": 31.053828,
           "lon": 121.761677,
           "sequence": 9
@@ -5457,6 +5925,7 @@
           "nameZh": "惠南东",
           "nameEn": "East Huinan",
           "target": "east huinan",
+          "pinyin": "huinandong",
           "lat": 31.026448,
           "lon": 121.7938,
           "sequence": 10
@@ -5467,6 +5936,7 @@
           "nameZh": "书院",
           "nameEn": "Shuyuan",
           "target": "shuyuan",
+          "pinyin": "shuyuan",
           "lat": 30.959264,
           "lon": 121.85052,
           "sequence": 11
@@ -5477,6 +5947,7 @@
           "nameZh": "临港大道",
           "nameEn": "Lingang Avenue",
           "target": "lingang avenue",
+          "pinyin": "lingangdadao",
           "lat": 30.923519,
           "lon": 121.910851,
           "sequence": 12
@@ -5487,6 +5958,7 @@
           "nameZh": "滴水湖",
           "nameEn": "Dishui Lake",
           "target": "dishui lake",
+          "pinyin": "dishuihu",
           "lat": 30.907245,
           "lon": 121.929583,
           "sequence": 13
@@ -5525,6 +5997,7 @@
           "nameZh": "虹桥火车站",
           "nameEn": "Hongqiao Railway Station",
           "target": "hongqiao railway station",
+          "pinyin": "hongqiaohuochezhan",
           "lat": 31.194022,
           "lon": 121.31895,
           "sequence": 1
@@ -5535,6 +6008,7 @@
           "nameZh": "国家会展中心(17号线)",
           "nameEn": "National Exhibition and Convention Center",
           "target": "national exhibition and convention center",
+          "pinyin": "guojiahuizhanzhongxin17haoxian",
           "lat": 31.191678,
           "lon": 121.29304,
           "sequence": 2
@@ -5545,6 +6019,7 @@
           "nameZh": "蟠龙路",
           "nameEn": "Panlong Road",
           "target": "panlong road",
+          "pinyin": "panlonglu",
           "lat": 31.186328,
           "lon": 121.278645,
           "sequence": 3
@@ -5555,6 +6030,7 @@
           "nameZh": "徐盈路",
           "nameEn": "Xuying Road",
           "target": "xuying road",
+          "pinyin": "xuyinglu",
           "lat": 31.178101,
           "lon": 121.253976,
           "sequence": 4
@@ -5565,6 +6041,7 @@
           "nameZh": "徐泾北城",
           "nameEn": "Xujingbeicheng",
           "target": "xujingbeicheng",
+          "pinyin": "xujingbeicheng",
           "lat": 31.175518,
           "lon": 121.241668,
           "sequence": 5
@@ -5575,6 +6052,7 @@
           "nameZh": "嘉松中路",
           "nameEn": "Middle Jiasong Road",
           "target": "middle jiasong road",
+          "pinyin": "jiasongzhonglu",
           "lat": 31.164099,
           "lon": 121.223916,
           "sequence": 6
@@ -5585,6 +6063,7 @@
           "nameZh": "赵巷",
           "nameEn": "Zhaoxiang",
           "target": "zhaoxiang",
+          "pinyin": "zhaoxiang",
           "lat": 31.161247,
           "lon": 121.192279,
           "sequence": 7
@@ -5595,6 +6074,7 @@
           "nameZh": "汇金路",
           "nameEn": "Huijin Road",
           "target": "huijin road",
+          "pinyin": "huijinlu",
           "lat": 31.161221,
           "lon": 121.151665,
           "sequence": 8
@@ -5605,6 +6085,7 @@
           "nameZh": "青浦新城",
           "nameEn": "Qingpu Xincheng",
           "target": "qingpu xincheng",
+          "pinyin": "qingpuxincheng",
           "lat": 31.158925,
           "lon": 121.12567,
           "sequence": 9
@@ -5615,6 +6096,7 @@
           "nameZh": "漕盈路",
           "nameEn": "Caoying Road",
           "target": "caoying road",
+          "pinyin": "caoyinglu",
           "lat": 31.160467,
           "lon": 121.096889,
           "sequence": 10
@@ -5625,6 +6107,7 @@
           "nameZh": "淀山湖大道",
           "nameEn": "Dianshanhu Avenue",
           "target": "dianshanhu avenue",
+          "pinyin": "dianshanhudadao",
           "lat": 31.13446,
           "lon": 121.082134,
           "sequence": 11
@@ -5635,6 +6118,7 @@
           "nameZh": "朱家角",
           "nameEn": "Zhujiajiao",
           "target": "zhujiajiao",
+          "pinyin": "zhujiajiao",
           "lat": 31.100594,
           "lon": 121.048989,
           "sequence": 12
@@ -5645,6 +6129,7 @@
           "nameZh": "东方绿舟",
           "nameEn": "Oriental Land",
           "target": "oriental land",
+          "pinyin": "dongfanglvzhou",
           "lat": 31.098544,
           "lon": 121.019534,
           "sequence": 13
@@ -5655,6 +6140,7 @@
           "nameZh": "西岑",
           "nameEn": "Xicen",
           "target": "xicen",
+          "pinyin": "xicen",
           "lat": 31.070526,
           "lon": 120.964163,
           "sequence": 14
@@ -5694,6 +6180,7 @@
           "nameZh": "康文路",
           "nameEn": "Kangwen Road",
           "target": "kangwen road",
+          "pinyin": "kangwenlu",
           "lat": 31.335319,
           "lon": 121.419328,
           "sequence": 1
@@ -5704,6 +6191,7 @@
           "nameZh": "呼兰路",
           "nameEn": "Hulan Road",
           "target": "hulan road",
+          "pinyin": "hulanlu",
           "lat": 31.339703,
           "lon": 121.437711,
           "sequence": 2
@@ -5714,6 +6202,7 @@
           "nameZh": "爱辉路",
           "nameEn": "Aihui Road",
           "target": "aihui road",
+          "pinyin": "aihuilu",
           "lat": 31.344152,
           "lon": 121.449331,
           "sequence": 3
@@ -5724,6 +6213,7 @@
           "nameZh": "长江西路",
           "nameEn": "West Changjiang Road",
           "target": "west changjiang road",
+          "pinyin": "changjiangxilu",
           "lat": 31.345771,
           "lon": 121.475263,
           "sequence": 4
@@ -5734,6 +6224,7 @@
           "nameZh": "通南路",
           "nameEn": "Tongnan Road",
           "target": "tongnan road",
+          "pinyin": "tongnanlu",
           "lat": 31.337677,
           "lon": 121.479637,
           "sequence": 5
@@ -5744,6 +6235,7 @@
           "nameZh": "长江南路",
           "nameEn": "South Changjiang Road",
           "target": "south changjiang road",
+          "pinyin": "changjiangnanlu",
           "lat": 31.332062,
           "lon": 121.491482,
           "sequence": 6
@@ -5754,6 +6246,7 @@
           "nameZh": "殷高路",
           "nameEn": "Yingao Road",
           "target": "yingao road",
+          "pinyin": "yingaolu",
           "lat": 31.321705,
           "lon": 121.49556,
           "sequence": 7
@@ -5764,6 +6257,7 @@
           "nameZh": "上海财经大学",
           "nameEn": "Shanghai University of Finance and Economics",
           "target": "shanghai university of finance and economics",
+          "pinyin": "shanghaicaijingdaxue",
           "lat": 31.307672,
           "lon": 121.496332,
           "sequence": 8
@@ -5774,6 +6268,7 @@
           "nameZh": "复旦大学",
           "nameEn": "Fudan University",
           "target": "fudan university",
+          "pinyin": "fudandaxue",
           "lat": 31.296349,
           "lon": 121.499529,
           "sequence": 9
@@ -5784,6 +6279,7 @@
           "nameZh": "国权路",
           "nameEn": "Guoquan Road",
           "target": "guoquan road",
+          "pinyin": "guoquanlu",
           "lat": 31.289276,
           "lon": 121.510024,
           "sequence": 10
@@ -5794,6 +6290,7 @@
           "nameZh": "抚顺路",
           "nameEn": "Fushun Road",
           "target": "fushun road",
+          "pinyin": "fushunlu",
           "lat": 31.283664,
           "lon": 121.515793,
           "sequence": 11
@@ -5804,6 +6301,7 @@
           "nameZh": "江浦路",
           "nameEn": "Jiangpu Road",
           "target": "jiangpu road",
+          "pinyin": "jiangpulu",
           "lat": 31.274946,
           "lon": 121.518379,
           "sequence": 12
@@ -5814,6 +6312,7 @@
           "nameZh": "江浦公园",
           "nameEn": "Jiangpu Park",
           "target": "jiangpu park",
+          "pinyin": "jiangpugongyuan",
           "lat": 31.26457,
           "lon": 121.523697,
           "sequence": 13
@@ -5824,6 +6323,7 @@
           "nameZh": "平凉路",
           "nameEn": "Pingliang Road",
           "target": "pingliang road",
+          "pinyin": "pinglianglu",
           "lat": 31.259038,
           "lon": 121.526701,
           "sequence": 14
@@ -5834,6 +6334,7 @@
           "nameZh": "丹阳路",
           "nameEn": "Danyang Road",
           "target": "danyang road",
+          "pinyin": "danyanglu",
           "lat": 31.253815,
           "lon": 121.53116,
           "sequence": 15
@@ -5844,6 +6345,7 @@
           "nameZh": "昌邑路",
           "nameEn": "Changyi Road",
           "target": "changyi road",
+          "pinyin": "changyilu",
           "lat": 31.24394,
           "lon": 121.540104,
           "sequence": 16
@@ -5854,6 +6356,7 @@
           "nameZh": "民生路",
           "nameEn": "Minsheng Road",
           "target": "minsheng road",
+          "pinyin": "minshenglu",
           "lat": 31.235851,
           "lon": 121.543527,
           "sequence": 17
@@ -5864,6 +6367,7 @@
           "nameZh": "杨高中路",
           "nameEn": "Middle Yanggao Road",
           "target": "middle yanggao road",
+          "pinyin": "yanggaozhonglu",
           "lat": 31.22751,
           "lon": 121.548664,
           "sequence": 18
@@ -5874,6 +6378,7 @@
           "nameZh": "迎春路",
           "nameEn": "Yingchun Road",
           "target": "yingchun road",
+          "pinyin": "yingchunlu",
           "lat": 31.221002,
           "lon": 121.550998,
           "sequence": 19
@@ -5884,6 +6389,7 @@
           "nameZh": "龙阳路",
           "nameEn": "Longyang Road",
           "target": "longyang road",
+          "pinyin": "longyanglu",
           "lat": 31.203575,
           "lon": 121.557634,
           "sequence": 20
@@ -5894,6 +6400,7 @@
           "nameZh": "芳芯路",
           "nameEn": "Fangxin Road",
           "target": "fangxin road",
+          "pinyin": "fangxinlu",
           "lat": 31.191158,
           "lon": 121.559226,
           "sequence": 21
@@ -5904,6 +6411,7 @@
           "nameZh": "北中路",
           "nameEn": "Beizhong Road",
           "target": "beizhong road",
+          "pinyin": "beizhonglu",
           "lat": 31.182762,
           "lon": 121.561355,
           "sequence": 22
@@ -5914,6 +6422,7 @@
           "nameZh": "莲溪路",
           "nameEn": "Lianxi Road",
           "target": "lianxi road",
+          "pinyin": "lianxilu",
           "lat": 31.16911,
           "lon": 121.566414,
           "sequence": 23
@@ -5924,6 +6433,7 @@
           "nameZh": "御桥",
           "nameEn": "Yuqiao",
           "target": "yuqiao",
+          "pinyin": "yuqiao",
           "lat": 31.158131,
           "lon": 121.570914,
           "sequence": 24
@@ -5934,6 +6444,7 @@
           "nameZh": "康桥",
           "nameEn": "Kangqiao",
           "target": "kangqiao",
+          "pinyin": "kangqiao",
           "lat": 31.134239,
           "lon": 121.567306,
           "sequence": 25
@@ -5944,6 +6455,7 @@
           "nameZh": "周浦",
           "nameEn": "Zhoupu",
           "target": "zhoupu",
+          "pinyin": "zhoupu",
           "lat": 31.114129,
           "lon": 121.567613,
           "sequence": 26
@@ -5954,6 +6466,7 @@
           "nameZh": "繁荣路",
           "nameEn": "Fanrong Road",
           "target": "fanrong road",
+          "pinyin": "fanronglu",
           "lat": 31.102554,
           "lon": 121.570547,
           "sequence": 27
@@ -5964,6 +6477,7 @@
           "nameZh": "沈梅路",
           "nameEn": "Shenmei Road",
           "target": "shenmei road",
+          "pinyin": "shenmeilu",
           "lat": 31.091115,
           "lon": 121.580589,
           "sequence": 28
@@ -5974,6 +6488,7 @@
           "nameZh": "鹤涛路",
           "nameEn": "Hetao Road",
           "target": "hetao road",
+          "pinyin": "hetaolu",
           "lat": 31.07186,
           "lon": 121.58596,
           "sequence": 29
@@ -5984,6 +6499,7 @@
           "nameZh": "下沙",
           "nameEn": "Xiasha",
           "target": "xiasha",
+          "pinyin": "xiasha",
           "lat": 31.054396,
           "lon": 121.588988,
           "sequence": 30
@@ -5994,6 +6510,7 @@
           "nameZh": "航头",
           "nameEn": "Hangtou",
           "target": "hangtou",
+          "pinyin": "hangtou",
           "lat": 31.037305,
           "lon": 121.596083,
           "sequence": 31
@@ -6050,6 +6567,7 @@
           "nameZh": "浦东1号2号航站楼",
           "nameEn": "Pudong Airport Terminal 1&2",
           "target": "pudong airport terminal 1&2",
+          "pinyin": "pudong1hao2haohangzhanlou",
           "lat": 31.150958,
           "lon": 121.805591,
           "sequence": 1
@@ -6060,6 +6578,7 @@
           "nameZh": "龙阳路",
           "nameEn": "Longyang Road",
           "target": "longyang road",
+          "pinyin": "longyanglu",
           "lat": 31.203575,
           "lon": 121.557634,
           "sequence": 2
@@ -6087,6 +6606,7 @@
           "nameZh": "沈杜公路",
           "nameEn": "Shendu Highway",
           "target": "shendu highway",
+          "pinyin": "shendugonglu",
           "lat": 31.061427,
           "lon": 121.512272,
           "sequence": 1
@@ -6097,6 +6617,7 @@
           "nameZh": "三鲁公路",
           "nameEn": "Sanlu Highway",
           "target": "sanlu highway",
+          "pinyin": "sanlugonglu",
           "lat": 31.056108,
           "lon": 121.527389,
           "sequence": 2
@@ -6107,6 +6628,7 @@
           "nameZh": "闵瑞路",
           "nameEn": "Minrui Road",
           "target": "minrui road",
+          "pinyin": "minruilu",
           "lat": 31.047956,
           "lon": 121.530323,
           "sequence": 3
@@ -6117,6 +6639,7 @@
           "nameZh": "浦航路",
           "nameEn": "Puhang Road",
           "target": "puhang road",
+          "pinyin": "puhanglu",
           "lat": 31.040993,
           "lon": 121.530591,
           "sequence": 4
@@ -6127,6 +6650,7 @@
           "nameZh": "东城一路",
           "nameEn": "Dongchengyi Road",
           "target": "dongchengyi road",
+          "pinyin": "dongchengyilu",
           "lat": 31.03039,
           "lon": 121.532093,
           "sequence": 5
@@ -6137,6 +6661,7 @@
           "nameZh": "汇臻路",
           "nameEn": "Huizhen Road",
           "target": "huizhen road",
+          "pinyin": "huizhenlu",
           "lat": 31.025245,
           "lon": 121.524558,
           "sequence": 6
@@ -6168,6 +6693,7 @@
           "nameZh": "虹桥2号航站楼",
           "nameEn": "Hongqiao Airport Terminal 2",
           "target": "hongqiao airport terminal 2",
+          "pinyin": "hongqiao2haohangzhanlou",
           "lat": 31.194055,
           "lon": 121.324443,
           "sequence": 1
@@ -6178,6 +6704,7 @@
           "nameZh": "中春路",
           "nameEn": "Zhongchun Road",
           "target": "zhongchun road",
+          "pinyin": "zhongchunlu",
           "lat": 31.149766,
           "lon": 121.334596,
           "sequence": 2
@@ -6188,6 +6715,7 @@
           "nameZh": "景洪路",
           "nameEn": "Jinghong Road",
           "target": "jinghong road",
+          "pinyin": "jinghonglu",
           "lat": 31.109817,
           "lon": 121.44431,
           "sequence": 3
@@ -6198,6 +6726,7 @@
           "nameZh": "三林南",
           "nameEn": "South Sanlin",
           "target": "south sanlin",
+          "pinyin": "sanlinnan",
           "lat": 31.126039,
           "lon": 121.486854,
           "sequence": 4
@@ -6208,6 +6737,7 @@
           "nameZh": "康桥东",
           "nameEn": "East Kangqiao",
           "target": "east kangqiao",
+          "pinyin": "kangqiaodong",
           "lat": 31.146808,
           "lon": 121.614894,
           "sequence": 5
@@ -6218,6 +6748,7 @@
           "nameZh": "上海国际旅游度假区",
           "nameEn": "Shanghai International Resort",
           "target": "shanghai international resort",
+          "pinyin": "shanghaiguojilvyoudujiaqu",
           "lat": 31.156182,
           "lon": 121.67973,
           "sequence": 6
@@ -6228,6 +6759,7 @@
           "nameZh": "浦东1号2号航站楼",
           "nameEn": "Pudong Airport Terminal 1&2",
           "target": "pudong airport terminal 1&2",
+          "pinyin": "pudong1hao2haohangzhanlou",
           "lat": 31.150958,
           "lon": 121.805591,
           "sequence": 7

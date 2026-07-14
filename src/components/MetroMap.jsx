@@ -105,6 +105,14 @@ export default function MetroMap({
           <circle className="train-light" cx="10" cy="8" r="2.2" />
         </g>
       </g>
+      <text
+        className="map-station-label"
+        x={current[0]}
+        y={current[1] - 9 * unit}
+        textAnchor="middle"
+      >
+        {stations[stationIndex].nameZh}
+      </text>
     </svg>
   );
 }

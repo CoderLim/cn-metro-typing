@@ -30,6 +30,14 @@ test("英文目标保留撇号与 &", () => {
   );
 });
 
+test("拼音目标用全拼连打", () => {
+  assert.equal(
+    stationTarget({ pinyin: "renminguangchang" }, LANG.PINYIN),
+    "renminguangchang",
+  );
+  assert.ok(!stationTarget({}, LANG.PINYIN));
+});
+
 test("中文输入归一化去符号", () => {
   assert.equal(normalizeInput("新·天，地", LANG.CHINESE), "新天地");
 });

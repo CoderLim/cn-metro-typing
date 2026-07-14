@@ -5,6 +5,7 @@ import { ArrowRightIcon, ArrowLeftIcon } from "./icons.jsx";
 
 const LANG_OPTIONS = [
   { value: LANG.ENGLISH, label: "英文" },
+  { value: LANG.PINYIN, label: "拼音" },
   { value: LANG.CHINESE, label: "中文" },
 ];
 const MODE_OPTIONS = [
@@ -45,11 +46,11 @@ export default function HomeScreen({
           <span /> REAL ROUTES · REAL STATIONS
         </div>
         <h1>
-          一站一站，<em>越打越顺。</em>
+          一字一站，<em>认识一座城。</em>
         </h1>
         <p className="lede">
           在真实{data.cityNameZh}
-          地图上选择线路，沿着精确站点位置完成中文或官方英文站名。每打对一个字，列车就往下一站前进一段。
+          地图上选一条线路，用英文、拼音或中文把站名一个个敲出来。列车每前进一站，你就多认识这座城市的一个地方。
         </p>
         <div className="home-instruction">
           <b>01</b>

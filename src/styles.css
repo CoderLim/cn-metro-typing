@@ -658,6 +658,17 @@ main {
   opacity: 1;
   stroke: var(--ink);
 }
+/* 当前到站的站名标签：纸色描边保证压在线路上也可读 */
+.map-station-label {
+  font-family: var(--font-sans);
+  font-size: calc(12px * var(--u, 1));
+  font-weight: 700;
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-width: calc(4px * var(--u, 1));
+  paint-order: stroke;
+  pointer-events: none;
+}
 .map-train {
   transition: transform 0.14s cubic-bezier(0.3, 0, 0.4, 1);
   will-change: transform;

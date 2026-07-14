@@ -162,12 +162,16 @@ for (const [lineName, runs] of grouped) {
         nameEn = prettifyPinyin(st.sp) || st.n;
         missing.push(`${lineName} ${st.n} → ${nameEn}`);
       }
+      const pinyin =
+        (st.sp ?? "").toLowerCase().replace(/[^a-z0-9]/g, "") ||
+        typingTarget(nameEn).replace(/[^a-z0-9]/g, "");
       stationsById.set(id, {
         id,
         stationId: id,
         nameZh: st.n,
         nameEn,
         target: typingTarget(nameEn),
+        pinyin,
         lat,
         lon,
       });
