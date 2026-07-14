@@ -46,7 +46,7 @@ export default function HomeScreen({
           <span /> REAL ROUTES · REAL STATIONS
         </div>
         <h1>
-          一字一站，<em>认识一座城。</em>
+          打飞机不如<em>打地铁</em>。
         </h1>
         <p className="lede">
           在真实{data.cityNameZh}
