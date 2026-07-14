@@ -3,13 +3,13 @@
   "cityNameZh": "深圳",
   "cityNameEn": "Shenzhen",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:53:23.322Z",
+  "generatedAt": "2026-07-14T15:57:50.571Z",
   "lines": [
     {
-      "id": "4403-1号",
+      "id": "4403-1",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "1号",
+      "lineId": "1",
       "lineName": "1号线/罗宝线",
       "color": "#00AB4F",
       "loop": false,
@@ -528,10 +528,10 @@
       ]
     },
     {
-      "id": "4403-2号",
+      "id": "4403-2",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "2号",
+      "lineId": "2",
       "lineName": "2号线/8号线",
       "color": "#B35A1F",
       "loop": false,
@@ -1059,10 +1059,10 @@
       ]
     },
     {
-      "id": "4403-3号",
+      "id": "4403-3",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "3号",
+      "lineId": "3",
       "lineName": "3号线/龙岗线",
       "color": "#01A2E2",
       "loop": false,
@@ -1530,10 +1530,10 @@
       ]
     },
     {
-      "id": "4403-4号",
+      "id": "4403-4",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "4号",
+      "lineId": "4",
       "lineName": "4号线/龙华线",
       "color": "#CC0000",
       "loop": false,
@@ -1821,10 +1821,10 @@
       ]
     },
     {
-      "id": "4403-5号",
+      "id": "4403-5",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "5号",
+      "lineId": "5",
       "lineName": "5号线/环中线",
       "color": "#96499A",
       "loop": false,
@@ -2280,10 +2280,10 @@
       ]
     },
     {
-      "id": "4403-6号",
+      "id": "4403-6",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "6号",
+      "lineId": "6",
       "lineName": "6号线/光明线",
       "color": "#00AD8E",
       "loop": false,
@@ -2619,10 +2619,10 @@
       ]
     },
     {
-      "id": "4403-6号",
+      "id": "4403-6",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "6号",
+      "lineId": "6",
       "lineName": "6号线支线",
       "color": "#008187",
       "loop": false,
@@ -2718,10 +2718,10 @@
       ]
     },
     {
-      "id": "4403-7号",
+      "id": "4403-7",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "7号",
+      "lineId": "7",
       "lineName": "7号线/西丽线",
       "color": "#2249A3",
       "loop": false,
@@ -3081,10 +3081,10 @@
       ]
     },
     {
-      "id": "4403-9号",
+      "id": "4403-9",
       "operatorId": "4403",
       "operatorName": "深圳地铁",
-      "lineId": "9号",
+      "lineId": "9",
       "lineName": "9号线/梅林线",
       "color": "#86656D",
       "loop": false,

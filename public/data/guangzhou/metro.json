@@ -3,7 +3,7 @@
   "cityNameZh": "广州",
   "cityNameEn": "Guangzhou",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:53:15.197Z",
+  "generatedAt": "2026-07-14T15:57:42.476Z",
   "lines": [
     {
       "id": "4401-1",
@@ -4892,10 +4892,10 @@
       ]
     },
     {
-      "id": "4401-AP",
+      "id": "4401-APM",
       "operatorId": "4401",
       "operatorName": "广州地铁",
-      "lineId": "AP",
+      "lineId": "APM",
       "lineName": "APM线",
       "color": "#02B6E3",
       "loop": false,

@@ -3,7 +3,7 @@
   "cityNameZh": "重庆",
   "cityNameEn": "Chongqing",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T15:53:15.829Z",
+  "generatedAt": "2026-07-14T15:57:43.113Z",
   "lines": [
     {
       "id": "5000-1",
@@ -2367,10 +2367,10 @@
       ]
     },
     {
-      "id": "5000-6号",
+      "id": "5000-6",
       "operatorId": "5000",
       "operatorName": "重庆地铁",
-      "lineId": "6号",
+      "lineId": "6",
       "lineName": "6号线东站段",
       "color": "#EA6183",
       "loop": false,
