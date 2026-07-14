@@ -53,7 +53,7 @@ export default function GameScreen({
           value={mode === "timed" ? remaining : elapsed}
           unit="秒"
         />
-        <Metric label="到站" value={completed} unit="站" />
+        <Metric label="到站" value={completed} unit="站" pop />
         <Metric label="速度" value={metrics.speed} unit={metrics.speedUnit} />
         <Metric label="正确率" value={metrics.accuracy} unit="%" />
       </div>
@@ -65,7 +65,9 @@ export default function GameScreen({
         <div className="station-main">
           <div>
             <p>NOW ARRIVING</p>
-            <h2>{station.nameZh}</h2>
+            <h2 key={station.stationId} className="arrive-pop">
+              {station.nameZh}
+            </h2>
           </div>
           <div className={`next-station${nextStation ? "" : " is-terminal"}`}>
             <span>{nextStation ? "下一站" : "终点站"}</span>
@@ -126,11 +128,13 @@ export default function GameScreen({
   );
 }
 
-function Metric({ label, value, unit }) {
+function Metric({ label, value, unit, pop = false }) {
   return (
     <div>
       <small>{label}</small>
-      <strong>{value}</strong>
+      <strong key={pop ? value : undefined} className={pop ? "metric-pop" : ""}>
+        {value}
+      </strong>
       <span>{unit}</span>
     </div>
   );

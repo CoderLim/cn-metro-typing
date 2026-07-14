@@ -1179,3 +1179,174 @@ footer {
     animation-duration: 1.6s;
   }
 }
+
+/* ---- game motion ---- */
+
+/* 相机跟随：与火车移动同节奏，地图在火车脚下滑动 */
+.metro-map .camera {
+  transition: transform 0.14s cubic-bezier(0.3, 0, 0.4, 1);
+  will-change: transform;
+}
+
+/* 到站脉冲环 */
+.node-pulse circle {
+  fill: none;
+  stroke-width: calc(2.5px * var(--u, 1));
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: node-pulse 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  pointer-events: none;
+}
+@keyframes node-pulse {
+  from {
+    transform: scale(0.35);
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* 到站牌大站名换站入场 */
+.arrive-pop {
+  animation: arrive-pop 0.26s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes arrive-pop {
+  from {
+    opacity: 0;
+    transform: translateY(9px) scale(0.985);
+  }
+}
+
+/* 计分「到站」数字脉冲 */
+.metric-pop {
+  display: inline-block;
+  animation: metric-pop 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes metric-pop {
+  40% {
+    transform: scale(1.22);
+  }
+}
+
+/* 结果页：车门滑开露出成绩卡 */
+.result-stage {
+  position: relative;
+  width: min(560px, 94vw);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+  --door-a: #cdc5b4;
+  --door-b: #b3ab99;
+  --door-seam: rgba(40, 34, 24, 0.22);
+}
+body.dark .result-stage {
+  --door-a: #45403a;
+  --door-b: #322e28;
+  --door-seam: rgba(0, 0, 0, 0.5);
+}
+.results .result-card {
+  width: 100%;
+  box-shadow: none;
+  animation: result-reveal 0.5s ease-out 0.62s both;
+}
+@keyframes result-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+.metro-doors {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  pointer-events: none;
+}
+.metro-door {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(180deg, var(--door-a), var(--door-b));
+  animation: 0.85s cubic-bezier(0.22, 1, 0.36, 1) 0.35s forwards;
+}
+.metro-door-left {
+  border-right: 1px solid var(--door-seam);
+  animation-name: door-open-left;
+}
+.metro-door-right {
+  border-left: 1px solid var(--door-seam);
+  animation-name: door-open-right;
+}
+@keyframes door-open-left {
+  to {
+    transform: translateX(-103%);
+  }
+}
+@keyframes door-open-right {
+  to {
+    transform: translateX(103%);
+  }
+}
+.door-window {
+  position: absolute;
+  top: 9%;
+  width: 44%;
+  height: 34%;
+  border-radius: 12px;
+  background: var(--paper);
+  outline: 1px solid rgba(0, 0, 0, 0.12);
+  outline-offset: -1px;
+}
+.metro-door-left .door-window {
+  right: 10%;
+}
+.metro-door-right .door-window {
+  left: 10%;
+}
+.door-stripe {
+  position: absolute;
+  top: 56%;
+  left: 0;
+  width: 100%;
+  height: 12px;
+  background: var(--result-route, var(--accent));
+  opacity: 0.92;
+}
+.door-light {
+  position: absolute;
+  top: 5%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffd76a;
+  animation: door-light-blink 0.3s steps(2, jump-none) 2;
+}
+.metro-door-left .door-light {
+  right: 7px;
+}
+.metro-door-right .door-light {
+  left: 7px;
+}
+@keyframes door-light-blink {
+  50% {
+    opacity: 0.15;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .metro-map .camera {
+    transition: none;
+  }
+  .node-pulse circle,
+  .arrive-pop,
+  .metric-pop {
+    animation: none;
+  }
+  .metro-doors {
+    display: none;
+  }
+  .results .result-card {
+    animation: none;
+  }
+}
