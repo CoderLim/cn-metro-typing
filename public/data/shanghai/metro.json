@@ -3,7 +3,7 @@
   "cityNameZh": "上海",
   "cityNameEn": "Shanghai",
   "source": "高德地图地铁数据（非官方接口）· 官方英文站名整理自 Wikipedia",
-  "generatedAt": "2026-07-14T13:55:03.029Z",
+  "generatedAt": "2026-07-14T15:53:15.410Z",
   "lines": [
     {
       "id": "3100-1",
@@ -3067,7 +3067,7 @@
           "stationId": "310100024546015",
           "nameZh": "漕河泾开发区",
           "nameEn": "Caohejing Hi-Tech Park",
-          "target": "caohejing hi tech park",
+          "target": "caohejing hi-tech park",
           "pinyin": "caohejingkaifaqu",
           "lat": 31.170644,
           "lon": 121.397769,
@@ -5769,7 +5769,7 @@
           "stationId": "900000070795030",
           "nameZh": "紫竹高新区",
           "nameEn": "Zizhu Hi-tech Park",
-          "target": "zizhu hi tech park",
+          "target": "zizhu hi-tech park",
           "pinyin": "zizhugaoxinqu",
           "lat": 31.02319,
           "lon": 121.451221,
