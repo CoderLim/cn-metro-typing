@@ -1,6 +1,6 @@
 # CHINA METRO TYPING
 
-用中国真实地铁线路与站名练打字。在地图上选线，每打对一个字，列车就前进一段。在线体验：https://cn-metro-typing.ryekee.workers.dev
+用中国真实地铁线路与站名练打字。在地图上选线，每打对一个字，列车就前进一段。在线体验：https://typing.ryekee.com
 
 ## 特性
 

@@ -412,7 +412,7 @@ export default function App() {
         ) : null}
         {screen === "result" ? (
           <ResultScreen
-            elapsed={elapsedSec}
+            elapsed={Math.max(1, Math.round(elapsedMs / 1000))}
             completed={completed}
             metrics={metrics}
             routeColor={line?.color}
