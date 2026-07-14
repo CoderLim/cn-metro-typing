@@ -1394,3 +1394,173 @@ body.dark .result-stage {
     animation: none;
   }
 }
+
+/* ---- china map & direction ---- */
+
+/* 全国选城视图 */
+.china-screen {
+  position: relative;
+  flex: 1;
+  min-height: calc(100dvh - 72px - 90px);
+  overflow: hidden;
+}
+.china-map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.china-map.zooming {
+  pointer-events: none;
+}
+.china-provinces path {
+  fill: var(--district);
+  stroke: var(--district-stroke);
+  stroke-width: calc(1px * var(--u, 1));
+}
+.china-dashline {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: calc(1.4px * var(--u, 1));
+  stroke-dasharray: calc(5px * var(--u, 1)) calc(4px * var(--u, 1));
+  opacity: 0.55;
+}
+.china-city {
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.china-city-hit {
+  r: calc(13px * var(--u, 1));
+  fill: transparent;
+}
+.china-city-dot {
+  fill: var(--card);
+  stroke: var(--ink);
+  stroke-width: calc(1.4px * var(--u, 1));
+  transition: fill 0.15s ease;
+}
+.china-city-dot.t1 {
+  r: calc(7px * var(--u, 1));
+}
+.china-city-dot.t2 {
+  r: calc(5.2px * var(--u, 1));
+}
+.china-city-dot.t3 {
+  r: calc(3.8px * var(--u, 1));
+}
+.china-city.current .china-city-dot {
+  fill: var(--accent);
+  stroke: var(--accent-dark);
+}
+.china-city-label {
+  font-family: var(--font-sans);
+  font-size: calc(13px * var(--u, 1));
+  font-weight: 700;
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-width: calc(4px * var(--u, 1));
+  paint-order: stroke;
+  text-anchor: middle;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.china-city.always .china-city-label {
+  opacity: 1;
+}
+@media (hover: hover) {
+  .china-city:hover .china-city-dot {
+    fill: var(--accent);
+  }
+  .china-city:hover .china-city-label {
+    opacity: 1;
+  }
+}
+.china-city:focus-visible .china-city-label {
+  opacity: 1;
+}
+.china-map.zooming .china-city-label,
+.china-map.zooming .china-city-dot,
+.china-map.zooming .china-dashline {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.china-copy {
+  position: relative;
+  z-index: 5;
+  max-width: 420px;
+  margin: clamp(10px, 4vh, 44px) 0 0 clamp(20px, 5vw, 72px);
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.china-copy[aria-hidden="true"] {
+  opacity: 0;
+}
+.china-copy h1 {
+  margin: 16px 0 12px;
+  font-size: clamp(30px, 4.6vw, 50px);
+  line-height: 1.12;
+  font-weight: 900;
+  letter-spacing: -0.022em;
+}
+.china-copy h1 em {
+  font-style: normal;
+  color: var(--accent);
+}
+.china-screen .map-reset {
+  top: auto;
+  bottom: 22px;
+}
+
+/* 选线方向箭头：纸色小三角压在线路色上 */
+.dir-arrow {
+  fill: var(--paper);
+  transform: scale(calc(var(--u, 1) * 1));
+}
+.route-arrow {
+  animation: arrow-in 0.25s ease-out both;
+  pointer-events: none;
+}
+@keyframes arrow-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 720px) {
+  .china-screen {
+    min-height: calc(100dvh - 60px - 90px);
+  }
+  .china-copy {
+    max-width: 300px;
+    margin: 12px 16px 0;
+  }
+  .china-screen .map-reset {
+    bottom: 14px;
+    left: 16px;
+  }
+  /* topbar 多了全国地图入口后，压缩控件避免 375px 溢出 */
+  .top-actions {
+    gap: 7px;
+  }
+  .top-actions .icon-button {
+    width: 34px;
+    height: 34px;
+  }
+  .city-select {
+    max-width: 32vw;
+  }
+  /* 线路多的城市（北京 27 条）footer 色条换行 */
+  .footer-lines {
+    flex-wrap: wrap;
+    max-width: 86vw;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .route-arrow {
+    animation: none;
+  }
+}
