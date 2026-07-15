@@ -1,8 +1,8 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "cn-metro-typing",
+  // account 由 CLOUDFLARE_ACCOUNT_ID 提供（本地 .env，不入库）
   "compatibility_date": "2026-07-14",
-  "account_id": "REDACTED",
   "assets": {
     "directory": "./dist"
   }
