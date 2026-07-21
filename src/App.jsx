@@ -12,6 +12,21 @@ import { SunIcon, MoonIcon, MapIcon } from "./components/icons.jsx";
 
 const TIMED_MS = 30_000;
 
+const CN_LANG_OPTIONS = [
+  { value: LANG.ENGLISH, label: "英文" },
+  { value: LANG.PINYIN, label: "拼音" },
+  { value: LANG.CHINESE, label: "中文" },
+];
+const EN_LANG_OPTIONS = [{ value: LANG.ENGLISH, label: "英文" }];
+
+function cityLangOptions(city) {
+  return (city?.region ?? "cn") === "cn" ? CN_LANG_OPTIONS : EN_LANG_OPTIONS;
+}
+
+function citySupportsLang(city, lang) {
+  return cityLangOptions(city).some((o) => o.value === lang);
+}
+
 // 初始城市：优先取 ?city=<spell>，注册表加载后会校验是否真实存在。
 function initialCityId() {
   try {
@@ -297,6 +312,8 @@ export default function App() {
       setRunIndex(0);
       setDirection(DIRECTION.FORWARD);
       setScreen("home");
+      const nextCity = cities?.find((c) => c.id === id) ?? null;
+      if (!citySupportsLang(nextCity, lang)) setLang(LANG.ENGLISH);
       try {
         const url = new URL(window.location.href);
         url.searchParams.set("city", id);
@@ -305,8 +322,13 @@ export default function App() {
         // URL/history 不可用时静默跳过，不影响城市切换本身
       }
     },
-    [cityId, clearInput],
+    [cityId, cities, clearInput, lang],
   );
+
+  // 注册表或当前城市变化时，确保语言模式对该城合法。
+  useEffect(() => {
+    if (!citySupportsLang(city, lang)) setLang(LANG.ENGLISH);
+  }, [city, lang]);
 
   // 从全国地图点选：同城直接回首页，异城走 changeCity（自带重置与 URL 回写）。
   const pickFromChina = useCallback(
@@ -450,6 +472,7 @@ export default function App() {
             onModeChange={setMode}
             lang={lang}
             onLangChange={setLang}
+            langOptions={cityLangOptions(city)}
             onSelect={selectLine}
             onReset={resetLine}
             onStart={startGame}

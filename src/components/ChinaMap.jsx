@@ -53,6 +53,7 @@ export default memo(function ChinaMap({
         });
     }
     const points = cities
+      .filter((c) => (c.region ?? "cn") === "cn")
       .filter((c) => Array.isArray(c.center))
       .map((c) => ({ ...c, point: projection(c.center) }));
     return { provinces, dashline, points };

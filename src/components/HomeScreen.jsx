@@ -3,7 +3,7 @@ import { lineRuns, runStations, DIRECTION } from "../lib/map.js";
 import { LANG } from "../lib/typing.js";
 import { ArrowRightIcon, ArrowLeftIcon } from "./icons.jsx";
 
-const LANG_OPTIONS = [
+const ALL_LANG_OPTIONS = [
   { value: LANG.ENGLISH, label: "英文" },
   { value: LANG.PINYIN, label: "拼音" },
   { value: LANG.CHINESE, label: "中文" },
@@ -26,6 +26,7 @@ export default function HomeScreen({
   onModeChange,
   lang,
   onLangChange,
+  langOptions = ALL_LANG_OPTIONS,
   onSelect,
   onReset,
   onStart,
@@ -147,7 +148,7 @@ export default function HomeScreen({
                 name="typing-language"
                 value={lang}
                 onChange={onLangChange}
-                options={LANG_OPTIONS}
+                options={langOptions}
               />
               <SegmentedControl
                 label="玩法"
